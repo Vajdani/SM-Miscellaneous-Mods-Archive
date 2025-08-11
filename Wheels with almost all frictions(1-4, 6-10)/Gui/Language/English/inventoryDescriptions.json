@@ -1,0 +1,58 @@
+{
+	//big wheels
+	"f90a6fa2-1a46-4e95-914d-cf0e8cc9730a": {
+		"title": "Big Wheel Friction 1"
+	},
+	"53dc78ff-cd65-4fc7-8da9-f48a53026619": {
+		"title": "Big Wheel Friction 2"
+	},
+	"a7d7ae6e-2ee2-45ae-af84-1570c0d668e1": {
+		"title": "Big Wheel Friction 3"
+	},
+	"1391b4b4-ac47-4a5a-a017-6e9b6c82aa28": {
+		"title": "Big Wheel Friction 4"
+	},
+	"314ee16a-5d6a-47ea-ad35-c25075775825": {
+		"title": "Big Wheel Friction 6"
+	},
+	"e22503e2-3d8b-42ef-9f56-446a080e8d50": {
+		"title": "Big Wheel Friction 7"
+	},
+	"35227579-9109-4dcb-8f24-8072743b0f84": {
+		"title": "Big Wheel Friction 8"
+	},
+	"9b04ff7b-8ee5-4234-a0e5-0d1959cd53c7": {
+		"title": "Big Wheel Friction 9"
+	},
+	"afca97a3-35bb-4ce6-b4d6-480566e6d12b": {
+		"title": "Big Wheel Friction 10"
+	},
+	//small wheels
+	"2a1cc5c9-b6ca-4d0b-b1aa-f6a9b3060248": {
+		"title": "Small Wheel Friction 1"
+	},
+	"f382f8fb-be01-4f7c-85c9-77a326b7c800": {
+		"title": "Small Wheel Friction 2"
+	},
+	"cc3b724e-8745-4287-8491-f295e28b2385": {
+		"title": "Small Wheel Friction 3"
+	},
+	"f7dcc88a-98cc-4b4b-8380-91a63fa9c53d": {
+		"title": "Small Wheel Friction 4"
+	},
+	"120856a4-aa97-414d-bb9e-e59c5b689c2d": {
+		"title": "Small Wheel Friction 6"
+	},
+	"70d28cb8-8a0c-473a-a99f-37ffbc5a90f7": {
+		"title": "Small Wheel Friction 7"
+	},
+	"082b7345-e943-4bc7-9a86-333ad4ff9025": {
+		"title": "Small Wheel Friction 8"
+	},
+	"deeba919-1a51-4bed-b3ac-a97f8726d11b": {
+		"title": "Small Wheel Friction 9"
+	},
+	"1ac044a3-b115-4f1d-b54b-955817823883": {
+		"title": "Small Wheel Friction 10"
+	}
+}

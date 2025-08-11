@@ -1,0 +1,195 @@
+{
+    "characters": [
+        {
+			"uuid": "04761b4a-a83e-4736-b565-120bc776edb2",
+			"renderables":
+			[
+                "$CONTENT_DATA/Characters/char_male_tp.rend",
+				"$GAME_DATA/Character/Char_Male/Animations/char_male_tp_swim.rend",
+                "$SURVIVAL_DATA/Character/Char_Male/Outfit/Backpack/Outfit_default_backpack/char_shared_outfit_default_backpack.rend",
+                "$SURVIVAL_DATA/Character/Char_Male/Outfit/Gloves/Outfit_default_gloves/char_shared_outfit_default_gloves.rend",
+                "$SURVIVAL_DATA/Character/Char_Male/Hair/Male/char_male_hair_01/char_male_hair_01.rend",
+                "$SURVIVAL_DATA/Character/Char_Male/Head/Male/char_male_head01/char_male_head01.rend",
+                "$SURVIVAL_DATA/Character/Char_Male/Outfit/Jacket/Outfit_default_jacket/char_male_outfit_default_jacket.rend",
+                "$SURVIVAL_DATA/Character/Char_Male/Outfit/Pants/Outfit_default_pants/char_male_outfit_default_pants.rend",
+                "$SURVIVAL_DATA/Character/Char_Male/Outfit/Shoes/Outfit_default_shoes/char_male_outfit_default_shoes.rend"
+			],
+			"ragdoll": "$SURVIVAL_DATA/Character/Char_Male/char_male_ragdoll.json",
+			"tumble":
+			{
+				"col": "$SURVIVAL_DATA/Character/Char_Male/char_male_col.obj",
+				"offset": [0.0, 0.0, 0.683]
+			},
+			"hit":
+			{
+				"stand":
+				{
+					"col": "$SURVIVAL_DATA/Character/Char_Male/char_male_hit_stand_col.obj",
+					"offset": [0.0, 0.0, 0.7]
+				},
+				"crouch":
+				{
+					"col": "$SURVIVAL_DATA/Character/Char_Male/char_male_hit_crouch_col.obj",
+					"offset": [0.0, 0.0, 0.4]
+				}
+			},
+			"character": 
+			{
+				"scriptPath": "$CONTENT_DATA/Scripts/characters/HumanCharacter.lua",
+				"scriptClass": "HumanCharacter",
+				"data": {}
+			},
+            "unit":
+			{
+				"scriptPath": "$CONTENT_DATA/Scripts/units/HumanUnit.lua",
+				"scriptClass": "HumanUnit",
+				"data": {}
+			},
+			"movement":
+			{
+				"moveSpeed": 1.4575,
+				"slowDownSpeed": 2.5,
+				"crouchSpeed": 3.0,
+				"sprintSpeed": 4.0,
+				"jumpImpulse": 7.0,
+				"headingRotationSpeed": 3.1415,
+				"facingRotationSpeed": 3.1415,
+				"canSwim": true
+			},
+			"capsule":
+			{
+				"radius": 0.3,
+				"height": 1.4,
+				"crouchHeight": 0.8
+			},
+			"mass": 120.0
+        },
+		{
+			"uuid": "00000000-0000-0000-0000-000000000000",
+			"renderables":
+			[
+				"$GAME_DATA/Character/Char_Male/Animations/char_male_tp.rend",
+				"$GAME_DATA/Character/Char_Male/Animations/char_male_tp_swim.rend",
+				// "$GAME_DATA/Character/Char_Classic/Char_classic_male/char_classic_male_head.rend",
+				// "$GAME_DATA/Character/Char_Classic/Char_classic_male/char_classic_male_chest.rend",
+				// "$GAME_DATA/Character/Char_Classic/Char_classic_male/char_classic_male_hands.rend",
+				// "$GAME_DATA/Character/Char_Classic/Char_classic_male/char_classic_male_feet.rend",
+				// "$GAME_DATA/Character/Char_Classic/Char_classic_male/char_classic_male_legs.rend",
+				// "$GAME_DATA/Character/Char_Classic/Char_classic_male/char_classic_male_hair.rend",
+				// "$GAME_DATA/Character/Char_Classic/Char_classic_male/char_classic_male_backpack.rend"
+				"$SURVIVAL_DATA/Character/Char_Male/Outfit/Backpack/Outfit_applicator_backpack/char_shared_outfit_applicator_backback.rend",
+				"$SURVIVAL_DATA/Character/Char_Male/Outfit/Gloves/Outfit_applicator_gloves/char_shared_outfit_applicator_gloves.rend",
+				"$SURVIVAL_DATA/Character/Char_Male/Outfit/Hat/Outfit_applicator_hat/char_shared_outfit_applicator_hat.rend",
+				"$SURVIVAL_DATA/Character/Char_Male/Outfit/Jacket/Outfit_applicator_jacket/char_male_outfit_applicator_jacket.rend",
+				"$SURVIVAL_DATA/Character/Char_Male/Outfit/Pants/Outfit_applicator_pants/char_male_outfit_applicator_pants.rend",
+				"$SURVIVAL_DATA/Character/Char_Male/Outfit/Shoes/Outfit_applicator_shoes/char_male_outfit_applicator_shoes.rend"
+			],
+			"ragdoll": "$SURVIVAL_DATA/Character/Char_Male/char_male_ragdoll.json",
+			"tumble":
+			{
+				"col": "$SURVIVAL_DATA/Character/Char_Male/char_male_col.obj",
+				"offset": [0.0, 0.0, 0.683]
+			},
+			"hit":
+			{
+				"stand":
+				{
+					"col": "$SURVIVAL_DATA/Character/Char_Male/char_male_hit_stand_col.obj",
+					"offset": [0.0, 0.0, 0.7]
+				},
+				"crouch":
+				{
+					"col": "$SURVIVAL_DATA/Character/Char_Male/char_male_hit_crouch_col.obj",
+					"offset": [0.0, 0.0, 0.4]
+				}
+			},
+			"character": 
+			{
+				"scriptPath": "$CONTENT_DATA/Scripts/characters/MechanicCharacter.lua",
+				"scriptClass": "MechanicCharacter",
+				"data": {}
+			},
+			"movement":
+			{
+				"moveSpeed": 10.4575,
+				"slowDownSpeed": 2.5,
+				"crouchSpeed": 3.0,
+				"sprintSpeed": 4.0,
+				"jumpImpulse": 70.0,
+				"headingRotationSpeed": 3.1415,
+				"facingRotationSpeed": 3.1415,
+				"canSwim": true
+			},
+			"capsule":
+			{
+				"radius": 0.3,
+				"height": 1.4,
+				"crouchHeight": 0.8
+			},
+			"mass": 120.0
+		},
+		{
+			// Haybot
+			"uuid": "c8bfb8f3-7efc-49ac-875a-eb85ac0614db",
+			"renderables":
+			[
+				"$SURVIVAL_DATA/Character/Char_Haybot/char_haybot.rend",
+				"$SURVIVAL_DATA/Character/Char_Haybot/char_haybot_swim.rend"
+			],
+			"ragdoll": "$SURVIVAL_DATA/Character/Char_Haybot/char_haybot_ragdoll.json",
+			"tumble":
+			{
+				"col": "$SURVIVAL_DATA/Character/Char_Haybot/char_haybot_tumble_col.obj",
+				"offset": [0.0, 0.0, 0.683]
+			},
+			"hit":
+			{
+				"stand":
+				{
+					"col": "$SURVIVAL_DATA/Character/Char_Haybot/char_haybot_hit_col.obj",
+					"offset": [0.0, 0.0, 1.1]
+				}
+			},
+			"unit":
+			{
+				"scriptPath": "$SURVIVAL_DATA/Scripts/game/units/HaybotUnit.lua",
+				"scriptClass": "HaybotUnit",
+				"data": {}
+			},
+			"character": 
+			{
+				"scriptPath": "$SURVIVAL_DATA/Scripts/game/characters/HaybotCharacter.lua",
+				"scriptClass": "HaybotCharacter",
+				"data": {}
+				
+			},
+			"movement":
+			{
+				"moveSpeed": 20.54,
+				"slowDownSpeed": 5.5,
+				"crouchSpeed": 3.0,
+				"sprintSpeed": 60.7,
+				"headingRotationSpeed": 9.4245,
+				"facingRotationSpeed": 9.4245,
+				"canSwim": true
+			},
+			"sound":
+			{
+				"movementSoundFrames": [ 1 ],
+				"crouchedMovementSoundFrames": [ 1 ]
+			},
+			"capsule":
+			{
+				"radius": 0.5,
+				"height": 1.6
+			},
+			"paint":
+			{
+				"enable": true,
+				"defaultColor": "e75b0f",
+				"effect": "Paintcharacter - Medium"
+			},
+			"mass": 375.0
+		}
+    ]
+}

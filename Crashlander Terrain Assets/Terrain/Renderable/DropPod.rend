@@ -1,0 +1,48 @@
+{
+	"lodList": [
+        {
+            "mesh": "$CONTENT_DATA/Terrain/Mesh/DropPod.fbx",
+            "subMeshMap": {
+                "ShipAtlas": {
+                    "material": "DifAsgNor",
+                    "textureList": [
+        				"$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_atlas_dif.tga",
+                        "$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_atlas_asg.tga",
+                        "$SURVIVAL_DATA/Objects/Textures/spaceship/obj_spaceship_atlas_nor.tga"
+                    ]
+                },
+                "TrimSheet": {
+                    "material": "DifAsgNor",
+                    "textureList": [
+        				"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_nor.tga"
+                    ]
+                },
+                "DiamondPlate": {
+                    "custom": {
+                        "color": "DiamondPlate"
+                    },
+                    "material": "DifAsgNor",
+                    "textureList": [
+                        "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_spaceship02_dif.tga",
+                        "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_spaceship02_asg.tga",
+                        "$SURVIVAL_DATA/Objects/Textures/Blocks/blk_spaceship02_nor.tga"
+                    ]
+                },
+				"Glass": {
+                    "custom": {
+                        "color": "Glass"
+                    },
+                    "material": "Glass",
+                    "textureList": [
+                        "$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+                        "$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+                        "$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+                    ]
+                }
+            }
+        }
+    ]
+}
+

@@ -1,0 +1,10 @@
+{
+   "allow_add_mods" : true,
+   "custom_icons" : false,
+   "description" : "This mod adds 4 new seats that have 3 usable hotbars!\r\nYou can assign switches/buttons to the hotbars by colouring them accordingly:\r\n[list]\r\n[*]White: 1st hotbar\r\n[*]Light Grey: 2nd hotbar\r\n[*]Dark Grey: 3rd hotbar\r\n[/list]\r\nYou can press your jump key(Space by default) to switch between hotbars.",
+   "fileId" : 3258518901,
+   "localId" : "824fc2ab-6c21-4b80-9489-bf3fdd102d35",
+   "name" : "Expanded Hotbar Seats",
+   "type" : "Blocks and Parts",
+   "version" : 1
+}

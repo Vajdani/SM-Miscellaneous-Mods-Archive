@@ -1,0 +1,24 @@
+{
+	"kinematicList": [
+		{
+			"col" : "$CONTENT_DATA/Kinematics/Collision/kin_golf_toiletlid.obj",
+			"color" : "1e9fffff",
+			"mass" : 1500.0,
+			"material" : "Plastic",
+			"name" : "kin_golf_toiletlid",
+			"params" : [
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$CONTENT_DATA/Kinematics/Renderable/kin_golf_toiletlid.rend",
+			"script" : {
+				"class" : "Kinematic",
+				"data" : {},
+				"file" : "$CONTENT_DATA/Scripts/Kinematic.lua"
+			},
+			"uuid" : "d9756b4f-a68c-4d58-9df5-96af16a95f29"
+		}
+	]
+}

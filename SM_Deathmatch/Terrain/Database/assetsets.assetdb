@@ -1,0 +1,12 @@
+{
+   "assetSetList" : [
+      {
+         "assetSet" : "$CONTENT_DATA/Terrain/Database/AssetSets/example.assetset",
+         "categories" : []
+      },
+      {
+         "assetSet": "$CONTENT_DATA/Terrain/Database/AssetSets/ruin.assetset",
+         "categories": []
+      }
+   ]
+}

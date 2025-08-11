@@ -1,0 +1,61 @@
+{
+    "impostorThreshold": 150,
+    "lodList": [
+        {
+            "minViewSize": 800,
+            "mesh": "$CONTENT_DATA/Terrain/Mesh/env_racetrack_90degreesteep.fbx",
+            "subMeshMap": {
+                "racetrack": {
+                    "custom": {
+                        "color": "racetrack"
+                    },
+                    "material": "DifAsgNor",
+                    "textureList": [
+                        "$GAME_DATA/Terrain/Textures/racetrack/env_racetrack_dif.tga",
+                        "$GAME_DATA/Terrain/Textures/racetrack/env_racetrack_asg.tga",
+                        "$GAME_DATA/Terrain/Textures/racetrack/env_racetrack_nor.tga"
+                    ]
+                },
+                "concrete": {
+                    "custom": {
+                        "color": "concrete"
+                    },
+                    "material": "DifAsgNor",
+                    "textureList": [
+                        "$GAME_DATA/Terrain/Textures/racetrack/env_racetrack_tarmac_dif.tga",
+                        "$GAME_DATA/Terrain/Textures/racetrack/env_racetrack_tarmac_asg.tga",
+                        "$GAME_DATA/Terrain/Textures/racetrack/env_racetrack_tarmac_nor.tga"
+                    ]
+                }
+            }
+        },
+        {
+            "minViewSize": 250,
+            "mesh": "$CONTENT_DATA/Terrain/Mesh/env_racetrack_90degreesteep_lod1.fbx",
+            "subMeshMap": {
+                "racetrack": {
+                    "custom": {
+                        "color": "racetrack"
+                    },
+                    "material": "DifAsgNor",
+                    "textureList": [
+                        "$GAME_DATA/Terrain/Textures/racetrack/env_racetrack_dif.tga",
+                        "$GAME_DATA/Terrain/Textures/racetrack/env_racetrack_asg.tga",
+                        "$GAME_DATA/Terrain/Textures/racetrack/env_racetrack_nor.tga"
+                    ]
+                },
+                "concrete": {
+                    "custom": {
+                        "color": "concrete"
+                    },
+                    "material": "DifAsgNor",
+                    "textureList": [
+                        "$GAME_DATA/Terrain/Textures/racetrack/env_racetrack_tarmac_dif.tga",
+                        "$GAME_DATA/Terrain/Textures/racetrack/env_racetrack_tarmac_asg.tga",
+                        "$GAME_DATA/Terrain/Textures/racetrack/env_racetrack_tarmac_nor.tga"
+                    ]
+                }
+            }
+        }
+    ]
+}

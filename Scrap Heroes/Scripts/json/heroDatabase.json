@@ -1,0 +1,118 @@
+[
+    {
+        "name": "Jaller",
+        "icon": "$CONTENT_DATA/Gui/susshake.png",
+        "renderables": [
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Backpack/Outfit_painter_backpack/char_shared_outfit_painter_backpack.rend",
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Gloves/Outfit_painter_gloves/char_shared_outfit_painter_gloves.rend",
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Hat/Outfit_painter_hat/char_male_outfit_painter_hat.rend",
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Jacket/Outfit_painter_jacket/char_male_outfit_painter_jacket.rend",
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Pants/Outfit_painter_pants/char_male_outfit_painter_pants.rend",
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Shoes/Outfit_painter_shoes/char_male_outfit_painter_shoes.rend",
+        
+            "$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_base_basic.rend",
+		    "$GAME_DATA/Character/Char_Tools/Char_spudgun/Barrel/Barrel_basic/char_spudgun_barrel_basic.rend",
+		    "$GAME_DATA/Character/Char_Tools/Char_spudgun/Sight/Sight_basic/char_spudgun_sight_basic.rend",
+		    "$GAME_DATA/Character/Char_Tools/Char_spudgun/Stock/Stock_broom/char_spudgun_stock_broom.rend",
+		    "$GAME_DATA/Character/Char_Tools/Char_spudgun/Tank/Tank_basic/char_spudgun_tank_basic.rend"
+        ],
+        "stats": {
+            "movementSpeed": 2,
+            "damage": 28,
+            "projectile": "fire",
+            "fireWalk": true
+        }
+    },
+    {
+        "name": "Hahli",
+        "icon": "$CONTENT_DATA/Gui/susshake.png",
+        "renderables": [
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Backpack/Outfit_applicator_backpack/char_shared_outfit_applicator_backback.rend",
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Gloves/Outfit_applicator_gloves/char_shared_outfit_applicator_gloves.rend",
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Hat/Outfit_applicator_hat/char_shared_outfit_applicator_hat.rend",
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Jacket/Outfit_applicator_jacket/char_male_outfit_applicator_jacket.rend",
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Pants/Outfit_applicator_pants/char_male_outfit_applicator_pants.rend",
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Shoes/Outfit_applicator_shoes/char_male_outfit_applicator_shoes.rend"
+        ],
+        "stats": {
+            "movementSpeed": 1,
+            "damage": 28,
+            "projectile": "water",
+            "waterWalk": true
+        }
+    },
+    {
+        "name": "Nuparu",
+        "icon": "$CONTENT_DATA/Gui/susshake.png",
+        "renderables": [
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Backpack/Outfit_demolition_backpack/char_shared_outfit_demolition_backpack.rend",
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Gloves/Outfit_demolition_gloves/char_male_outfit_demolition_gloves.rend",
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Hat/Outfit_demolition_hat/char_shared_outfit_demolition_hat.rend",
+            "$SURVIVAL_DATA/Character/Char_Male/Hair/Male/char_male_hair_01/char_male_hair_01.rend",
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Jacket/Outfit_demolition_jacket/char_male_outfit_demolition_jacket.rend",
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Pants/Outfit_demolition_pants/char_male_outfit_demolition_pants.rend",
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Shoes/Outfit_demolition_shoes/char_male_outfit_demolition_shoes.rend"
+        ],
+        "stats": {
+            "movementSpeed": 0.5,
+            "damage": 50,
+            "projectile": "bomb",
+            "wallWalk": true
+        }
+    },
+    {
+        "name": "Hewkii",
+        "icon": "$CONTENT_DATA/Gui/susshake.png",
+        "renderables": [
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Backpack/Outfit_automotive_backpack/char_shared_outfit_automotive_backpack.rend",
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Gloves/Outfit_automotive_gloves/char_shared_outfit_automotive_gloves.rend",
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Hat/Outfit_automotive_hat/char_male_outfit_automotive_hat.rend",
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Jacket/Outfit_automotive_jacket/char_male_outfit_automotive_jacket.rend",
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Pants/Outfit_automotive_pants/char_male_outfit_automotive_pants.rend",
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Shoes/Outfit_automotive_shoes/char_male_outfit_automotive_shoes.rend"           
+        ],
+        "stats": {
+            "movementSpeed": 0.5,
+            "damage": 45,
+            "projectile": "rocket",
+            "assembleRuins": true
+        }
+    },
+    {
+        "name": "Kongu",
+        "icon": "$CONTENT_DATA/Gui/susshake.png",
+        "renderables": [
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Backpack/Outfit_lumberjack_backpack/char_shared_outfit_lumberjack_backpack.rend",
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Gloves/Outfit_lumberjack_gloves/char_male_outfit_lumberjack_gloves.rend",
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Hat/Outfit_lumberjack_hat/char_male_outfit_lumberjack_hat.rend",
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Jacket/Outfit_lumberjack_jacket/char_male_outfit_lumberjack_jacket.rend",
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Pants/Outfit_lumberjack_pants/char_male_outfit_lumberjack_pants.rend",
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Shoes/Outfit_lumberjack_shoes/char_male_outfit_lumberjack_shoes.rend"
+        ],
+        "stats": {
+            "movementSpeed": 2,
+            "damage": 35,
+            "projectile": "shotgun",
+            "leap": true
+        }
+    },
+    {
+        "name": "Matoro",
+        "icon": "$CONTENT_DATA/Gui/susshake.png",
+        "renderables": [
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Backpack/Outfit_stuntman_backpack/char_shared_outfit_stuntman_backpack.rend",
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Gloves/Outfit_stuntman_gloves/char_male_outfit_stuntman_gloves.rend",
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Hat/Outfit_stuntman_hat/char_male_outfit_stuntman_hat.rend",
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Jacket/Outfit_stuntman_jacket/char_male_outfit_stuntman_jacket.rend",
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Pants/Outfit_stuntman_pants/char_male_outfit_stuntman_pants.rend",
+            "$SURVIVAL_DATA/Character/Char_Male/Outfit/Shoes/Outfit_stuntman_shoes/char_male_outfit_stuntman_shoes.rend"
+        ],
+        "stats": {
+            "movementSpeed": 0.75,
+            "damage": 75,
+            "projectile": "sniper",
+            "freezeWater": true,
+            "zoom": true
+        }
+    }
+]

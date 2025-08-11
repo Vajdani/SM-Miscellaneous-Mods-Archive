@@ -1,0 +1,17 @@
+{
+    "lodList": [
+        {
+            "mesh": "$CONTENT_DATA/Terrain/Collision/Box.obj",
+            "subMeshList": [
+                {
+                    "material": "DifAsgNorAlpha",
+                    "textureList": [
+                        "$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+                        "$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+                        "$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" name="BackPanel" position_real="0 0 0.265625 0.6944444444444444">
+        <Widget type="Widget" skin="BeaconBG" position_real="0 0 1 0.8">
+            <Widget type="TextBox" skin="TextBox" position_real="0 0 1 0.2">
+                <Property key="Caption" value="WORDLE"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="FontName" value="SM_HeaderLarge_Wide"/>
+            </Widget>
+            <Widget type="Widget" skin="PanelEmpty" name="row1" position_real="0.0392156862745098 0.23333333333333334 0.9117647058823529 0.125">
+                <Widget type="Widget" skin="GenderButton" name="letter1_1_bor" position_real="0.025806451612903226 0.06666666666666667 0.14623655913978495 0.9066666666666666">
+                    <Widget type="ImageBox" skin="BeaconIconColor" name="letter1_1_col" position_real="0.07352941176470588 0.07352941176470588 0.8529411764705882 0.8529411764705882">
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="Colour" value="1 0 0"/>
+                        <Widget type="TextBox" skin="TextBox" name="letter1_1" position_real="0.20689655172413793 0.20689655172413793 0.603448275862069 0.603448275862069">
+                            <Property key="Caption" value="A"/>
+                            <Property key="TextAlign" value="Center"/>
+                            <Property key="FontName" value="SM_ItemTitle"/>
+                            <Property key="FontHeight" value="15"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+                <Widget type="Widget" skin="GenderButton" name="letter1_2_bor" position_real="0.22580645161290322 0.06666666666666667 0.14623655913978495 0.9066666666666666">
+                    <Widget type="ImageBox" skin="BeaconIconColor" name="letter1_2_col" position_real="0.07352941176470588 0.07352941176470588 0.8529411764705882 0.8529411764705882">
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="Colour" value="1 0 0"/>
+                        <Widget type="TextBox" skin="TextBox" name="letter1_2" position_real="0.20689655172413793 0.20689655172413793 0.603448275862069 0.603448275862069">
+                            <Property key="Caption" value="A"/>
+                            <Property key="TextAlign" value="Center"/>
+                            <Property key="FontName" value="SM_ItemTitle"/>
+                            <Property key="FontHeight" value="15"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+                <Widget type="Widget" skin="GenderButton" name="letter1_3_bor" position_real="0.4258064516129032 0.06666666666666667 0.14623655913978495 0.9066666666666666">
+                    <Widget type="ImageBox" skin="BeaconIconColor" name="letter1_3_col" position_real="0.07352941176470588 0.07352941176470588 0.8529411764705882 0.8529411764705882">
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="Colour" value="1 0 0"/>
+                        <Widget type="TextBox" skin="TextBox" name="letter1_3" position_real="0.20689655172413793 0.20689655172413793 0.603448275862069 0.603448275862069">
+                            <Property key="Caption" value="A"/>
+                            <Property key="TextAlign" value="Center"/>
+                            <Property key="FontName" value="SM_ItemTitle"/>
+                            <Property key="FontHeight" value="15"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+                <Widget type="Widget" skin="GenderButton" name="letter1_4_bor" position_real="0.6258064516129033 0.06666666666666667 0.14623655913978495 0.9066666666666666">
+                    <Widget type="ImageBox" skin="BeaconIconColor" name="letter1_4_col" position_real="0.07352941176470588 0.07352941176470588 0.8529411764705882 0.8529411764705882">
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="Colour" value="1 0 0"/>
+                        <Widget type="TextBox" skin="TextBox" name="letter1_4" position_real="0.20689655172413793 0.20689655172413793 0.603448275862069 0.603448275862069">
+                            <Property key="Caption" value="A"/>
+                            <Property key="TextAlign" value="Center"/>
+                            <Property key="FontName" value="SM_ItemTitle"/>
+                            <Property key="FontHeight" value="15"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+                <Widget type="Widget" skin="GenderButton" name="letter1_5_bor" position_real="0.8258064516129032 0.06666666666666667 0.14623655913978495 0.9066666666666666">
+                    <Widget type="ImageBox" skin="BeaconIconColor" name="letter1_5_col" position_real="0.07352941176470588 0.07352941176470588 0.8529411764705882 0.8529411764705882">
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="Colour" value="1 0 0"/>
+                        <Widget type="TextBox" skin="TextBox" name="letter1_5" position_real="0.20689655172413793 0.20689655172413793 0.603448275862069 0.603448275862069">
+                            <Property key="Caption" value="A"/>
+                            <Property key="TextAlign" value="Center"/>
+                            <Property key="FontName" value="SM_ItemTitle"/>
+                            <Property key="FontHeight" value="15"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+            </Widget>
+            <Widget type="Widget" skin="PanelEmpty" name="row2" position_real="0.0392156862745098 0.35833333333333334 0.9117647058823529 0.125">
+                <Widget type="Widget" skin="GenderButton" name="letter2_1_bor" position_real="0.025806451612903226 0.06666666666666667 0.14623655913978495 0.9066666666666666">
+                    <Widget type="ImageBox" skin="BeaconIconColor" name="letter2_1_col" position_real="0.07352941176470588 0.07352941176470588 0.8529411764705882 0.8529411764705882">
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="Colour" value="1 0 0"/>
+                        <Widget type="TextBox" skin="TextBox" name="letter2_1" position_real="0.20689655172413793 0.20689655172413793 0.603448275862069 0.603448275862069">
+                            <Property key="Caption" value="A"/>
+                            <Property key="TextAlign" value="Center"/>
+                            <Property key="FontName" value="SM_ItemTitle"/>
+                            <Property key="FontHeight" value="15"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+                <Widget type="Widget" skin="GenderButton" name="letter2_2_bor" position_real="0.22580645161290322 0.06666666666666667 0.14623655913978495 0.9066666666666666">
+                    <Widget type="ImageBox" skin="BeaconIconColor" name="letter2_2_col" position_real="0.07352941176470588 0.07352941176470588 0.8529411764705882 0.8529411764705882">
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="Colour" value="1 0 0"/>
+                        <Widget type="TextBox" skin="TextBox" name="letter2_2" position_real="0.20689655172413793 0.20689655172413793 0.603448275862069 0.603448275862069">
+                            <Property key="Caption" value="A"/>
+                            <Property key="TextAlign" value="Center"/>
+                            <Property key="FontName" value="SM_ItemTitle"/>
+                            <Property key="FontHeight" value="15"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+                <Widget type="Widget" skin="GenderButton" name="letter2_3_bor" position_real="0.4258064516129032 0.06666666666666667 0.14623655913978495 0.9066666666666666">
+                    <Widget type="ImageBox" skin="BeaconIconColor" name="letter2_3_col" position_real="0.07352941176470588 0.07352941176470588 0.8529411764705882 0.8529411764705882">
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="Colour" value="1 0 0"/>
+                        <Widget type="TextBox" skin="TextBox" name="letter2_3" position_real="0.20689655172413793 0.20689655172413793 0.603448275862069 0.603448275862069">
+                            <Property key="Caption" value="A"/>
+                            <Property key="TextAlign" value="Center"/>
+                            <Property key="FontName" value="SM_ItemTitle"/>
+                            <Property key="FontHeight" value="15"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+                <Widget type="Widget" skin="GenderButton" name="letter2_4_bor" position_real="0.6258064516129033 0.06666666666666667 0.14623655913978495 0.9066666666666666">
+                    <Widget type="ImageBox" skin="BeaconIconColor" name="letter2_4_col" position_real="0.07352941176470588 0.07352941176470588 0.8529411764705882 0.8529411764705882">
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="Colour" value="1 0 0"/>
+                        <Widget type="TextBox" skin="TextBox" name="letter2_4" position_real="0.20689655172413793 0.20689655172413793 0.603448275862069 0.603448275862069">
+                            <Property key="Caption" value="A"/>
+                            <Property key="TextAlign" value="Center"/>
+                            <Property key="FontName" value="SM_ItemTitle"/>
+                            <Property key="FontHeight" value="15"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+                <Widget type="Widget" skin="GenderButton" name="letter2_5_bor" position_real="0.8258064516129032 0.06666666666666667 0.14623655913978495 0.9066666666666666">
+                    <Widget type="ImageBox" skin="BeaconIconColor" name="letter2_5_col" position_real="0.07352941176470588 0.07352941176470588 0.8529411764705882 0.8529411764705882">
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="Colour" value="1 0 0"/>
+                        <Widget type="TextBox" skin="TextBox" name="letter2_5" position_real="0.20689655172413793 0.20689655172413793 0.603448275862069 0.603448275862069">
+                            <Property key="Caption" value="A"/>
+                            <Property key="TextAlign" value="Center"/>
+                            <Property key="FontName" value="SM_ItemTitle"/>
+                            <Property key="FontHeight" value="15"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+            </Widget>
+            <Widget type="Widget" skin="PanelEmpty" name="row3" position_real="0.0392156862745098 0.48333333333333334 0.9117647058823529 0.125">
+                <Widget type="Widget" skin="GenderButton" name="letter3_1_bor" position_real="0.025806451612903226 0.06666666666666667 0.14623655913978495 0.9066666666666666">
+                    <Widget type="ImageBox" skin="BeaconIconColor" name="letter3_1_col" position_real="0.07352941176470588 0.07352941176470588 0.8529411764705882 0.8529411764705882">
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="Colour" value="1 0 0"/>
+                        <Widget type="TextBox" skin="TextBox" name="letter3_1" position_real="0.20689655172413793 0.20689655172413793 0.603448275862069 0.603448275862069">
+                            <Property key="Caption" value="A"/>
+                            <Property key="TextAlign" value="Center"/>
+                            <Property key="FontName" value="SM_ItemTitle"/>
+                            <Property key="FontHeight" value="15"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+                <Widget type="Widget" skin="GenderButton" name="letter3_2_bor" position_real="0.22580645161290322 0.06666666666666667 0.14623655913978495 0.9066666666666666">
+                    <Widget type="ImageBox" skin="BeaconIconColor" name="letter3_2_col" position_real="0.07352941176470588 0.07352941176470588 0.8529411764705882 0.8529411764705882">
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="Colour" value="1 0 0"/>
+                        <Widget type="TextBox" skin="TextBox" name="letter3_2" position_real="0.20689655172413793 0.20689655172413793 0.603448275862069 0.603448275862069">
+                            <Property key="Caption" value="A"/>
+                            <Property key="TextAlign" value="Center"/>
+                            <Property key="FontName" value="SM_ItemTitle"/>
+                            <Property key="FontHeight" value="15"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+                <Widget type="Widget" skin="GenderButton" name="letter3_3_bor" position_real="0.4258064516129032 0.06666666666666667 0.14623655913978495 0.9066666666666666">
+                    <Widget type="ImageBox" skin="BeaconIconColor" name="letter3_3_col" position_real="0.07352941176470588 0.07352941176470588 0.8529411764705882 0.8529411764705882">
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="Colour" value="1 0 0"/>
+                        <Widget type="TextBox" skin="TextBox" name="letter3_3" position_real="0.20689655172413793 0.20689655172413793 0.603448275862069 0.603448275862069">
+                            <Property key="Caption" value="A"/>
+                            <Property key="TextAlign" value="Center"/>
+                            <Property key="FontName" value="SM_ItemTitle"/>
+                            <Property key="FontHeight" value="15"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+                <Widget type="Widget" skin="GenderButton" name="letter3_4_bor" position_real="0.6258064516129033 0.06666666666666667 0.14623655913978495 0.9066666666666666">
+                    <Widget type="ImageBox" skin="BeaconIconColor" name="letter3_4_col" position_real="0.07352941176470588 0.07352941176470588 0.8529411764705882 0.8529411764705882">
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="Colour" value="1 0 0"/>
+                        <Widget type="TextBox" skin="TextBox" name="letter3_4" position_real="0.20689655172413793 0.20689655172413793 0.603448275862069 0.603448275862069">
+                            <Property key="Caption" value="A"/>
+                            <Property key="TextAlign" value="Center"/>
+                            <Property key="FontName" value="SM_ItemTitle"/>
+                            <Property key="FontHeight" value="15"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+                <Widget type="Widget" skin="GenderButton" name="letter3_5_bor" position_real="0.8258064516129032 0.06666666666666667 0.14623655913978495 0.9066666666666666">
+                    <Widget type="ImageBox" skin="BeaconIconColor" name="letter3_5_col" position_real="0.07352941176470588 0.07352941176470588 0.8529411764705882 0.8529411764705882">
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="Colour" value="1 0 0"/>
+                        <Widget type="TextBox" skin="TextBox" name="letter3_5" position_real="0.20689655172413793 0.20689655172413793 0.603448275862069 0.603448275862069">
+                            <Property key="Caption" value="A"/>
+                            <Property key="TextAlign" value="Center"/>
+                            <Property key="FontName" value="SM_ItemTitle"/>
+                            <Property key="FontHeight" value="15"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+            </Widget>
+            <Widget type="Widget" skin="PanelEmpty" name="row4" position_real="0.0392156862745098 0.6083333333333333 0.9117647058823529 0.125">
+                <Widget type="Widget" skin="GenderButton" name="letter4_1_bor" position_real="0.025806451612903226 0.06666666666666667 0.14623655913978495 0.9066666666666666">
+                    <Widget type="ImageBox" skin="BeaconIconColor" name="letter4_1_col" position_real="0.07352941176470588 0.07352941176470588 0.8529411764705882 0.8529411764705882">
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="Colour" value="1 0 0"/>
+                        <Widget type="TextBox" skin="TextBox" name="letter4_1" position_real="0.20689655172413793 0.20689655172413793 0.603448275862069 0.603448275862069">
+                            <Property key="Caption" value="A"/>
+                            <Property key="TextAlign" value="Center"/>
+                            <Property key="FontName" value="SM_ItemTitle"/>
+                            <Property key="FontHeight" value="15"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+                <Widget type="Widget" skin="GenderButton" name="letter4_2_bor" position_real="0.22580645161290322 0.06666666666666667 0.14623655913978495 0.9066666666666666">
+                    <Widget type="ImageBox" skin="BeaconIconColor" name="letter4_2_col" position_real="0.07352941176470588 0.07352941176470588 0.8529411764705882 0.8529411764705882">
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="Colour" value="1 0 0"/>
+                        <Widget type="TextBox" skin="TextBox" name="letter4_2" position_real="0.20689655172413793 0.20689655172413793 0.603448275862069 0.603448275862069">
+                            <Property key="Caption" value="A"/>
+                            <Property key="TextAlign" value="Center"/>
+                            <Property key="FontName" value="SM_ItemTitle"/>
+                            <Property key="FontHeight" value="15"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+                <Widget type="Widget" skin="GenderButton" name="letter4_3_bor" position_real="0.4258064516129032 0.06666666666666667 0.14623655913978495 0.9066666666666666">
+                    <Widget type="ImageBox" skin="BeaconIconColor" name="letter4_3_col" position_real="0.07352941176470588 0.07352941176470588 0.8529411764705882 0.8529411764705882">
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="Colour" value="1 0 0"/>
+                        <Widget type="TextBox" skin="TextBox" name="letter4_3" position_real="0.20689655172413793 0.20689655172413793 0.603448275862069 0.603448275862069">
+                            <Property key="Caption" value="A"/>
+                            <Property key="TextAlign" value="Center"/>
+                            <Property key="FontName" value="SM_ItemTitle"/>
+                            <Property key="FontHeight" value="15"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+                <Widget type="Widget" skin="GenderButton" name="letter4_4_bor" position_real="0.6258064516129033 0.06666666666666667 0.14623655913978495 0.9066666666666666">
+                    <Widget type="ImageBox" skin="BeaconIconColor" name="letter4_4_col" position_real="0.07352941176470588 0.07352941176470588 0.8529411764705882 0.8529411764705882">
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="Colour" value="1 0 0"/>
+                        <Widget type="TextBox" skin="TextBox" name="letter4_4" position_real="0.20689655172413793 0.20689655172413793 0.603448275862069 0.603448275862069">
+                            <Property key="Caption" value="A"/>
+                            <Property key="TextAlign" value="Center"/>
+                            <Property key="FontName" value="SM_ItemTitle"/>
+                            <Property key="FontHeight" value="15"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+                <Widget type="Widget" skin="GenderButton" name="letter4_5_bor" position_real="0.8258064516129032 0.06666666666666667 0.14623655913978495 0.9066666666666666">
+                    <Widget type="ImageBox" skin="BeaconIconColor" name="letter4_5_col" position_real="0.07352941176470588 0.07352941176470588 0.8529411764705882 0.8529411764705882">
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="Colour" value="1 0 0"/>
+                        <Widget type="TextBox" skin="TextBox" name="letter4_5" position_real="0.20689655172413793 0.20689655172413793 0.603448275862069 0.603448275862069">
+                            <Property key="Caption" value="A"/>
+                            <Property key="TextAlign" value="Center"/>
+                            <Property key="FontName" value="SM_ItemTitle"/>
+                            <Property key="FontHeight" value="15"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+            </Widget>
+            <Widget type="Widget" skin="PanelEmpty" name="row5" position_real="0.0392156862745098 0.7333333333333333 0.9117647058823529 0.125">
+                <Widget type="Widget" skin="GenderButton" name="letter5_1_bor" position_real="0.025806451612903226 0.06666666666666667 0.14623655913978495 0.9066666666666666">
+                    <Widget type="ImageBox" skin="BeaconIconColor" name="letter5_1_col" position_real="0.07352941176470588 0.07352941176470588 0.8529411764705882 0.8529411764705882">
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="Colour" value="1 0 0"/>
+                        <Widget type="TextBox" skin="TextBox" name="letter5_1" position_real="0.20689655172413793 0.20689655172413793 0.603448275862069 0.603448275862069">
+                            <Property key="Caption" value="A"/>
+                            <Property key="TextAlign" value="Center"/>
+                            <Property key="FontName" value="SM_ItemTitle"/>
+                            <Property key="FontHeight" value="15"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+                <Widget type="Widget" skin="GenderButton" name="letter5_2_bor" position_real="0.22580645161290322 0.06666666666666667 0.14623655913978495 0.9066666666666666">
+                    <Widget type="ImageBox" skin="BeaconIconColor" name="letter5_2_col" position_real="0.07352941176470588 0.07352941176470588 0.8529411764705882 0.8529411764705882">
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="Colour" value="1 0 0"/>
+                        <Widget type="TextBox" skin="TextBox" name="letter5_2" position_real="0.20689655172413793 0.20689655172413793 0.603448275862069 0.603448275862069">
+                            <Property key="Caption" value="A"/>
+                            <Property key="TextAlign" value="Center"/>
+                            <Property key="FontName" value="SM_ItemTitle"/>
+                            <Property key="FontHeight" value="15"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+                <Widget type="Widget" skin="GenderButton" name="letter5_3_bor" position_real="0.4258064516129032 0.06666666666666667 0.14623655913978495 0.9066666666666666">
+                    <Widget type="ImageBox" skin="BeaconIconColor" name="letter5_3_col" position_real="0.07352941176470588 0.07352941176470588 0.8529411764705882 0.8529411764705882">
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="Colour" value="1 0 0"/>
+                        <Widget type="TextBox" skin="TextBox" name="letter5_3" position_real="0.20689655172413793 0.20689655172413793 0.603448275862069 0.603448275862069">
+                            <Property key="Caption" value="A"/>
+                            <Property key="TextAlign" value="Center"/>
+                            <Property key="FontName" value="SM_ItemTitle"/>
+                            <Property key="FontHeight" value="15"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+                <Widget type="Widget" skin="GenderButton" name="letter5_4_bor" position_real="0.6258064516129033 0.06666666666666667 0.14623655913978495 0.9066666666666666">
+                    <Widget type="ImageBox" skin="BeaconIconColor" name="letter5_4_col" position_real="0.07352941176470588 0.07352941176470588 0.8529411764705882 0.8529411764705882">
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="Colour" value="1 0 0"/>
+                        <Widget type="TextBox" skin="TextBox" name="letter5_4" position_real="0.20689655172413793 0.20689655172413793 0.603448275862069 0.603448275862069">
+                            <Property key="Caption" value="A"/>
+                            <Property key="TextAlign" value="Center"/>
+                            <Property key="FontName" value="SM_ItemTitle"/>
+                            <Property key="FontHeight" value="15"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+                <Widget type="Widget" skin="GenderButton" name="letter5_5_bor" position_real="0.8258064516129032 0.06666666666666667 0.14623655913978495 0.9066666666666666">
+                    <Widget type="ImageBox" skin="BeaconIconColor" name="letter5_5_col" position_real="0.07352941176470588 0.07352941176470588 0.8529411764705882 0.8529411764705882">
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="Colour" value="1 0 0"/>
+                        <Widget type="TextBox" skin="TextBox" name="letter5_5" position_real="0.20689655172413793 0.20689655172413793 0.603448275862069 0.603448275862069">
+                            <Property key="Caption" value="A"/>
+                            <Property key="TextAlign" value="Center"/>
+                            <Property key="FontName" value="SM_ItemTitle"/>
+                            <Property key="FontHeight" value="15"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+            </Widget>
+            <Widget type="Widget" skin="PanelEmpty" name="row6" position_real="0.0392156862745098 0.8583333333333333 0.9117647058823529 0.125">
+                <Widget type="Widget" skin="GenderButton" name="letter6_1_bor" position_real="0.025806451612903226 0.06666666666666667 0.14623655913978495 0.9066666666666666">
+                    <Widget type="ImageBox" skin="BeaconIconColor" name="letter6_1_col" position_real="0.07352941176470588 0.07352941176470588 0.8529411764705882 0.8529411764705882">
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="Colour" value="1 0 0"/>
+                        <Widget type="TextBox" skin="TextBox" name="letter6_1" position_real="0.20689655172413793 0.20689655172413793 0.603448275862069 0.603448275862069">
+                            <Property key="Caption" value="A"/>
+                            <Property key="TextAlign" value="Center"/>
+                            <Property key="FontName" value="SM_ItemTitle"/>
+                            <Property key="FontHeight" value="15"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+                <Widget type="Widget" skin="GenderButton" name="letter6_2_bor" position_real="0.22580645161290322 0.06666666666666667 0.14623655913978495 0.9066666666666666">
+                    <Widget type="ImageBox" skin="BeaconIconColor" name="letter6_2_col" position_real="0.07352941176470588 0.07352941176470588 0.8529411764705882 0.8529411764705882">
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="Colour" value="1 0 0"/>
+                        <Widget type="TextBox" skin="TextBox" name="letter6_2" position_real="0.20689655172413793 0.20689655172413793 0.603448275862069 0.603448275862069">
+                            <Property key="Caption" value="A"/>
+                            <Property key="TextAlign" value="Center"/>
+                            <Property key="FontName" value="SM_ItemTitle"/>
+                            <Property key="FontHeight" value="15"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+                <Widget type="Widget" skin="GenderButton" name="letter6_3_bor" position_real="0.4258064516129032 0.06666666666666667 0.14623655913978495 0.9066666666666666">
+                    <Widget type="ImageBox" skin="BeaconIconColor" name="letter6_3_col" position_real="0.07352941176470588 0.07352941176470588 0.8529411764705882 0.8529411764705882">
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="Colour" value="1 0 0"/>
+                        <Widget type="TextBox" skin="TextBox" name="letter6_3" position_real="0.20689655172413793 0.20689655172413793 0.603448275862069 0.603448275862069">
+                            <Property key="Caption" value="A"/>
+                            <Property key="TextAlign" value="Center"/>
+                            <Property key="FontName" value="SM_ItemTitle"/>
+                            <Property key="FontHeight" value="15"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+                <Widget type="Widget" skin="GenderButton" name="letter6_4_bor" position_real="0.6258064516129033 0.06666666666666667 0.14623655913978495 0.9066666666666666">
+                    <Widget type="ImageBox" skin="BeaconIconColor" name="letter6_4_col" position_real="0.07352941176470588 0.07352941176470588 0.8529411764705882 0.8529411764705882">
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="Colour" value="1 0 0"/>
+                        <Widget type="TextBox" skin="TextBox" name="letter6_4" position_real="0.20689655172413793 0.20689655172413793 0.603448275862069 0.603448275862069">
+                            <Property key="Caption" value="A"/>
+                            <Property key="TextAlign" value="Center"/>
+                            <Property key="FontName" value="SM_ItemTitle"/>
+                            <Property key="FontHeight" value="15"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+                <Widget type="Widget" skin="GenderButton" name="letter6_5_bor" position_real="0.8258064516129032 0.06666666666666667 0.14623655913978495 0.9066666666666666">
+                    <Widget type="ImageBox" skin="BeaconIconColor" name="letter6_5_col" position_real="0.07352941176470588 0.07352941176470588 0.8529411764705882 0.8529411764705882">
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="Colour" value="1 0 0"/>
+                        <Widget type="TextBox" skin="TextBox" name="letter6_5" position_real="0.20689655172413793 0.20689655172413793 0.603448275862069 0.603448275862069">
+                            <Property key="Caption" value="A"/>
+                            <Property key="TextAlign" value="Center"/>
+                            <Property key="FontName" value="SM_ItemTitle"/>
+                            <Property key="FontHeight" value="15"/>
+                        </Widget>
+                    </Widget>
+                </Widget>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="BeaconBottomBG" position_real="0 0.8 1 0.18">
+            <Widget type="Canvas" skin="LiftInput" name="input" position_real="0.058823529411764705 0.2222222222222222 0.8823529411764706 0.5925925925925926">
+                <Widget type="EditBox" skin="EditBoxEmpty" name="input" position_real="0.011111111111111112 0.0625 0.9777777777777777 0.875">
+                    <Property key="FontName" value="SM_ItemTitle"/>
+                    <Property key="TextAlign" value="Center"/>
+                </Widget>
+            </Widget>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

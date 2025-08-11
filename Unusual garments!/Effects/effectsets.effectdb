@@ -1,0 +1,16 @@
+{
+   "effectSetList" : [
+      {
+         "path" : "$CONTENT_DATA/Effects/Database/EffectSets/UI_effects.effectset",
+         "showInEditor" : true
+      },
+      {
+         "path" : "$CONTENT_DATA/Effects/Database/EffectSets/unusuals_hats.effectset",
+         "showInEditor" : true
+      },
+      {
+         "path" : "$CONTENT_DATA/Effects/Database/EffectSets/unusuals_weapons.effectset",
+         "showInEditor" : true
+      }
+   ]
+}

@@ -1,0 +1,43 @@
+{
+   "lodList" : [
+      {
+         "mesh" : "$CONTENT_DATA/Kinematics/Mesh/kin_golf_totebothead.fbx",
+         "minViewSize" : 15,
+         "subMeshMap" : {
+            "t_hotspot_inflatable01" : {
+               "custom" : {
+                  "color" : "Color01"
+               },
+               "material" : "DifAsgNor",
+               "textureList" : [
+                  "$CONTENT_DATA/Terrain/Textures/Golf/t_hotspot_inflatlable_dif.tga",
+                  "$CONTENT_DATA/Terrain/Textures/Golf/t_hotspot_inflatlable_asg.tga",
+                  "$CONTENT_DATA/Terrain/Textures/Golf/t_hotspot_inflatlable_nor.tga"
+               ]
+            },
+            "t_hotspot_inflatable06" : {
+               "custom" : {
+                  "color" : "Color06"
+               },
+               "material" : "DifAsg",
+               "textureList" : [
+                  "$CONTENT_DATA/Kinematics/Textures/Golf/t_hotspot_inflatlable_totebothead01_dif.tga",
+                  "$CONTENT_DATA/Terrain/Textures/Golf/t_hotspot_inflatlable_asg.tga",
+                  ""
+               ]
+            },
+            "t_hotspot_inflatable07" : {
+               "custom" : {
+                  "color" : "Color07"
+               },
+               "material" : "DifAsgNor",
+               "textureList" : [
+                  "$CONTENT_DATA/Kinematics/Textures/Golf/t_hotspot_inflatlable_totebothead02_dif.tga",
+                  "$CONTENT_DATA/Terrain/Textures/Golf/t_hotspot_inflatlable_asg.tga",
+                  "$CONTENT_DATA/Terrain/Textures/Golf/t_hotspot_inflatlable_nor.tga"
+               ]
+            }
+         }
+      }
+   ]
+}

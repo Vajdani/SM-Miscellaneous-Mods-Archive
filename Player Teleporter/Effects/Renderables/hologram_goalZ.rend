@@ -1,0 +1,16 @@
+{
+    "lodList": [
+        {
+            "includes" : [ "POSITION", "UV0", "NORMAL" ],
+            "subMeshList": [
+                {
+                    "textureList": [
+                        "$CONTENT_e43a45f0-6262-421a-a563-18e4251a8708/Effects/Textures/t_hologram_goal.tga"
+                    ],
+                    "material": "Hologram"
+                }
+            ],
+            "mesh": "$CONTENT_e43a45f0-6262-421a-a563-18e4251a8708/Effects/Meshes/hologram_goal_geoZ.fbx"
+        }
+    ]
+}

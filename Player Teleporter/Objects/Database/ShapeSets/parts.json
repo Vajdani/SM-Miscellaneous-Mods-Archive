@@ -1,0 +1,53 @@
+{
+   "partList" : [
+		{
+			"uuid": "c804d559-a4ac-44e2-a703-4dd709c4db14",
+			"name": "teleporter",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Textures/transparent.tga",
+									"$GAME_DATA/Textures/transparent.tga",
+									"$GAME_DATA/Textures/nonor_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$MOD_DATA/Objects/Mesh/cube.fbx"
+					}
+				]
+			},
+			"color": "ffffff",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"scripted": {
+				"filename": "$MOD_DATA/Scripts/teleporter.lua",
+				"classname": "Teleporter",
+				"data": {}
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-X+Y-Y+Z-Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 1,
+				"durability": 10,
+				"friction": 1,
+				"buoyancy": 1
+			},
+			"flammable": false,
+			"restrictions": {
+				"erasable": true,
+				"liftable": true,
+				"paintable": true,
+				"usable": true
+			},
+			"showInInventory": true
+		}
+    ]
+}

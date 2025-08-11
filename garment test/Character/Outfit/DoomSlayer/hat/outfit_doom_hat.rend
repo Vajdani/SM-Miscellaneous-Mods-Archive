@@ -1,0 +1,58 @@
+{
+	"lodList": [
+		{
+			"mesh": "$CONTENT_8e52eacc-c155-4db3-935a-e7973197a019/Character/Outfit/DoomSlayer/hat/outfit_doom_hat.dae",
+			"includes": [
+				"POSITION",
+				"UV0",
+				"NORMAL",
+				"TANGENTS",
+				"BLEND_INDICES",
+				"BLEND_WEIGHTS"
+			],
+			"subMeshMap": {
+				"outfit_technician_hat": {
+					"material": "Dif",
+					"textureList": [
+						"$CONTENT_8e52eacc-c155-4db3-935a-e7973197a019/Character/Outfit/DoomSlayer/hat/outfit_doom_hat_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Male/Outfit/Hat/Outfit_technician_hat/outfit_technician_hat_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Male/Outfit/Hat/Outfit_technician_hat/outfit_technician_hat_nor.tga"
+					]
+				},
+				"glass": {
+					"textureList": [
+						"$CONTENT_8e52eacc-c155-4db3-935a-e7973197a019/Character/Outfit/DoomSlayer/hat/outfit_doom_hat_glass.tga",
+						"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_milk_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/consumable/obj_consumable_milk_nor.tga"
+					],
+					"material": "Glass"
+				},
+				"JoinedMaterial_#2": {
+					"material": "DifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_nor.tga"
+					]
+				},
+				"JoinedMaterial_#1": {
+					"material": "DifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_body_nor.tga"
+					]
+				},
+				"tapebot_head": {
+					"material": "DifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_head01_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_head01_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Tapebot/char_tapebot_head01_nor.tga"
+					]
+				}
+			},
+			"maxViewDistance": 1000.0
+		}
+	]
+}

@@ -1,0 +1,144 @@
+{
+    "partList": [
+        {
+            "uuid": "aee2a632-1705-43de-be41-061267b97c25",
+            "name": "obj_railing_straight",
+            "legacyId": 412,
+            "renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+                                    "$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+                                    "$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_nor.tga",
+                                    "$GAME_DATA/Objects/Textures/industrial/obj_industrial_stairwedge_ao.tga"
+                                ],
+                                "material": "DifAsgNorAo"
+                            }
+                        ],
+                        "mesh": "$CONTENT_DATA/Objects/Mesh/obj_railing_straight.fbx",
+                        "includes": [
+                            "POSITION",
+                            "UV0",
+                            "UV1",
+                            "NORMAL",
+                            "TANGENTS"
+                        ]
+                    }
+                ]
+            },
+            "color": "c36512",
+            "hull": {
+                "x": 1,
+                "y": 4,
+                "z": 1,
+                "col": "$GAME_DATA/Objects/Collision/obj_industrial_stairfence.obj"
+            },
+            "rotationSet": "PropYZ",
+            "sticky": "-Y+Z-Z",
+            "physicsMaterial": "Metal",
+            "ratings": {
+                "density": 4,
+                "durability": 4,
+                "friction": 5,
+                "buoyancy": 2
+            },
+            "flammable": false
+        },
+        {
+            "uuid": "0e077d18-6d34-42ac-ab82-7215a4e3652b",
+            "name": "obj_railing_corner",
+            "legacyId": 412,
+            "renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+                                    "$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+                                    "$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_nor.tga",
+                                    "$GAME_DATA/Objects/Textures/industrial/obj_industrial_stairwedge_ao.tga"
+                                ],
+                                "material": "DifAsgNorAo"
+                            }
+                        ],
+                        "mesh": "$CONTENT_DATA/Objects/Mesh/obj_railing_corner.fbx",
+                        "includes": [
+                            "POSITION",
+                            "UV0",
+                            "UV1",
+                            "NORMAL",
+                            "TANGENTS"
+                        ]
+                    }
+                ]
+            },
+            "color": "c36512",
+            "hull": {
+                "x": 1,
+                "y": 4,
+                "z": 1,
+                "col": "$GAME_DATA/Objects/Collision/obj_industrial_stairfence.obj"
+            },
+            "rotationSet": "PropYZ",
+            "sticky": "-Y+Z-Z",
+            "physicsMaterial": "Metal",
+            "ratings": {
+                "density": 4,
+                "durability": 4,
+                "friction": 5,
+                "buoyancy": 2
+            },
+            "flammable": false
+        },
+        {
+            "uuid": "a576c95d-1dbc-4339-b1dc-7faa0464f5b6",
+            "name": "obj_railing_end",
+            "legacyId": 412,
+            "renderable": {
+                "lodList": [
+                    {
+                        "subMeshList": [
+                            {
+                                "textureList": [
+                                    "$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_dif.tga",
+                                    "$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_asg.tga",
+                                    "$GAME_DATA/Objects/Textures/industrial/obj_atlas_generic_nor.tga",
+                                    "$GAME_DATA/Objects/Textures/industrial/obj_industrial_stairwedge_ao.tga"
+                                ],
+                                "material": "DifAsgNorAo"
+                            }
+                        ],
+                        "mesh": "$CONTENT_DATA/Objects/Mesh/obj_railing_end.fbx",
+                        "includes": [
+                            "POSITION",
+                            "UV0",
+                            "UV1",
+                            "NORMAL",
+                            "TANGENTS"
+                        ]
+                    }
+                ]
+            },
+            "color": "c36512",
+            "box": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "rotationSet": "PropX",
+            "sticky": "+Y-Y-X",
+            "physicsMaterial": "Metal",
+            "ratings": {
+                "density": 4,
+                "durability": 4,
+                "friction": 5,
+                "buoyancy": 2
+            },
+            "flammable": false
+        }
+    ]
+}

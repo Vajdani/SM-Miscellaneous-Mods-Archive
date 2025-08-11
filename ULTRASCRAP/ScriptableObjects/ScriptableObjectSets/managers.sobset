@@ -1,0 +1,10 @@
+{
+	"scriptableObjectList": [
+		{
+			"filename": "$CONTENT_DATA/Scripts/managers/ProjectileManager.lua",
+			"classname": "ProjectileManager",
+			"name": "projectile_manager",
+			"uuid": "45ce3208-fd94-4471-bf7f-e81b516e83e9"
+		}
+	]
+}

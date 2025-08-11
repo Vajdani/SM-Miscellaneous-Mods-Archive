@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" position_real="0 0 1 1" name="BackPanel">
+        <Property key="NeedKey" value="false"/>
+        <Property key="NeedMouse" value="false"/>
+        <Widget type="Canvas" skin="StyledButtonDressbot" position_real="0.8671875 0.90740740740740744 0.13020833333333334 0.069444444444444448" name="ammoDisplay">
+            <Widget type="ImageBox" skin="ImageBox" position_real="0.048000000000000001 0.16 0.20000000000000001 0.66666666666666663" name="ammoIcon"/>
+            <Widget type="TextBox" skin="TextBox" position_real="0.248 0.16 0.70399999999999996 0.66666666666666663" name="ammoAmount">
+                <Property key="FontName" value="InventoryItemTitle"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="Caption" value="1000"/>
+                <Property key="FontHeight" value="20"/>
+            </Widget>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

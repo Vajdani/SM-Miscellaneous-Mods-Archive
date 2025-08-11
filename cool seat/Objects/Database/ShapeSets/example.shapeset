@@ -1,0 +1,134 @@
+{
+    "partList": [
+        {
+            "color": "df7f01",
+            "flammable": true,
+            "hull": {
+                "col": "$SURVIVAL_DATA/Objects/Collision/obj_interactive_driverseat_05.obj",
+                "x": 4,
+                "y": 4,
+                "z": 6
+            },
+            "name": "cool seat",
+            "physicsMaterial": "Mechanical",
+            "ratings": {
+                "buoyancy": 2,
+                "density": 5,
+                "durability": 3,
+                "friction": 5
+            },
+            "renderable": "$SURVIVAL_DATA/Objects/Renderable/interactive_upgradeable/obj_interactiveupgradeable_driverseat05.rend",
+            "rotationSet": "PropY",
+            "scripted": {
+                "classname": "DriverSeat",
+                "data": {},
+                "filename": "$CONTENT_DATA/Scripts/DriverSeat.lua",
+                "seat": {
+                    "bones": [
+                        {
+                            "name": "Hips",
+                            "offset": {
+                                "x": 0.0,
+                                "y": -0.0640,
+                                "z": -0.5440
+                            }
+                        },
+                        {
+                            "freeRotation": true,
+                            "name": "LeftForeArm",
+                            "offset": {
+                                "x": 1.1720,
+                                "y": 0.9680,
+                                "z": 0.9680
+                            },
+                            "steers": true
+                        },
+                        {
+                            "freeRotation": true,
+                            "name": "RightForeArm",
+                            "offset": {
+                                "x": -1.1720,
+                                "y": 0.9680,
+                                "z": 0.9680
+                            },
+                            "steers": true
+                        }
+                    ],
+                    "enterAudio": "Seat seated",
+                    "exitAudio": "Seat unseated",
+                    "ragdollFile": "$GAME_DATA/Character/seat_ragdoll.json"
+                },
+                "steering": {
+                    "steerAngle": 45.0
+                }
+            },
+            "sticky": "-Y",
+            "uuid": "b98e370a-ea92-451e-a44f-be61d37b009d"
+        },
+        {
+			"uuid": "437e291c-c53a-4aa3-bca2-b8681bb0449a",
+			"name": "cool saddle",
+			"renderable": "$SURVIVAL_DATA/Objects/Renderable/interactive_upgradeable/obj_interactiveupgradeable_driversaddle05.rend",
+			"color": "df7f01",
+			"hull": {
+				"x": 3,
+				"y": 4,
+				"z": 5,
+				"col": "$SURVIVAL_DATA/Objects/Collision/obj_interactive_driversaddle_05.obj"
+			},
+			"scripted": {
+				"filename": "$CONTENT_DATA/Scripts/DriverSeat.lua",
+				"classname": "DriverSaddle",
+				"data": {},
+				"seat": {
+					"bones": [
+						{
+							"name": "Hips",
+							"offset": {
+								"x": 0.0,
+								"y": 0.384,
+								"z": -0.3
+							}
+						},
+						{
+							"name": "LeftForeArm",
+							"offset": {
+								"x": 1.2,
+								"y": 1.2,
+								"z": 1.7
+							},
+							"freeRotation": true,
+							"steers": true
+						},
+						{
+							"name": "RightForeArm",
+							"offset": {
+								"x": -1.2,
+								"y": 1.2,
+								"z": 1.7
+							},
+							"freeRotation": true,
+							"steers": true
+						}
+					],
+					"ragdollFile": "$GAME_DATA/Character/bikeseat_ragdoll.json",
+					"enterAudio": "Seat seated",
+					"exitAudio": "Seat unseated"
+				},
+				"steering": {
+					"steerAngle": 25.0
+				}
+			},
+			"rotationSet": "PropY",
+			"sticky": "-Y",
+			"physicsMaterial": "Mechanical",
+			"ratings": {
+				"density": 3,
+				"durability": 7,
+				"friction": 5,
+				"buoyancy": 2
+			},
+			"flammable": false
+		}
+    ]
+}

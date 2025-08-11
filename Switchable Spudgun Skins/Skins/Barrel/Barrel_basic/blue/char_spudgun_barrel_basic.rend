@@ -1,0 +1,17 @@
+{
+	"lodList": [{
+		"mesh": "$GAME_DATA/Character/Char_Tools/Char_spudgun/Barrel/Barrel_basic/char_spudgun_barrel_basic_geo.dae",
+		"subMeshList" : [
+			{
+				"textureList": [
+					"$CONTENT_a1e5756a-83a1-4c2f-8667-21874cb9b490/Skins/Barrel/Barrel_basic/blue/char_spudgun_barrel_basic_dif.tga",
+					"$GAME_DATA/Character/Char_Tools/Char_spudgun/Barrel/Barrel_basic/char_spudgun_barrel_basic_asg.tga",
+					"$GAME_DATA/Character/Char_Tools/Char_spudgun/Barrel/Barrel_basic/char_spudgun_barrel_basic_nor.tga"
+				],
+				"color": "ffffff",
+				"material": "DifAsgNor"
+			}
+		],
+		"maxViewDistance": 1000.0
+	}]
+}

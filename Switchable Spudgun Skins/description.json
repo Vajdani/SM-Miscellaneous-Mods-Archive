@@ -1,0 +1,7 @@
+{
+   "description" : "Press R to open a menu that lets you adjust the look of your spudgun's various parts.\nPress Q to play an inspect animation.\n\nAdjustable parts of the spudguns:\n-Base\n-Stock\n-Tank\n-Sight\n-Barrel",
+   "localId" : "a1e5756a-83a1-4c2f-8667-21874cb9b490",
+   "name" : "Switchable Spudgun Skins",
+   "type" : "Blocks and Parts",
+   "version" : 0
+}

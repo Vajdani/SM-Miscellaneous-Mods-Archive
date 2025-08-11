@@ -1,0 +1,261 @@
+{
+   "partList" : [
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 12,
+            "z" : 20
+         },
+         "color" : "ffffff",
+         "name" : "canvas",
+         "physicsMaterial" : "Plastic",
+         "renderable" : {
+            "lodList" : [
+               {
+                  "maxViewDistance" : 1000.0,
+                  "mesh" : "$CONTENT_DATA/Objects/Mesh/whiteboard.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsgNor",
+                        "textureList" : [
+                           "$CONTENT_DATA/Objects/transparent1024x1024.tga",
+                           "$GAME_DATA/Textures/Default/default_asg.tga",
+                           "$GAME_DATA/Textures/Default/default_nor.tga"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "PropY",
+         "scripted" : {
+            "classname" : "Canvas",
+            "data" : {},
+            "filename" : "$CONTENT_DATA/Scripts/canvas.lua"
+         },
+         "uuid" : "0be11a4f-3161-4964-a874-f0fdd1e30b65"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "ffffff",
+         "name" : "circle",
+         "physicsMaterial" : "Plastic",
+         "renderable" : {
+            "lodList" : [
+               {
+                  "maxViewDistance" : 1000.0,
+                  "mesh" : "$CONTENT_DATA/Objects/Mesh/circle.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsgNor",
+                        "textureList" : [
+                           "$CONTENT_DATA/Objects/transparent1024x1024.tga",
+                           "$GAME_DATA/Textures/Default/default_asg.tga",
+                           "$GAME_DATA/Textures/Default/default_nor.tga"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "PropY",
+         "showInInventory" : false,
+         "uuid" : "50f2679a-0e2a-4aa6-9587-f583def9e384"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "ffffff",
+         "name" : "star",
+         "physicsMaterial" : "Plastic",
+         "renderable" : {
+            "lodList" : [
+               {
+                  "maxViewDistance" : 1000.0,
+                  "mesh" : "$CONTENT_DATA/Objects/Mesh/star.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsgNor",
+                        "textureList" : [
+                           "$CONTENT_DATA/Objects/transparent1024x1024.tga",
+                           "$GAME_DATA/Textures/Default/default_asg.tga",
+                           "$GAME_DATA/Textures/Default/default_nor.tga"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "PropY",
+         "showInInventory" : false,
+         "uuid" : "d72dcec6-ced0-4875-8c41-fbc47d6b7778"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "ffffff",
+         "name" : "hollowsquare",
+         "physicsMaterial" : "Plastic",
+         "renderable" : {
+            "lodList" : [
+               {
+                  "maxViewDistance" : 1000.0,
+                  "mesh" : "$CONTENT_DATA/Objects/Mesh/hollowsquare.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsgNor",
+                        "textureList" : [
+                           "$CONTENT_DATA/Objects/transparent1024x1024.tga",
+                           "$GAME_DATA/Textures/Default/default_asg.tga",
+                           "$GAME_DATA/Textures/Default/default_nor.tga"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "PropY",
+         "showInInventory" : false,
+         "uuid" : "cea640af-affe-4245-9a1d-38a292c18479"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "ffffff",
+         "name" : "hollowcircle",
+         "physicsMaterial" : "Plastic",
+         "renderable" : {
+            "lodList" : [
+               {
+                  "maxViewDistance" : 1000.0,
+                  "mesh" : "$CONTENT_DATA/Objects/Mesh/hollowcircle.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsgNor",
+                        "textureList" : [
+                           "$CONTENT_DATA/Objects/transparent1024x1024.tga",
+                           "$GAME_DATA/Textures/Default/default_asg.tga",
+                           "$GAME_DATA/Textures/Default/default_nor.tga"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "PropY",
+         "showInInventory" : false,
+         "uuid" : "fa7c3710-30bb-40ba-b787-8e0c76036d2e"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "ffffff",
+         "name" : "arrow",
+         "physicsMaterial" : "Plastic",
+         "renderable" : {
+            "lodList" : [
+               {
+                  "maxViewDistance" : 1000.0,
+                  "mesh" : "$CONTENT_DATA/Objects/Mesh/arrow.obj",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsgNor",
+                        "textureList" : [
+                           "$CONTENT_DATA/Objects/transparent1024x1024.tga",
+                           "$GAME_DATA/Textures/Default/default_asg.tga",
+                           "$GAME_DATA/Textures/Default/default_nor.tga"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "PropY",
+         "showInInventory" : false,
+         "uuid" : "6f38814a-955d-44a8-bceb-93d522277ca2"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "ffffff",
+         "name" : "square",
+         "physicsMaterial" : "Plastic",
+         "renderable" : {
+            "lodList" : [
+               {
+                  "maxViewDistance" : 1000.0,
+                  "mesh" : "$GAME_DATA/Mesh/cube.mesh",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsgNor",
+                        "textureList" : [
+                           "$CONTENT_DATA/Objects/transparent1024x1024.tga",
+                           "$GAME_DATA/Textures/Default/default_asg.tga",
+                           "$GAME_DATA/Textures/Default/default_nor.tga"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "PropY",
+         "showInInventory" : false,
+         "uuid" : "55095c0a-c77d-47e4-a971-ffb7cc16bc34"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "ffffff",
+         "name" : "creationcanvas",
+         "physicsMaterial" : "Plastic",
+         "renderable" : {
+            "lodList" : [
+               {
+                  "maxViewDistance" : 1000.0,
+                  "mesh" : "$GAME_DATA/Mesh/cube.mesh",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsgNor",
+                        "textureList" : [
+                           "$CONTENT_DATA/Objects/transparent1024x1024.tga",
+                           "$GAME_DATA/Textures/Default/default_asg.tga",
+                           "$GAME_DATA/Textures/Default/default_nor.tga"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "rotationSet" : "PropY",
+         "scripted" : {
+            "classname" : "Canvas",
+            "data" : {},
+            "filename" : "$CONTENT_DATA/Scripts/canvas.lua"
+         },
+         "showInInventory" : false,
+         "uuid" : "0646746e-e5a4-446a-b33b-800b8820b035"
+      }
+   ]
+}

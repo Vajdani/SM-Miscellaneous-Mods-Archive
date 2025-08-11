@@ -1,0 +1,43 @@
+{
+   "lodList" : [
+      {
+         "mesh" : "$CONTENT_DATA/Kinematics/Mesh/kin_golf_duckyhead_platform.fbx",
+         "minViewSize" : 15,
+         "subMeshMap" : {
+            "t_hotspot_inflatable02" : {
+               "custom" : {
+                  "color" : "Color02"
+               },
+               "material" : "DifAsgNor",
+               "textureList" : [
+                  "$CONTENT_DATA/Terrain/Textures/Golf/t_hotspot_inflatlable_dif.tga",
+                  "$CONTENT_DATA/Terrain/Textures/Golf/t_hotspot_inflatlable_asg.tga",
+                  "$CONTENT_DATA/Terrain/Textures/Golf/t_hotspot_inflatlable_nor.tga"
+               ]
+            },
+            "t_hotspot_inflatable03" : {
+               "custom" : {
+                  "color" : "Color03"
+               },
+               "material" : "DifAsgNor",
+               "textureList" : [
+                  "$CONTENT_DATA/Terrain/Textures/Golf/t_hotspot_inflatlable_dif.tga",
+                  "$CONTENT_DATA/Terrain/Textures/Golf/t_hotspot_inflatlable_asg.tga",
+                  "$CONTENT_DATA/Terrain/Textures/Golf/t_hotspot_inflatlable_nor.tga"
+               ]
+            },
+            "t_hotspot_inflatable05" : {
+               "custom" : {
+                  "color" : "Color05"
+               },
+               "material" : "DifAsgNor",
+               "textureList" : [
+                  "$CONTENT_DATA/Terrain/Textures/Golf/t_hotspot_inflatlable_dif.tga",
+                  "$CONTENT_DATA/Terrain/Textures/Golf/t_hotspot_inflatlable_asg.tga",
+                  "$CONTENT_DATA/Terrain/Textures/Golf/t_hotspot_inflatlable_nor.tga"
+               ]
+            }
+         }
+      }
+   ]
+}

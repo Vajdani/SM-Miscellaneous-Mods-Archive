@@ -1,0 +1,26 @@
+{
+   "lodList" : [
+      {
+         "mesh" : "$CONTENT_DATA/Terrain/Mesh/Golf/env_golf_pillshape.fbx",
+         "minViewSize" : 15,
+         "subMeshMap" : {
+            "t_hotspot_inflatable03" : {
+               "material" : "DifAsgNor",
+               "textureList" : [
+                  "$CONTENT_DATA/Terrain/Textures/Golf/t_hotspot_inflatlable_dif.tga",
+                  "$CONTENT_DATA/Terrain/Textures/Golf/t_hotspot_inflatlable_asg.tga",
+                  "$CONTENT_DATA/Terrain/Textures/Golf/t_hotspot_inflatlable_nor.tga"
+               ]
+            },
+            "t_hotspot_inflatable04" : {
+               "material" : "DifAsgNor",
+               "textureList" : [
+                  "$CONTENT_DATA/Terrain/Textures/Golf/t_hotspot_inflatlable_dif.tga",
+                  "$CONTENT_DATA/Terrain/Textures/Golf/t_hotspot_inflatlable_asg.tga",
+                  "$CONTENT_DATA/Terrain/Textures/Golf/t_hotspot_inflatlable_nor.tga"
+               ]
+            }
+         }
+      }
+   ]
+}

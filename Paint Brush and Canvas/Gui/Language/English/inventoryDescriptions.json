@@ -1,0 +1,12 @@
+{
+    "77016c66-bcf4-4383-a40b-830fdea3552d":
+	{
+		"title": "Paint Brush",
+		"description": "This brush allows you to paint on canvases, aim it at one and begin painting!\n\n#df7f00Controls:#919191\n#ffffffLeft Click:#919191 Paint on the canvas\n#ffffffRight Click:#919191 Erase painting on canvas\n#ffffffRotate Blocks(default: #ff0000Q#ffffff):#919191 Open settings menu\n#ffffffForce Build(default: #ff0000F#ffffff):#919191 Select point to draw a line from\n#ffffffReload(default: #ff0000R#ffffff):#919191 Change the canvas' colour to your selected colour"
+	},
+	"0be11a4f-3161-4964-a874-f0fdd1e30b65":
+	{
+		"title": "Canvas",
+		"description": "Can be painted on with Paint Brushes!\nSaving it on the lift will store the painting, so that you can spawn in and enjoy your precious art at any time!"
+	}
+}

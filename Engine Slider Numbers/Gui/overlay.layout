@@ -1,0 +1,5 @@
+<MyGUI type="Layout" version="3.2.0">
+	<Widget type="Widget" skin="HudBackgroundLarge" position_real="0.3697916666666667 0.7407407407407407 0.2604166666666667 0.09259259259259259">
+		<Widget type="Canvas" skin="Canvas" name="Setting" position_real="0 0 1 1" />
+	</Widget>
+</MyGUI>

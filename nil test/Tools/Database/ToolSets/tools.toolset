@@ -1,0 +1,15 @@
+{
+    // "toolList": [
+    //     {
+    //         "name": "test",
+    //         "previewRenderable": "$GAME_DATA/Character/Char_Tools/char_lift_preview.rend",
+    //         "script": {
+    //             "class": "Tool",
+    //             "data": {},
+    //             "file": "$CONTENT_DATA/Scripts/Tool.lua"
+    //         },
+    //         "uuid": "00000000-0000-0000-0000-000000000000", //"68c81f27-f77a-4071-81f4-6b068ed8e211",
+    //         "autoTool": true
+    //     }
+    // ]
+}

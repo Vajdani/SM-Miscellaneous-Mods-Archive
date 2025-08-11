@@ -1,0 +1,7 @@
+{
+   "description" : "Adds a part that can create triggers which teleport the player to a given position",
+   "localId" : "e43a45f0-6262-421a-a563-18e4251a8708",
+   "name" : "Player Teleporter",
+   "type" : "Blocks and Parts",
+   "version" : 0
+}

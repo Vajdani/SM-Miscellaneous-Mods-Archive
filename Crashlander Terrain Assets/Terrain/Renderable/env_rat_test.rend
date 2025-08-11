@@ -1,0 +1,16 @@
+{
+   "lodList" : [
+      {
+         "mesh" : "$CONTENT_DATA/Terrain/Mesh/rat.fbx",
+         "subMeshMap" : {
+            "rat" : {
+               "custom" : {
+                  "color" : "rat"
+               },
+               "material" : "Dif",
+               "textureList" : [ "$CONTENT_DATA/Terrain/Textures/tex_rat_wip3.png" ]
+            }
+         }
+      }
+   ]
+}

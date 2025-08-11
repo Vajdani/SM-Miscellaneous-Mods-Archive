@@ -1,0 +1,21 @@
+{
+   "lodList" : [
+      {
+         "mesh" : "$CONTENT_DATA/Terrain/Mesh/Golf/env_golf_holeflag.fbx",
+         "minViewSize" : 15,
+         "subMeshMap" : {
+            "hole" : {
+               "custom" : {
+                  "color" : "Color02"
+               },
+               "material" : "DifAsgNor",
+               "textureList" : [
+                  "$CONTENT_DATA/Terrain/Textures/Golf/env_golf_hole_dif.tga",
+                  "$CONTENT_DATA/Terrain/Textures/Golf/env_golf_hole_asg.tga",
+                  "$CONTENT_DATA/Terrain/Textures/Golf/env_golf_hole_nor.tga"
+               ]
+            }
+         }
+      }
+   ]
+}

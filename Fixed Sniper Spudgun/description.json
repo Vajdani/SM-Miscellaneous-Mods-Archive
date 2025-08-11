@@ -1,0 +1,10 @@
+{
+   "allow_add_mods" : true,
+   "custom_icons" : false,
+   "description" : "[h1]We have fixed the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2157793059]Sniper Spudgun mod[/url]![/h1]\r\n[b]Thanks to [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2816900681]Questionable Mark's Modded Craftbot Recipes[/url], the gun is obtainable at the Trader in survival![/b]\r\n\r\n[h1]Features:[/h1]\r\n[list]\r\n    [*][b]Faster Potato projectile[/b]\r\n    [*][b]More damage[/b]\r\n    [*][b]Slower reload time[/b]\r\n    [*][b]Zoomig in/out while scoped in with Q/R[/b]\r\n[/list]\r\n\r\n[h1]Credits:[/h1]\r\n[list]\r\n    [*][b]TheGuy920[/b] - scripting\r\n    [*][b]diana[/b] - scripting\r\n    [*][b]Fawx [/b] - models\r\n    [*][b]Vajdani [/b] - updating UI, porting\r\n    [*][b]MrCrackx02[/b] - fixing broken models\r\n[/list]\r\n\r\n\r\n\r\nHave fun sniping bots with [i]SSStyle[/i]!",
+   "fileId" : 2833494419.0,
+   "localId" : "658c769f-6689-4287-919b-ea0e891e40c9",
+   "name" : "Fixed Sniper Spudgun",
+   "type" : "Blocks and Parts",
+   "version" : 0.0
+}

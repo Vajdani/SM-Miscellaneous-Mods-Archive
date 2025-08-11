@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" position="0 0 500 750" name="BackPanel">
+        <Widget type="Widget" skin="BeaconBG" position="10 10 480 730">
+            <Widget type="TextBox" skin="TextBox" position="90 0 300 120">
+                <Property key="FontName" value="SM_HeaderLarge_Wide"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="Caption" value="Skin Adjustment Menu"/>
+                <Property key="FontHeight" value="25"/>
+            </Widget>
+            <Widget type="Button" skin="DressbotArrowLeft" position="50 168 50 50" name="skinBaseDec"/>
+            <Widget type="Button" skin="DressbotArrowRight" position="380 168 50 50" name="skinBaseInc"/>
+            <Widget type="TextBox" skin="TextBox" position="165 160 150 65" name="skinBase">
+                <Property key="Caption" value="abcd"/>
+                <Property key="FontHeight" value="25"/>
+                <Property key="FontName" value="InventoryItemTitle"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="TextColour" value="#ff9d00"/>
+            </Widget>
+            <Widget type="Button" skin="DressbotArrowLeft" position="50 268 50 50" name="skinStockDec"/>
+            <Widget type="Button" skin="DressbotArrowRight" position="380 268 50 50" name="skinStockInc"/>
+            <Widget type="TextBox" skin="TextBox" position="165 260 150 65" name="skinStock">
+                <Property key="Caption" value="abcd"/>
+                <Property key="FontHeight" value="25"/>
+                <Property key="FontName" value="InventoryItemTitle"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="TextColour" value="#ff9d00"/>
+            </Widget>
+            <Widget type="Button" skin="DressbotArrowLeft" position="50 368 50 50" name="skinTankDec"/>
+            <Widget type="Button" skin="DressbotArrowRight" position="380 368 50 50" name="skinTankInc"/>
+            <Widget type="TextBox" skin="TextBox" position="165 360 150 65" name="skinTank">
+                <Property key="Caption" value="abcd"/>
+                <Property key="FontHeight" value="25"/>
+                <Property key="FontName" value="InventoryItemTitle"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="TextColour" value="#ff9d00"/>
+            </Widget>
+            <Widget type="Button" skin="DressbotArrowLeft" position="50 468 50 50" name="skinSightDec"/>
+            <Widget type="Button" skin="DressbotArrowRight" position="380 468 50 50" name="skinSightInc"/>
+            <Widget type="TextBox" skin="TextBox" position="165 460 150 65" name="skinSight">
+                <Property key="Caption" value="abcd"/>
+                <Property key="FontHeight" value="25"/>
+                <Property key="FontName" value="InventoryItemTitle"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="TextColour" value="#ff9d00"/>
+            </Widget>
+            <Widget type="Button" skin="DressbotArrowLeft" position="50 568 50 50" name="skinBarrelDec"/>
+            <Widget type="Button" skin="DressbotArrowRight" position="380 568 50 50" name="skinBarrelInc"/>
+            <Widget type="TextBox" skin="TextBox" position="165 560 150 65" name="skinBarrel">
+                <Property key="Caption" value="abcd"/>
+                <Property key="FontHeight" value="25"/>
+                <Property key="FontName" value="InventoryItemTitle"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="TextColour" value="#ff9d00"/>
+            </Widget>
+        </Widget>
+    </Widget>
+</MyGUI>

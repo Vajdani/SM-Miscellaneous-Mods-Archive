@@ -1,0 +1,64 @@
+{
+   "partList" : [
+      {
+         "color" : "3e9ffe",
+         "flammable" : false,
+         "hull" : {
+            "col" : "$GAME_DATA/Objects/Collision/obj_interactive_toilet.obj",
+            "x" : 3,
+            "y" : 4,
+            "z" : 3
+         },
+         "name" : "obj_interactive_toilet",
+         "physicsMaterial" : "Mechanical",
+         "ratings" : {
+            "buoyancy" : 4,
+            "density" : 2,
+            "durability" : 3,
+            "friction" : 3
+         },
+         "renderable" : "$GAME_DATA/Objects/Renderable/Interactive/obj_interactive_toilet.rend",
+         "rotationSet" : "PropY",
+         "scripted" : {
+            "classname" : "Toilet",
+            "filename" : "$CONTENT_DATA/Scripts/toilet.lua",
+            "data": {},
+            "seat" : {
+                "bones" : [
+                   {
+                      "name" : "Hips",
+                      "offset" : {
+                         "x" : 0.0,
+                         "y" : 0.550,
+                         "z" : 0.90
+                      }
+                   },
+                   {
+                      "freeRotation" : true,
+                      "name" : "LeftForeArm",
+                      "offset" : {
+                         "x" : 1.0,
+                         "y" : 0.50,
+                         "z" : 1.50
+                      }
+                   },
+                   {
+                      "freeRotation" : true,
+                      "name" : "RightForeArm",
+                      "offset" : {
+                         "x" : -1.0,
+                         "y" : 0.50,
+                         "z" : 1.50
+                      }
+                   }
+                ],
+                "enterAudio" : "Toilet seated",
+                "exitAudio" : "Toilet unseated",
+                "ragdollFile" : "$GAME_DATA/Character/seat_ragdoll.json"
+             }
+         },
+         "sticky" : "-Y",
+         "uuid" : "3cf363be-a09e-47e5-b190-d7f97a50fd62"
+      }
+   ]
+}

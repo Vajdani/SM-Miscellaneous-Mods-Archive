@@ -1,0 +1,15 @@
+{
+	"toolList": [
+		{
+			"name": "tool_input",
+			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
+			"previewRotation": [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+			"script": {
+				"class": "Input",
+				"data": {},
+				"file": "$CONTENT_DATA/Scripts/input.lua"
+			},
+			"uuid": "3ec0581e-b63c-4f6f-b941-19ca663fa970"
+		}
+	]
+}

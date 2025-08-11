@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2022-11-27T18:30:03Z</created>
+    <keywords></keywords>
+    <modified>2022-11-27T18:30:03Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="0.010000" name="centimeter"></unit>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_geometries>
+    <geometry id="char_connecttool_geo-lib" name="char_connecttool_geoMesh">
+      <mesh>
+        <source id="char_connecttool_geo-POSITION">
+          <float_array id="char_connecttool_geo-POSITION-array" count="60">
+-0.107871 -0.129974 -0.309286
+-0.107871 -0.288220 0.290932
+-0.107871 0.158535 -0.309286
+0.107871 -0.129974 -0.309286
+0.107871 0.158535 -0.309286
+-0.107871 0.158535 -0.349436
+-0.107871 -0.129974 -0.349436
+-0.107871 0.000289 0.290932
+0.107871 0.158535 -0.349436
+0.107871 0.000289 0.290932
+0.107871 -0.129974 -0.349436
+0.107871 -0.288220 0.290932
+-0.124434 0.174745 -0.343228
+-0.124434 -0.146185 -0.343228
+0.124434 0.174745 -0.343228
+0.124434 -0.146185 -0.343228
+-0.124434 0.174745 -0.309286
+-0.124434 -0.146185 -0.309286
+0.124434 0.174745 -0.309286
+0.124434 -0.146185 -0.309286
+</float_array>
+          <technique_common>
+            <accessor source="#char_connecttool_geo-POSITION-array" count="20" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="char_connecttool_geo-Normal0">
+          <float_array id="char_connecttool_geo-Normal0-array" count="324">
+0.000000 -0.966958 -0.254936
+0.000000 -0.966958 -0.254936
+0.000000 -0.966958 -0.254936
+0.000000 -0.966958 -0.254936
+0.000000 -0.966958 -0.254936
+0.000000 -0.966958 -0.254936
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.357656 -0.933854
+0.000000 0.357656 -0.933854
+0.000000 0.357656 -0.933854
+0.000000 0.357656 -0.933854
+0.000000 0.357656 -0.933854
+0.000000 0.357656 -0.933854
+-0.350987 0.000000 -0.936380
+-0.350987 0.000000 -0.936380
+-0.350987 0.000000 -0.936380
+-0.350987 0.000000 -0.936380
+-0.350987 0.000000 -0.936380
+-0.350987 0.000000 -0.936380
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.966958 0.254936
+0.000000 0.966958 0.254936
+0.000000 0.966958 0.254936
+0.000000 0.966958 0.254936
+0.000000 0.966958 0.254936
+0.000000 0.966958 0.254936
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -0.357657 -0.933853
+0.000000 -0.357657 -0.933853
+0.000000 -0.357657 -0.933853
+0.000000 -0.357657 -0.933853
+0.000000 -0.357657 -0.933853
+0.000000 -0.357657 -0.933853
+0.350987 0.000000 -0.936380
+0.350987 0.000000 -0.936380
+0.350987 0.000000 -0.936380
+0.350987 0.000000 -0.936380
+0.350987 0.000000 -0.936380
+0.350987 0.000000 -0.936380
+</float_array>
+          <technique_common>
+            <accessor source="#char_connecttool_geo-Normal0-array" count="108" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="char_connecttool_geo-UV0">
+          <float_array id="char_connecttool_geo-UV0-array" count="48">
+0.460619 0.500000
+0.375000 0.500000
+0.375000 0.500000
+0.125000 0.500000
+0.460619 0.750000
+0.625000 0.500000
+0.125000 0.500000
+0.460619 0.000000
+0.460619 0.250000
+0.460619 0.500000
+0.375000 1.000000
+0.125000 0.750000
+0.375000 0.000000
+0.875000 0.750000
+0.375000 0.750000
+0.625000 0.750000
+0.125000 0.750000
+0.460619 1.000000
+0.460619 0.250000
+0.460619 0.000000
+0.375000 0.250000
+0.875000 0.500000
+0.460619 0.750000
+0.375000 0.750000
+</float_array>
+          <technique_common>
+            <accessor source="#char_connecttool_geo-UV0-array" count="24" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="char_connecttool_geo-VERTEX">
+          <input semantic="POSITION" source="#char_connecttool_geo-POSITION" />
+        </vertices>
+        <triangles count="36">
+          <input semantic="VERTEX" offset="0" source="#char_connecttool_geo-VERTEX" />
+          <input semantic="NORMAL" offset="1" source="#char_connecttool_geo-Normal0" />
+          <input semantic="TEXCOORD" offset="2" set="0" source="#char_connecttool_geo-UV0" />
+          <p> 1 0 13 0 1 7 11 2 15 11 3 15 0 4 7 3 5 4 3 6 4 9 7 5 11 8 15 9 9 5 3 10 4 4 11 0 10 12 14 6 13 16 5 14 6 10 15 14 5 16 6 8 17 1 7 18 21 1 19 13 9 20 5 9 21 5 1 22 13 11 23 15 12 24 3 8 25 1 5 26 6 8 27 1 12 28 3 14 29 2 13 30 11 5 31 6 6 32 16 13 33 11 12 34 3 5 35 6 18 36 9 16 37 18 2 38 8 18 39 9 2 40 8 4 41 0 7 42 21 0 43 7 1 44 13 0 45 7 7 46 21 2 47 8 17 48 19 3 49 4 0 50 7 3 51 4 17 52 19 19 53 22 9 54 5 4 55 0 7 56 21 7 57 21 4 58 0 2 59 8 12 60 20 17 61 19 16 62 18 17 63 19 12 64 20 13 65 12 16 66 18 18 67 9 14 68 2 16 69 18 14 70 2 12 71 20 15 72 23 18 73 9 19 74 22 18 75 9 15 76 23 14 77 2 19 78 22 17 79 17 13 80 10 19 81 22 13 82 10 15 83 23 19 84 22 18 85 9 4 86 0 19 87 22 4 88 0 3 89 4 2 90 8 17 91 19 0 92 7 17 93 19 2 94 8 16 95 18 15 96 23 13 97 11 6 98 16 15 99 23 6 100 16 10 101 14 15 102 23 8 103 1 14 104 2 8 105 1 15 106 23 10 107 14</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="char_connecttool_geoController">
+      <skin source="#char_connecttool_geo-lib">
+        <bind_shape_matrix>1.000000 0.000000 -0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 -1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+</bind_shape_matrix>
+        <source id="char_connecttool_geoController-Joints">
+          <Name_array id="char_connecttool_geoController-Joints-array" count="5">
+ jnt_right_weapon root_connectortool jnt_mag jnt_connectortool pipe</Name_array>
+          <technique_common>
+            <accessor source="#char_connecttool_geoController-Joints-array" count="5">
+              <param type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="char_connecttool_geoController-Matrices">
+          <float_array id="char_connecttool_geoController-Matrices-array" count="80">
+
+1.000000 0.000000 0.000000 -0.000000 -0.000000 1.000000 0.000000 -0.000000 0.000000 -0.000000 1.000000 -0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 -0.000000 -0.000000 1.000000 0.000000 0.000000 0.000000 -0.000000 1.000000 -0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 -0.000000 0.000000 -0.000000 0.965926 0.258819 0.096466 0.000000 -0.258819 0.965926 -0.067372 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 -0.000000 -0.000000 1.000000 0.000000 -0.263633 0.000000 -0.000000 1.000000 -0.152128 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 -0.000000 -0.000000 1.000000 0.000000 -0.499018 0.000000 -0.000000 1.000000 -0.831231 0.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#char_connecttool_geoController-Matrices-array" count="5" stride="16">
+              <param type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="char_connecttool_geoController-Weights">
+          <float_array id="char_connecttool_geoController-Weights-array" count="21">
+
+1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+1.000000 1.000000 1.000000 1.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#char_connecttool_geoController-Weights-array" count="21">
+              <param type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#char_connecttool_geoController-Joints" />
+          <input semantic="INV_BIND_MATRIX" source="#char_connecttool_geoController-Matrices" />
+        </joints>
+        <vertex_weights count="20">
+          <input semantic="JOINT" offset="0" source="#char_connecttool_geoController-Joints" />
+          <input semantic="WEIGHT" offset="1" source="#char_connecttool_geoController-Weights" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</vcount>
+          <v>2 1 2 2 2 3 2 4 2 5 2 6 2 7 2 8 2 9 2 10 2 11 2 12 2 13 2 14 2 15 2 16 2 17 2 18 2 19 2 20</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node name="jnt_right_weapon" id="jnt_right_weapon" sid="jnt_right_weapon" type="JOINT">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 -1.000000 0.000000 0.000000 1.000000 -0.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+        <node name="root_connectortool" id="root_connectortool" sid="root_connectortool" type="JOINT">
+          <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+          <extra>
+            <technique profile="FCOLLADA">
+              <visibility>1.000000</visibility>
+            </technique>
+          </extra>
+          <node name="jnt_mag" id="jnt_mag" sid="jnt_mag" type="JOINT">
+            <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 0.965926 -0.258819 -0.110616 -0.000000 0.258819 0.965926 0.040109 0.000000 0.000000 0.000000 1.000000</matrix>
+            <extra>
+              <technique profile="FCOLLADA">
+                <visibility>1.000000</visibility>
+              </technique>
+            </extra>
+          </node>
+          <node name="jnt_connectortool" id="jnt_connectortool" sid="jnt_connectortool" type="JOINT">
+            <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.263633 0.000000 0.000000 1.000000 0.152128 0.000000 0.000000 0.000000 1.000000</matrix>
+            <extra>
+              <technique profile="FCOLLADA">
+                <visibility>1.000000</visibility>
+              </technique>
+            </extra>
+            <node name="pipe" id="pipe" sid="pipe" type="JOINT">
+              <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.235384 0.000000 0.000000 1.000000 0.679103 0.000000 0.000000 0.000000 1.000000</matrix>
+              <extra>
+                <technique profile="FCOLLADA">
+                  <visibility>1.000000</visibility>
+                </technique>
+              </extra>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node name="char_connecttool_geo" id="char_connecttool_geo" sid="char_connecttool_geo">
+        <instance_controller url="#char_connecttool_geoController" />
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>0.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.000000</start_time>
+          <end_time>1.000000</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"></instance_visual_scene>
+  </scene>
+</COLLADA>

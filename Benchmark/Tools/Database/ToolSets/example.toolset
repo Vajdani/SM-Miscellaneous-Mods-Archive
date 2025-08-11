@@ -1,0 +1,25 @@
+{
+	"toolList": [
+		{
+			"name": "Push",
+            "uuid": "080a34f2-6d34-464d-85e0-ced241a8fb62",
+            "previewRenderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
+            "previewRotation": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                -1,
+                0,
+                1,
+                0
+            ],
+            "script": {
+                "file": "$CONTENT_DATA/Scripts/Push.lua",
+                "class": "Push",
+				"data": {}
+            }
+        }
+	]
+}

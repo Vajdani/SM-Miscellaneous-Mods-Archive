@@ -1,0 +1,26 @@
+{
+   "lodList": [
+      {
+         "includes": [
+            "POSITION",
+            "UV0",
+            "NORMAL",
+            "TANGENTS",
+            "BLEND_INDICES",
+            "BLEND_WEIGHTS"
+         ],
+         "maxViewDistance": 1000.0,
+         "mesh": "$CONTENT_DATA/Tools/Fork/Models/HaybotFork.dae",
+         "subMeshList": [
+            {
+               "material": "DifAsgNor",
+               "textureList": [
+                  "$SURVIVAL_DATA/Character/Char_Haybot/char_haybot_dif.tga",
+                  "$SURVIVAL_DATA/Character/Char_Haybot/char_haybot_asg.tga",
+                  "$SURVIVAL_DATA/Character/Char_Haybot/char_haybot_nor.tga"
+               ]
+            }
+         ]
+      }
+   ]
+}

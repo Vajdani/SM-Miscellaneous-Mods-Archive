@@ -1,0 +1,26 @@
+{
+	"450639d7-5a77-4900-8c49-a61314bc589b": {
+		"description": "Applies an impulse to players relative to what way the pad is facing.",
+		"title": "Boost Pad"
+	},
+	"539e2ec8-cc49-484c-9d88-6e1cc6bbddc4": {
+		"description": "Players can swing off of them to gain height. You can only paint this part by clicking on the base of it.",
+		"title": "Monkey Bar"
+	},
+	"1c16ae84-26e6-4bf5-b4be-dc45448e0b89": {
+		"description": "Players attach themselves to this part by standing in front of the side which has protruding bricks. The controls are the same as swimming, other than space. Instead of ascending, you can boost yourself off of the wall.",
+		"title": "Climbable wall plate"
+	},
+	"3bbe152e-3658-442d-95c7-35e17d48affb": {
+		"description": "Players attach themselves to this part by standing in front of the side which has protruding bricks. The controls are the same as swimming, other than space. Instead of ascending, you can boost yourself off of the wall.",
+		"title": "Climbable wall cylinder"
+	},
+	"f14cc68d-7653-41f5-bf9f-3d87c1a4e71d": {
+		"description": "A button that activates for a few seconds upon being shot with a spudgun/hit with the hammer.",
+		"title": "Projectile/Melee button"
+	},
+	"c804d559-a4ac-44e2-a703-4dd709c4db14": {
+		"description": "A part that teleports every player to a given location once they enter a certain radius around the part. \nNote: the Axis Visualization only works if you have the particle quality set to high!",
+		"title": "Player Teleporter"
+	}
+}

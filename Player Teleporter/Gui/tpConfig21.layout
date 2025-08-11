@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" position_real="0 0 0.532292 0.74537" name="BackPanel">
+        <Widget type="Widget" skin="BeaconBG" position_real="0 0 0.485323 0.776398">
+            <Widget type="TextBox" skin="TextBox" position_real="0 0.0352 1 0.1552">
+                <Property key="Caption" value="Player Teleporter"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="FontName" value="SM_HeaderLarge_Wide"/>
+            </Widget>
+            <Widget type="Widget" skin="PanelEmpty" position_real="0 0.16 1 0.7856">
+                <Widget type="Button" skin="SMButton" position_real="0.334677 0.0835031 0.28629 0.0835031" name="Create">
+                    <Property key="Caption" value="Create"/>
+                    <Property key="FontHeight" value="15"/>
+                    <Property key="FontName" value="InventoryItemTitle"/>
+                </Widget>
+                <Widget type="Button" skin="SMButton" position_real="0.576613 0.631365 0.366935 0.0835031" name="posVis">
+                    <Property key="Caption" value="Teleport position effect"/>
+                    <Property key="TextAlign" value="Center"/>
+                    <Property key="FontName" value="InventoryItemTitle"/>
+                    <Property key="FontHeight" value="13"/>
+                </Widget>
+                <Widget type="Button" skin="SMButton" position_real="0.0241935 0.855397 0.366935 0.0835031" name="toggleUnit">
+                    <Property key="Caption" value="Unit type:"/>
+                    <Property key="FontName" value="InventoryItemTitle"/>
+                    <Property key="FontHeight" value="15"/>
+                    <Property key="TextAlign" value="Center"/>
+                </Widget>
+                <Widget type="TextBox" skin="TextBox" position_real="0.0645161 0.0835031 0.183468 0.0509165">
+                    <Property key="Caption" value="Scale"/>
+                    <Property key="TextAlign" value="Center"/>
+                    <Property key="FontName" value="InventoryItemTitle"/>
+                </Widget>
+                <Widget type="TextBox" skin="TextBox" position_real="0.717742 0.0814664 0.183468 0.0509165">
+                    <Property key="Caption" value="Offset"/>
+                    <Property key="TextAlign" value="Center"/>
+                    <Property key="FontName" value="InventoryItemTitle"/>
+                </Widget>
+                <Widget type="TextBox" skin="TextBox" position_real="0.129032 0.164969 0.0443548 0.0448065">
+                    <Property key="TextAlign" value="Center"/>
+                    <Property key="FontName" value="InventoryItemTitle"/>
+                    <Property key="Caption" value="X"/>
+                    <Property key="TextColour" value="1 0 0"/>
+                </Widget>
+                <Widget type="Button" skin="DressbotArrowLeft" position_real="0.0524194 0.236253 0.0322581 0.0325866" name="scaleXDec"/>
+                <Widget type="TextBox" skin="TextBox" position_real="0.104839 0.226069 0.104839 0.0509165" name="scaleX">
+                    <Property key="FontName" value="InventoryItemTitle"/>
+                    <Property key="TextAlign" value="Center"/>
+                </Widget>
+                <Widget type="Button" skin="DressbotArrowRight" position_real="0.227823 0.236253 0.0322581 0.0325866" name="scaleXInc"/>
+                <Widget type="TextBox" skin="TextBox" position_real="0.131048 0.317719 0.0504032 0.0468432">
+                    <Property key="Caption" value="Y"/>
+                    <Property key="FontName" value="InventoryItemTitle"/>
+                    <Property key="TextAlign" value="Center"/>
+                    <Property key="TextColour" value="0 1 0"/>
+                </Widget>
+                <Widget type="Button" skin="DressbotArrowLeft" position_real="0.0524194 0.393075 0.0322581 0.0325866" name="scaleYDec"/>
+                <Widget type="Button" skin="DressbotArrowLeft" position_real="0.0524194 0.543788 0.0322581 0.0325866" name="scaleZDec"/>
+                <Widget type="Button" skin="DressbotArrowRight" position_real="0.227823 0.389002 0.0322581 0.0325866" name="scaleYInc"/>
+                <Widget type="Button" skin="DressbotArrowRight" position_real="0.227823 0.543788 0.0322581 0.0325866" name="scaleZInc"/>
+                <Widget type="TextBox" skin="TextBox" position_real="0.106855 0.382892 0.106855 0.0529532" name="scaleY">
+                    <Property key="FontName" value="InventoryItemTitle"/>
+                    <Property key="TextAlign" value="Center"/>
+                </Widget>
+                <Widget type="TextBox" skin="TextBox" position_real="0.129032 0.470468 0.0443548 0.0448065">
+                    <Property key="Caption" value="Z"/>
+                    <Property key="FontName" value="InventoryItemTitle"/>
+                    <Property key="TextAlign" value="Center"/>
+                    <Property key="TextColour" value="0 0 1"/>
+                </Widget>
+                <Widget type="TextBox" skin="TextBox" position_real="0.104839 0.533605 0.104839 0.0509165" name="scaleZ">
+                    <Property key="FontName" value="InventoryItemTitle"/>
+                    <Property key="TextAlign" value="Center"/>
+                </Widget>
+                <Widget type="TextBox" skin="TextBox" position_real="0.78629 0.164969 0.0443548 0.0448065">
+                    <Property key="Caption" value="X"/>
+                    <Property key="TextAlign" value="Center"/>
+                    <Property key="FontName" value="InventoryItemTitle"/>
+                    <Property key="TextColour" value="1 0 0"/>
+                </Widget>
+                <Widget type="TextBox" skin="TextBox" position_real="0.754032 0.226069 0.104839 0.0509165" name="offsetX">
+                    <Property key="TextAlign" value="Center"/>
+                    <Property key="FontName" value="InventoryItemTitle"/>
+                </Widget>
+                <Widget type="TextBox" skin="TextBox" position_real="0.78629 0.317719 0.0443548 0.0448065">
+                    <Property key="Caption" value="Y"/>
+                    <Property key="FontName" value="InventoryItemTitle"/>
+                    <Property key="TextAlign" value="Center"/>
+                    <Property key="TextColour" value="0 1 0"/>
+                </Widget>
+                <Widget type="TextBox" skin="TextBox" position_real="0.754032 0.378819 0.104839 0.0509165" name="offsetY">
+                    <Property key="FontName" value="InventoryItemTitle"/>
+                    <Property key="TextAlign" value="Center"/>
+                </Widget>
+                <Widget type="TextBox" skin="TextBox" position_real="0.78629 0.470468 0.0443548 0.0448065">
+                    <Property key="Caption" value="Z"/>
+                    <Property key="TextAlign" value="Center"/>
+                    <Property key="FontName" value="InventoryItemTitle"/>
+                    <Property key="TextColour" value="0 0 1"/>
+                </Widget>
+                <Widget type="TextBox" skin="TextBox" position_real="0.754032 0.533605 0.104839 0.0509165" name="offsetZ">
+                    <Property key="FontName" value="InventoryItemTitle"/>
+                    <Property key="TextAlign" value="Center"/>
+                </Widget>
+                <Widget type="Button" skin="DressbotArrowLeft" position_real="0.701613 0.236253 0.0322581 0.0325866" name="offsetXDec"/>
+                <Widget type="Button" skin="DressbotArrowLeft" position_real="0.701613 0.393075 0.0322581 0.0325866" name="offsetYDec"/>
+                <Widget type="Button" skin="DressbotArrowLeft" position_real="0.701613 0.543788 0.0322581 0.0325866" name="offsetZDec"/>
+                <Widget type="Button" skin="DressbotArrowRight" position_real="0.877016 0.236253 0.0322581 0.0325866" name="offsetXInc"/>
+                <Widget type="Button" skin="DressbotArrowRight" position_real="0.877016 0.393075 0.0322581 0.0325866" name="offsetYInc"/>
+                <Widget type="Button" skin="DressbotArrowRight" position_real="0.877016 0.543788 0.0322581 0.0325866" name="offsetZInc"/>
+                <Widget type="Button" skin="SMButton" position_real="0.334677 0.205703 0.28629 0.0835031" name="Reset">
+                    <Property key="Caption" value="Reset all"/>
+                    <Property key="FontHeight" value="15"/>
+                    <Property key="FontName" value="InventoryItemTitle"/>
+                </Widget>
+                <Widget type="Button" skin="SMButton" position_real="0.334677 0.327902 0.28629 0.0835031" name="resetOffset">
+                    <Property key="Caption" value="Reset offset"/>
+                    <Property key="TextAlign" value="Center"/>
+                    <Property key="FontHeight" value="15"/>
+                    <Property key="FontName" value="InventoryItemTitle"/>
+                </Widget>
+                <Widget type="Button" skin="SMButton" position_real="0.334677 0.450102 0.28629 0.0835031" name="resetScale">
+                    <Property key="Caption" value="Reset scale"/>
+                    <Property key="TextAlign" value="Center"/>
+                    <Property key="FontHeight" value="15"/>
+                    <Property key="FontName" value="InventoryItemTitle"/>
+                </Widget>
+                <Widget type="Button" skin="SMButton" position_real="0.0241935 0.631365 0.366935 0.0835031" name="tpVis">
+                    <Property key="Caption" value="Teleport area effect"/>
+                    <Property key="FontName" value="InventoryItemTitle"/>
+                    <Property key="TextAlign" value="Center"/>
+                    <Property key="FontHeight" value="15"/>
+                </Widget>
+                <Widget type="Button" skin="SMButton" position_real="0.576613 0.743381 0.366935 0.0835031" name="axisVis">
+                    <Property key="Caption" value="Axis visualization"/>
+                    <Property key="FontName" value="InventoryItemTitle"/>
+                    <Property key="FontHeight" value="15"/>
+                    <Property key="TextAlign" value="Center"/>
+                </Widget>
+                <Widget type="Button" skin="SMButton" position_real="0.0241935 0.743381 0.366935 0.0835031" name="idVis">
+                    <Property key="Caption" value="Toggle ID effect"/>
+                    <Property key="FontName" value="InventoryItemTitle"/>
+                    <Property key="FontHeight" value="15"/>
+                    <Property key="TextAlign" value="Center"/>
+                </Widget>
+                <Widget type="Button" skin="SMButton" position_real="0.576613 0.855397 0.366935 0.0835031" name="Help">
+                    <Property key="Caption" value="Help"/>
+                    <Property key="FontHeight" value="15"/>
+                    <Property key="FontName" value="InventoryItemTitle"/>
+                    <Property key="TextAlign" value="Center"/>
+                </Widget>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="BeaconBottomBG" position_real="0 0.776398 0.485323 0.221118"/>
+        <Widget type="Widget" skin="BeaconBG" position_real="0.509785 0 0.48728 0.6" name="helpWindow">
+            <Widget type="TextBox" skin="TextBox" position_real="0 0 1 0.200828">
+                <Property key="Caption" value="Help"/>
+                <Property key="FontName" value="SM_HeaderLarge_Wide"/>
+                <Property key="TextAlign" value="Center"/>
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.0120482 0.219462 0.957831 0.283644">
+                <Property key="Caption" value="How to use this part\n\n1. Shoot the part to set the teleport position\n2. Set the scale with the arrows\n3. Adjust the offset values if you want\n4. Hit create and enjoy!\n#ff0000You will get warned if you enter incorrect values!"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="FontName" value="InventoryItemTitle"/>
+                <Property key="FontHeight" value="15"/>
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position_real="0.0120482 0.532091 0.957831 0.447205">
+                <Property key="Caption" value="Commands\n\n#ff9d00/setTP #ffffff- sets teleport position\n#ff9d00/setS #ffffff- sets scale\n#ff9d00/setO #ffffff- sets offset\n#ff9d00/create #ffffff- creates the teleport area\n#ff9d00/reset #ffffff- resets everything\n#ff9d00/unit #ffffff- toggles between blocks and meters\n#ff9d00/frame #ffffff- toggles teleporter are visuals\n#ff9d00/arrow #ffffff- toggles teleport position marker\n#ff9d00/axis #ffffff- toggles the axis visualization"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="FontName" value="InventoryItemTitle"/>
+                <Property key="FontHeight" value="15"/>
+            </Widget>
+        </Widget>
+        <Widget type="Canvas" skin="BeaconBottomBG" position_real="0.509785 0.6 0.48728 0.221118" name="helpWindow2"/>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

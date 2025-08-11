@@ -1,0 +1,6 @@
+{
+   "toolSetList" : [
+      "$SURVIVAL_DATA/Tools/ToolSets/tools.json",
+      "$CONTENT_DATA/Tools/Database/ToolSets/tools.toolset"
+   ]
+}

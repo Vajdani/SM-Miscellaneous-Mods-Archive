@@ -1,0 +1,16 @@
+{
+   "allow_add_mods" : true,
+   "custom_icons" : false,
+   "dependencies" : [
+      {
+         "fileId" : 3291366450,
+         "localId" : "93ff5b01-e6ec-48e4-bb30-8d2fdbc33329",
+         "name" : "Dressbot override"
+      }
+   ],
+   "description" : "Have nothing to do with your life stockpile of garment boxes? This mod is for you! It adds unusal effects you can put on your garments and weapons! Available in your dressbot!",
+   "localId" : "ac8c3772-7fe6-4087-9283-29e6cc96fb43",
+   "name" : "Unusual garments!",
+   "type" : "Blocks and Parts",
+   "version" : 1
+}

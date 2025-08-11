@@ -1,0 +1,45 @@
+{
+	"toolList":
+	[
+		{
+			"uuid": "bb641a4f-e391-441c-bc6d-0ae21a069476",
+			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_sledgehammer_preview.rend",
+			"previewRotation": [  -1, 0, 0, 0, 0, 1, 0, 1, 0 ],
+			"script": { "file": "$CONTENT_DATA/Scripts/tools/Sledgehammer.lua", "class": "Sledgehammer" }
+		},
+		{
+			"uuid": "c5ea0c2f-185b-48d6-b4df-45c386a575cc",
+			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
+			"previewRotation": [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+			"script": { "file": "$CONTENT_DATA/Scripts/tools/PotatoRifle.lua", "class": "PotatoRifle" }
+		},
+		{
+			"uuid": "f6250bf4-9726-406f-a29a-945c06e460e5",
+			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_frier_preview.rend",
+			"previewRotation": [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+			"script": { "file": "$CONTENT_DATA/Scripts/tools/PotatoShotgun.lua", "class": "PotatoShotgun" }
+		},
+		{
+			"uuid": "9fde0601-c2ba-4c70-8d5c-2a7a9fdd122b",
+			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_spinner_preview.rend",
+			"previewRotation": [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+			"script": { "file": "$CONTENT_DATA/Scripts/tools/PotatoGatling.lua", "class": "PotatoGatling" }
+		},
+		{
+			"uuid": "204ccb8b-14e7-44c4-b979-9b11c4269533",
+			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
+			"previewRotation": [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+			"script": { "file": "$CONTENT_DATA/Scripts/tools/GrenadeLauncher.lua", "class": "GrenadeLauncher" }
+		}
+		/*
+		,
+		{
+			"uuid": "bdfbb771-aa3d-479b-9010-13654cbc7c11",
+			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
+			"previewRotation": [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+			"script": { "file": "$CONTENT_DATA/Scripts/tools/Grenade_tool.lua", "class": "Grenade_tool" },
+			"autoTool": true
+		}
+		*/
+	]
+}

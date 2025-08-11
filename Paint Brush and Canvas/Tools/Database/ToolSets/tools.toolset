@@ -1,0 +1,15 @@
+{
+   "toolList" : [
+      {
+         "name" : "tool_brush",
+         "previewRenderable" : "$CONTENT_DATA/Tools/char_paint_brush.rend",
+         "previewRotation" : [ 1, 0, 0, 0, 1, 0, 0, 0, 1 ],
+         "script" : {
+            "class" : "Brush",
+            "data" : {},
+            "file" : "$CONTENT_DATA/Scripts/brush.lua"
+         },
+         "uuid" : "77016c66-bcf4-4383-a40b-830fdea3552d"
+      }
+   ]
+}

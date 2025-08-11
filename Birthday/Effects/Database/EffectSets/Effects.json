@@ -1,0 +1,31 @@
+{
+	"Cake - Music":{
+		"effectList":[
+			{
+				"type":"audio",
+				"name":"event:/char/npc/bots/confettibot"
+			},
+			{
+				"type": "particle",
+				"name": "p_challengemode_confetti",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0.0 }
+			},
+			{
+				"type": "particle",
+				"name": "p_woc_destroy_01",
+				"attached": false,
+				"delay": 0.05
+			},
+			{
+				"type": "audio",
+				"name": "event:/char/npc/woc/woc_confetti",
+				"delay": 0.0
+			},
+			{
+				"type": "audio",
+				"name": "event:/vehicle/horns/clownhorn",
+				"delay": 0.0
+			}
+		]
+	}
+}

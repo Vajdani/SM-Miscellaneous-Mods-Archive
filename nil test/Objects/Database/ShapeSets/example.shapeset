@@ -1,0 +1,62 @@
+{
+   // "partList" : [
+   //    {
+   //       "autoTool" : "68c81f27-f77a-4071-81f4-6b068ed8e211",
+   //       "box" : {
+   //          "x" : 1,
+   //          "y" : 1,
+   //          "z" : 1
+   //       },
+   //       "name" : "obj_nil_test",
+   //       "physicsMaterial" : "Default",
+   //       "renderable" : "$GAME_DATA/Character/Char_Tools/char_lift_preview.rend",
+   //       "rotationSet" : "Default",
+   //       "uuid" : "00000000-0000-0000-0000-000000000000"
+   //    }
+   // ],
+   // "blockList": [
+   //    {
+	// 		"uuid": "00000000-0000-0000-0000-000000000000",
+	// 		"name": "blk_wood1",
+	// 		"dif": "$GAME_DATA/Objects/Textures/Blocks/blk_woodplanks01_dif.tga",
+	// 		"asg": "$GAME_DATA/Objects/Textures/Blocks/blk_woodplanks01_asg.tga",
+	// 		"nor": "$GAME_DATA/Objects/Textures/Blocks/blk_woodplanks01_nor.tga",
+	// 		"tiling": 8,
+	// 		"color": "9b683a",
+	// 		"physicsMaterial": "Wood",
+	// 		"ratings": {
+	// 			"density": 2,
+	// 			"durability": 3,
+	// 			"friction": 5,
+	// 			"buoyancy": 6
+	// 		},
+	// 		"flammable": true
+	// 	}
+   // ],
+   // "wedgeList" : 
+	// [
+	// 	{
+	// 		"blockUuid" : "df953d9c-234f-4ac2-af5e-f0490b223e71",
+	// 		"color" : "9b683a",
+	// 		"flammable" : true,
+	// 		"frameSize" : 0.15,
+	// 		"material" : "DifAsgNorTiling",
+	// 		"name" : "wdg_wood1",
+	// 		"physicsMaterial" : "Wood",
+	// 		"ratings" : 
+	// 		{
+	// 			"buoyancy" : 6,
+	// 			"density" : 2,
+	// 			"durability" : 3,
+	// 			"friction" : 5
+	// 		},
+	// 		"textureList" : 
+	// 		[
+	// 			"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_wood_dif.tga",
+	// 			"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_wood_asg.tga",
+	// 			"$GAME_DATA/Objects/Textures/Blocks/blk_wedge_border_nor.tga"
+	// 		],
+	// 		"uuid" : "00000000-0000-0000-0000-000000000000"
+	// 	}
+   // ]
+}

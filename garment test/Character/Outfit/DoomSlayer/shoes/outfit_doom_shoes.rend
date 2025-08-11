@@ -1,0 +1,51 @@
+{
+	"lodList": [
+		{
+			"mesh": "$CONTENT_8e52eacc-c155-4db3-935a-e7973197a019/Character/Outfit/DoomSlayer/shoes/outfit_doom_shoes.dae",
+			"includes": [
+				"POSITION",
+				"UV0",
+				"NORMAL",
+				"TANGENTS",
+				"BLEND_INDICES",
+				"BLEND_WEIGHTS"
+			],
+			"subMeshMap": {
+				"boots": {
+					"material": "Dif",
+					"textureList": [
+						"$CONTENT_8e52eacc-c155-4db3-935a-e7973197a019/Character/Outfit/DoomSlayer/shoes/outfit_doom_shoes_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Male/Outfit/Shoes/Outfit_delivery_shoes/outfit_delivery_shoes_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Male/Outfit/Shoes/Outfit_delivery_shoes/outfit_delivery_shoes_nor.tga"
+					]
+				},
+				"default_body_male": {
+					"material": "Skin",
+					"textureList": [
+						"$SURVIVAL_DATA/Character/Char_Male/Body/Male/char_male_body_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Male/Body/Male/char_male_body_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Male/Body/Male/char_male_body_nor.tga",
+						"$SURVIVAL_DATA/Character/Char_Male/Body/Male/char_male_body_tkn.tga"
+					]
+				},
+				"DefaultMaterial": {
+					"material": "Dif",
+					"textureList": [
+						"$CONTENT_8e52eacc-c155-4db3-935a-e7973197a019/Character/Outfit/DoomSlayer/shoes/outfit_doom_shoes_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Male/Outfit/Shoes/Outfit_delivery_shoes/outfit_delivery_shoes_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Male/Outfit/Shoes/Outfit_delivery_shoes/outfit_delivery_shoes_nor.tga"
+					]
+				},
+				"default_body_male_cloth": {
+					"material": "DifAsgNor",
+					"textureList": [
+						"$SURVIVAL_DATA/Character/Char_Male/Body/Male/char_male_body_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_Male/Body/Male/char_male_body_asg.tga",
+						"$SURVIVAL_DATA/Character/Char_Male/Body/Male/char_male_body_nor.tga"
+					]
+				}
+			},
+			"maxViewDistance": 1000.0
+		}
+	]
+}

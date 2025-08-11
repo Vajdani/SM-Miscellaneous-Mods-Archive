@@ -1,0 +1,53 @@
+{
+   "partList" : [
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "ffffff",
+         "flammable" : false,
+         "name" : "grenade",
+         "physicsMaterial" : "Metal",
+         "ratings" : {
+            "buoyancy" : 5,
+            "density" : 1,
+            "durability" : 10,
+            "friction" : 10
+         },
+         "renderable" : {
+            "lodList" : [
+               {
+                  "mesh" : "$CONTENT_DATA/Objects/Mesh/grn_icebomb.fbx",
+                  "subMeshList" : [
+                     {
+                        "material" : "DifAsgNor",
+                        "textureList" : [
+                           "$CONTENT_DATA/Objects/Textures/gray.png",
+                           "$GAME_DATA/Textures/transparent.tga",
+                           "$GAME_DATA/Textures/nonor_nor.tga"
+                        ]
+                     }
+                  ]
+               }
+            ]
+         },
+         "restrictions" : {
+            "destructable" : false,
+            "erasable" : false,
+            "liftable" : false,
+            "paintable" : false
+         },
+         "rotationSet" : "PropY",
+         "scripted" : {
+            "classname" : "Grenade",
+            "data" : {},
+            "filename" : "$CONTENT_DATA/Scripts/interactables/Grenade.lua"
+         },
+         "showInInventory" : false,
+         "sticky" : "-X+X-Y+Y-Z",
+         "uuid" : "27231323-22b2-446b-b27f-7942c47cce46"
+      }
+   ]
+}

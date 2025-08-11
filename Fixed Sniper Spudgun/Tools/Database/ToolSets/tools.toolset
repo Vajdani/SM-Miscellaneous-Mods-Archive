@@ -1,0 +1,15 @@
+{
+   "toolList" : [
+        {
+            "name" : "Sniper Spudgun",
+            "previewRenderable" : "$CONTENT_DATA/Tools/char_spudgun_sniper_preview.rend",
+            "previewRotation" : [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+            "script" : {
+                "class" : "sniperspudgun",
+                "data" : {},
+                "file" : "$CONTENT_DATA/Scripts/sniperspudgun.lua"
+            },
+            "uuid" : "e202d6a5-6def-440f-aaa1-e2d890d1deed"
+        }
+    ]
+}

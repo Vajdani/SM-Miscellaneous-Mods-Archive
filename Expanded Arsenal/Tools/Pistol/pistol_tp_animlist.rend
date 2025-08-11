@@ -1,0 +1,39 @@
+{
+	"lodList": [
+		{
+			"mesh": "$GAME_DATA/Character/Char_Tools/Char_connecttool/Animations/ani_char_connecttool_position.dae",
+			"includes": [
+				"POSITION",
+				"UV0",
+				"NORMAL",
+				"TANGENTS",
+				"BLEND_INDICES",
+				"BLEND_WEIGHTS"
+			],
+			"animationList": [
+				//{ "name" : "connecttool_idle_flip",		"file" : "$GAME_DATA/Character/Char_Tools/Char_connecttool/Animations/ani_char_connecttool_fp_idle_flip.dae" },
+				{
+					"name": "connecttool_use_connect",
+					"file": "$GAME_DATA/Character/Char_Tools/Char_connecttool/Animations/ani_char_connecttool_use_connect.dae"
+				},
+				{
+					"name": "connecttool_use_idle",
+					"file": "$GAME_DATA/Character/Char_Tools/Char_connecttool/Animations/ani_char_connecttool_use_idle.dae"
+				},
+				{
+					"name": "connecttool_use_disconnect",
+					"file": "$GAME_DATA/Character/Char_Tools/Char_connecttool/Animations/ani_char_connecttool_use_disconnect.dae"
+				},
+				{
+					"name": "connecttool_shoot",
+					"file": "$CONTENT_DATA/Tools/Pistol/Animations/Model/pistol_shoot.dae"
+				},
+				{
+					"name": "connecttool_aim_shoot",
+					"file": "$CONTENT_DATA/Tools/Pistol/Animations/Model/pistol_shoot.dae"
+				}
+			],
+			"maxViewDistance": 1000.0
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+   "toolList": [
+      {
+         "name": "BlahajHolder",
+         "uuid": "5cc7fded-afa0-47f8-b76d-e394f03fa5e7",
+         "previewRenderable": "$SURVIVAL_DATA/Character/Char_Tools/char_carrytool_preview.rend",
+         "previewRotation": [
+            -1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+         ],
+         "script": {
+            "file": "$CONTENT_DATA/Scripts/BlahajHolder.lua",
+            "class": "BlahajHolder",
+            "data": {}
+         },
+         "autoTool": true
+      }
+   ]
+}

@@ -1,0 +1,8 @@
+{
+	"assetSetList": [
+		{
+			"categories": ["Example"],
+			"assetSet": "$CONTENT_DATA/Terrain/Database/AssetSets/example.json"
+		}
+	]
+}

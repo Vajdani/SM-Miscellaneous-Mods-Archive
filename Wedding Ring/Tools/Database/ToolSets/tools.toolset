@@ -1,0 +1,16 @@
+{
+   "toolList" : [
+      {
+         "autoTool" : true,
+         "name" : "RingManager",
+         "previewRenderable" : "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
+         "previewRotation" : [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+         "script" : {
+            "class" : "RingManager",
+            "data" : {},
+            "file" : "$CONTENT_DATA/Scripts/RingManager.lua"
+         },
+         "uuid" : "dbd7dde1-1ea4-4704-83fa-18a909ea7d80"
+      }
+   ]
+}

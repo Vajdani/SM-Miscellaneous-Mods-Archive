@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" position_real="0 0 0.260417 0.694444" name="BackPanel">
+        <Widget type="Widget" skin="BeaconBG" position_real="0.02 0.0133333 0.96 0.973333">
+            <Widget type="TextBox" skin="TextBox" position_real="0.1875 0 0.625 0.164384">
+                <Property key="FontName" value="SM_HeaderLarge_Wide"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="Caption" value="Skin Adjustment Menu"/>
+                <Property key="FontHeight" value="25"/>
+            </Widget>
+            <Widget type="Button" skin="DressbotArrowLeft" position_real="0.104167 0.230137 0.104167 0.0684932" name="skinBaseDec"/>
+            <Widget type="Button" skin="DressbotArrowRight" position_real="0.791667 0.230137 0.104167 0.0684932" name="skinBaseInc"/>
+            <Widget type="TextBox" skin="TextBox" position_real="0.34375 0.219178 0.3125 0.0890411" name="skinBase">
+                <Property key="Caption" value="abcd"/>
+                <Property key="FontHeight" value="25"/>
+                <Property key="FontName" value="InventoryItemTitle"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="TextColour" value="#ff9d00"/>
+            </Widget>
+            <Widget type="Button" skin="DressbotArrowLeft" position_real="0.104167 0.367123 0.104167 0.0684932" name="skinStockDec"/>
+            <Widget type="Button" skin="DressbotArrowRight" position_real="0.791667 0.367123 0.104167 0.0684932" name="skinStockInc"/>
+            <Widget type="TextBox" skin="TextBox" position_real="0.34375 0.356164 0.3125 0.0890411" name="skinStock">
+                <Property key="Caption" value="abcd"/>
+                <Property key="FontHeight" value="25"/>
+                <Property key="FontName" value="InventoryItemTitle"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="TextColour" value="#ff9d00"/>
+            </Widget>
+            <Widget type="Button" skin="DressbotArrowLeft" position_real="0.104167 0.50411 0.104167 0.0684932" name="skinTankDec"/>
+            <Widget type="Button" skin="DressbotArrowRight" position_real="0.791667 0.50411 0.104167 0.0684932" name="skinTankInc"/>
+            <Widget type="TextBox" skin="TextBox" position_real="0.34375 0.493151 0.3125 0.0890411" name="skinTank">
+                <Property key="Caption" value="abcd"/>
+                <Property key="FontHeight" value="25"/>
+                <Property key="FontName" value="InventoryItemTitle"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="TextColour" value="#ff9d00"/>
+            </Widget>
+            <Widget type="Button" skin="DressbotArrowLeft" position_real="0.104167 0.641096 0.104167 0.0684932" name="skinSightDec"/>
+            <Widget type="Button" skin="DressbotArrowRight" position_real="0.791667 0.641096 0.104167 0.0684932" name="skinSightInc"/>
+            <Widget type="TextBox" skin="TextBox" position_real="0.34375 0.630137 0.3125 0.0890411" name="skinSight">
+                <Property key="Caption" value="abcd"/>
+                <Property key="FontHeight" value="25"/>
+                <Property key="FontName" value="InventoryItemTitle"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="TextColour" value="#ff9d00"/>
+            </Widget>
+            <Widget type="Button" skin="DressbotArrowLeft" position_real="0.104167 0.778082 0.104167 0.0684932" name="skinBarrelDec"/>
+            <Widget type="Button" skin="DressbotArrowRight" position_real="0.791667 0.778082 0.104167 0.0684932" name="skinBarrelInc"/>
+            <Widget type="TextBox" skin="TextBox" position_real="0.34375 0.767123 0.3125 0.0890411" name="skinBarrel">
+                <Property key="Caption" value="abcd"/>
+                <Property key="FontHeight" value="25"/>
+                <Property key="FontName" value="InventoryItemTitle"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="TextColour" value="#ff9d00"/>
+            </Widget>
+        </Widget>
+    </Widget>
+</MyGUI>

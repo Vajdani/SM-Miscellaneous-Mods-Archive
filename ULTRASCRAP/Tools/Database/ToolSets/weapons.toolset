@@ -1,0 +1,41 @@
+{
+   "toolList" : [
+		{
+			"name" : "Revolver",
+			"previewRenderable" : "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
+			"previewRotation" : [ -1, 0, 0, 0, 0, 1, 0, 1, 0 ],
+			"script" : {
+				"class" : "Revolver",
+				"file" : "$CONTENT_DATA/Scripts/weapons/Revolver.lua",
+				"data" : {}
+			},
+			"uuid" : "1ef28adb-6be9-411b-84f9-dbd9098330ca"
+		},
+		{
+			"name" : "Shotgun",
+			"previewRenderable" : "$GAME_DATA/Character/Char_Tools/char_spudgun_frier_preview.rend",
+			"previewRotation" : [ -1, 0, 0, 0, 0, 1, 0, 1, 0 ],
+			"script" : {
+				"class" : "Shotgun",
+				"file" : "$CONTENT_DATA/Scripts/weapons/Shotgun.lua",
+				"data" : {}
+			},
+			"uuid" : "5b9298ca-3ad7-453d-8690-76efde11792b"
+		},
+		
+		
+		
+		{
+			"name" : "movement_dir_register",
+			"previewRenderable" : "$GAME_DATA/Character/Char_Tools/char_spudgun_frier_preview.rend",
+			"previewRotation" : [ -1, 0, 0, 0, 0, 1, 0, 1, 0 ],
+			"script" : {
+				"class" : "Movement_Dir_Register",
+				"file" : "$CONTENT_DATA/Scripts/weapons/Movement_Dir_Register.lua",
+				"data" : {}
+			},
+			"uuid" : "1854ade4-cdc8-422e-b0b4-14373bf63f3f",
+			"autoTool": true
+		}
+   ]
+}

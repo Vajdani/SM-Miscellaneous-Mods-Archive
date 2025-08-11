@@ -1,0 +1,25 @@
+{
+   "blockList" : 
+   [
+		{
+			"uuid": "bf9b685f-fb9d-4424-9a2f-13e83106b7c9",
+			"dif": "$MOD_DATA/Objects/Textures/amogus_twerk2.png",
+			"asg": "$GAME_DATA/Textures/transparent.tga",
+			"nor": "$GAME_DATA/Textures/nonor_nor.tga",
+			"color": "DF7F00",
+			"density": 250,
+			"tiling": 2,
+			"physicsMaterial": "plastic"
+		},		
+		{
+			"uuid": "3c8ad8df-95f0-4f96-811b-3b06b86ef374",
+			"dif": "$MOD_DATA/Objects/Textures/amogus_twerk.png",
+			"asg": "$GAME_DATA/Textures/transparent.tga",
+			"nor": "$GAME_DATA/Textures/nonor_nor.tga",
+			"color": "DF7F00",
+			"density": 250,
+			"tiling": 2,
+			"physicsMaterial": "plastic"
+		}
+   ]
+}

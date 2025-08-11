@@ -1,0 +1,7 @@
+{
+   "description" : "Adds wheels that have frictions from 1-4 and 6-10. Vanilla wheels have 5 friction, I dont think I should add the same two parts again.\n\nFriction values are indicated by the numbers on the wheels' center, coloured the same as the wheel. Wheels that dont have numbers on them are vanilla wheels and have 5 friction.",
+   "localId" : "8201da0d-78e8-49c4-ad4d-4f2694db491c",
+   "name" : "Wheels with almost all frictions(1-4, 6-10)",
+   "type" : "Blocks and Parts",
+   "version" : 0
+}

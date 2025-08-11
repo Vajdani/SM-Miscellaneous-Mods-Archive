@@ -1,0 +1,66 @@
+{
+	"lodList": [
+		{
+			"mesh": "$GAME_DATA/Character/Char_Male/Animations/Animationrefs/aniref_char_male_tpose.dae",
+			"includes": [
+				"POSITION",
+				"UV0",
+				"NORMAL",
+				"TANGENTS",
+				"BLEND_INDICES",
+				"BLEND_WEIGHTS"
+			],
+			"animationList": [
+				{
+					"name": "spudsniper_idle",
+					"file": "$CONTENT_DATA/Tools/Sniper/Animations/Player/FP/ani_char_male_fp_spudgun_normal_idle.dae"
+				},
+				{
+					"name": "spudsniper_shoot",
+					"file": "$CONTENT_DATA/Tools/Sniper/Animations/Player/FP/ani_char_male_fp_spudgun_normal_shoot.dae"
+				},
+				{
+					"name": "spudsniper_pickup",
+					"file": "$CONTENT_DATA/Tools/Sniper/Animations/Player/FP/ani_char_male_fp_spudgun_normal_pickup.dae"
+				},
+				{
+					"name": "spudsniper_putdown",
+					"file": "$CONTENT_DATA/Tools/Sniper/Animations/Player/FP/ani_char_male_fp_spudgun_normal_putdown.dae"
+				},
+				{
+					"name": "spudsniper_sprint_into",
+					"file": "$CONTENT_DATA/Tools/Sniper/Animations/Player/FP/ani_char_male_fp_spudgun_sprint_into.dae"
+				},
+				{
+					"name": "spudsniper_sprint_exit",
+					"file": "$CONTENT_DATA/Tools/Sniper/Animations/Player/FP/ani_char_male_fp_spudgun_sprint_exit.dae"
+				},
+				{
+					"name": "spudsniper_sprint_idle",
+					"file": "$CONTENT_DATA/Tools/Sniper/Animations/Player/FP/ani_char_male_fp_spudgun_sprint_idle.dae"
+				},
+				{
+					"name": "spudsniper_aim_into",
+					"file": "$CONTENT_DATA/Tools/Sniper/Animations/Player/FP/ani_char_male_fp_spudgun_aim_into.dae"
+				},
+				{
+					"name": "spudsniper_aim_exit",
+					"file": "$CONTENT_DATA/Tools/Sniper/Animations/Player/FP/ani_char_male_fp_spudgun_aim_exit.dae"
+				},
+				{
+					"name": "spudsniper_aim_shoot",
+					"file": "$CONTENT_DATA/Tools/Sniper/Animations/Player/FP/ani_char_male_fp_spudgun_aim_shoot.dae"
+				},
+				{
+					"name": "spudsniper_aim_idle",
+					"file": "$CONTENT_DATA/Tools/Sniper/Animations/Player/FP/ani_char_male_fp_spudgun_aim_idle.dae"
+				},
+				{
+					"name": "spudgun_reload",
+					"file": "$GAME_DATA/Character/Char_Male/Animations/Thirdperson/Spudgun/ani_char_male_spudgun_reload.dae"
+				}
+			],
+			"maxViewDistance": 1000.0
+		}
+	]
+}

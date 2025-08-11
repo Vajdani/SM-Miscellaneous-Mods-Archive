@@ -1,0 +1,89 @@
+{
+	"lodList": [
+		{
+			"animationList": [
+				{
+					"name": "connecttool_idle",
+					"file": "$GAME_DATA/Character/Char_Male/Animations/Firstperson/Connecttool/ani_char_male_fp_connecttool_idle.dae"
+				},
+				{
+					"name": "connecttool_idle_flip",
+					"file": "$GAME_DATA/Character/Char_Male/Animations/Firstperson/Connecttool/ani_char_male_fp_connecttool_idle_flip.dae"
+				},
+				{
+					"name": "connecttool_use_idle",
+					"file": "$GAME_DATA/Character/Char_Male/Animations/Firstperson/Connecttool/ani_char_male_fp_connecttool_use_idle.dae"
+				},
+				{
+					"name": "connecttool_use_connect",
+					"file": "$GAME_DATA/Character/Char_Male/Animations/Firstperson/Connecttool/ani_char_male_fp_connecttool_use_connect.dae"
+				},
+				{
+					"name": "connecttool_use_disconnect",
+					"file": "$GAME_DATA/Character/Char_Male/Animations/Firstperson/Connecttool/ani_char_male_fp_connecttool_use_disconnect.dae"
+				},
+				{
+					"name": "connecttool_pickup",
+					"file": "$GAME_DATA/Character/Char_Male/Animations/Firstperson/Connecttool/ani_char_male_fp_connecttool_pickup.dae"
+				},
+				{
+					"name": "connecttool_putdown",
+					"file": "$GAME_DATA/Character/Char_Male/Animations/Firstperson/Connecttool/ani_char_male_fp_connecttool_putdown.dae"
+				},
+				{
+					"name": "connecttool_sprint_into",
+					"file": "$GAME_DATA/Character/Char_Male/Animations/Firstperson/Connecttool/ani_char_male_fp_connecttool_sprint_into.dae"
+				},
+				{
+					"name": "connecttool_sprint_exit",
+					"file": "$GAME_DATA/Character/Char_Male/Animations/Firstperson/Connecttool/ani_char_male_fp_connecttool_sprint_exit.dae"
+				},
+				{
+					"name": "connecttool_sprint_idle",
+					"file": "$GAME_DATA/Character/Char_Male/Animations/Firstperson/Connecttool/ani_char_male_fp_connecttool_sprint_idle.dae"
+				},
+				{
+					"name": "connecttool_rotate_in",
+					"file": "$GAME_DATA/Character/Char_Male/Animations/Firstperson/Connecttool/ani_char_male_fp_connecttool_rotate_in.dae"
+				},
+				{
+					"name": "connecttool_rotate_out",
+					"file": "$GAME_DATA/Character/Char_Male/Animations/Firstperson/Connecttool/ani_char_male_fp_connecttool_rotate_out.dae"
+				},
+				{
+					"name": "connecttool_rotate_right",
+					"file": "$GAME_DATA/Character/Char_Male/Animations/Firstperson/Connecttool/ani_char_male_fp_connecttool_rotate_right.dae"
+				},
+				{
+					"name": "connecttool_rotate_left",
+					"file": "$GAME_DATA/Character/Char_Male/Animations/Firstperson/Connecttool/ani_char_male_fp_connecttool_rotate_left.dae"
+				},
+				{
+					"name": "connecttool_shoot",
+					"file": "$CONTENT_DATA/Tools/Pistol/Animations/Player/pistol_shoot_fp.dae"
+				},
+				{
+					"name": "connecttool_aim_into",
+					"file": "$GAME_DATA/Character/Char_Male/Animations/Firstperson/Spudgun/ani_char_male_fp_spudgun_aim_into.dae"
+				},
+				{
+					"name": "connecttool_aim_exit",
+					"file": "$GAME_DATA/Character/Char_Male/Animations/Firstperson/Spudgun/ani_char_male_fp_spudgun_aim_exit.dae"
+				},
+				{
+					"name": "connecttool_aim_shoot",
+					"file": "$GAME_DATA/Character/Char_Male/Animations/Firstperson/Spudgun/ani_char_male_fp_spudgun_aim_shoot.dae"
+				},
+				{
+					"name": "connecttool_aim_idle",
+					"file": "$GAME_DATA/Character/Char_Male/Animations/Firstperson/Spudgun/ani_char_male_fp_spudgun_aim_idle.dae"
+				},
+				{
+					"name": "connecttool_reload",
+					"file": "$CONTENT_DATA/Tools/Pistol/Animations/Player/pistol_reload_fp.dae"
+				}
+			],
+			"maxViewDistance": 1000.0
+		}
+	]
+}

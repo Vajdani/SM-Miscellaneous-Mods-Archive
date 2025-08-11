@@ -1,0 +1,66 @@
+{
+	"lodList": [
+		{
+			"mesh": "$CONTENT_8e52eacc-c155-4db3-935a-e7973197a019/Character/Outfit/DoomSlayer/jacket/outfit_doom_jacket.dae",
+			"includes": [
+				"POSITION",
+				"UV0",
+				"NORMAL",
+				"TANGENTS",
+				"BLEND_INDICES",
+				"BLEND_WEIGHTS"
+			],
+			"subMeshMap": {
+				"armor": {
+					"material": "Dif",
+					"textureList": [
+						"$CONTENT_8e52eacc-c155-4db3-935a-e7973197a019/Character/Outfit/DoomSlayer/jacket/outfit_doom_jacket_dif.tga",
+						"",
+						""
+					]
+				},
+				"doomslayer_1p_knife": {
+					"material": "Dif",
+					"textureList": [
+						"$CONTENT_8e52eacc-c155-4db3-935a-e7973197a019/Character/Outfit/DoomSlayer/jacket/outfit_doom_jacket_knife.png",
+						"",
+						""
+					]
+				},
+				"equipmentlauncher_mods_base": {
+					"material": "Dif",
+					"textureList": [
+						"$CONTENT_8e52eacc-c155-4db3-935a-e7973197a019/Character/Outfit/DoomSlayer/jacket/equipmentlauncher_mods_base.png",
+						"",
+						""
+					]
+				},
+				"equipmentlauncher_mods": {
+					"material": "Dif",
+					"textureList": [
+						"$CONTENT_8e52eacc-c155-4db3-935a-e7973197a019/Character/Outfit/DoomSlayer/jacket/equipmentlauncher_mods.png",
+						"",
+						""
+					]
+				},
+				"doomslayer_launcher": {
+					"material": "Dif",
+					"textureList": [
+						"$CONTENT_8e52eacc-c155-4db3-935a-e7973197a019/Character/Outfit/DoomSlayer/jacket/outfit_doom_jacket_launcher.png",
+						"",
+						""
+					]
+				},
+				"DefaultMaterial": {
+					"material": "Skin",
+					"textureList": [
+						"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_banana_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_banana_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/plantables/obj_plantables_banana_nor.tga"
+					]
+				}
+			},
+			"maxViewDistance": 1000.0
+		}
+	]
+}

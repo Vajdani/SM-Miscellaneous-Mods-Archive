@@ -1,0 +1,23 @@
+{
+   "lodList" : [
+      {
+         "mesh" : "$CONTENT_DATA/Objects/Mesh/obj_tutorial_referenceblockasg_01.fbx",
+         "subMeshList" : [
+            {
+               "custom" : {
+                  "uv0" : {
+                     "u" : 0.00097656250,
+                     "v" : 0.00097656250
+                  }
+               },
+               "material" : "UVAnimDifAsgNor",
+               "textureList" : [
+                  "$CONTENT_DATA/Objects/Textures/obj_tutorial_referenceblockasg_dif.tga",
+                  "$CONTENT_DATA/Objects/Textures/obj_tutorial_referenceblockasg_asg.tga",
+                  "$GAME_DATA/Textures/Default/default_nor.tga"
+               ]
+            }
+         ]
+      }
+   ]
+}

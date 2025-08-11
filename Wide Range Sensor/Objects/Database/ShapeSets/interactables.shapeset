@@ -1,0 +1,29 @@
+{
+   "partList" : [
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "df7f01",
+         "flammable" : false,
+         "name" : "obj_wide_range_sensor",
+         "physicsMaterial" : "Plastic",
+         "ratings" : {
+            "buoyancy" : 2,
+            "density" : 3,
+            "durability" : 7,
+            "friction" : 5
+         },
+         "renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive_upgradeable/obj_interactiveupgradeable_sensor05.rend",
+         "rotationSet" : "PropZY",
+         "scripted" : {
+            "classname" : "WideSensor",
+            "filename" : "$CONTENT_DATA/Scripts/WideRangeSensor.lua"
+         },
+         "sticky" : "+Y-Y-Z+X-X",
+         "uuid" : "ae5bcbc7-b3fe-453e-ad71-131f4b120f3a"
+      }
+   ]
+}

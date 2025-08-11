@@ -1,0 +1,14 @@
+{
+   "toolList" : [
+      {
+         "name" : "my tool",
+         "previewRenderable" : "$GAME_DATA/Character/Char_Tools/char_lift_preview.rend",
+         "script" : {
+            "class" : "MyTool",
+            "data" : {},
+            "file" : "$CONTENT_DATA/Scripts/MyTool.lua"
+         },
+         "uuid" : "f5769208-db85-4c51-922c-546d029271a5"
+      }
+   ]
+}

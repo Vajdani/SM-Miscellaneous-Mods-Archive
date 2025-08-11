@@ -1,0 +1,6 @@
+{
+    "0e1b7e7b-031b-4e66-be0b-c2ccb60cdba2": {
+        "title": "Wordle",
+        "description": "Wordle in Scrap Mechanic!\n\nThe rules are simple: You have 6 tries to guess a 5 letter word.\nThe letters can be highlighted in 3 colours:\n-#00ff00Green#919191: The letter is in the word, and in the right place\n-#ffff00Yellow#919191: The letter is in the word, but not in the right place\n-Grey: The letter is not in the word"
+    }
+}

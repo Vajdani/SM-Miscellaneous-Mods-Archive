@@ -1,0 +1,8 @@
+{
+   "description" : "[h1]The mod is for 0.5.1, probably doesnt work well on 0.6.x[/h1]\r\n\r\nAdds sliding to all game modes!\r\nJust press a directional key and crouch, its that easy.\r\n*explosive tape firing spudgun not included\r\n\r\n[h1]Installation[/h1]\r\n[list]\r\n[*]Copy the Survival, Creative and ChallengeData folders from Your Drive:\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\387990\\2686500371\r\n[*]Paste them in Your Drive:\\Program Files (x86)\\Steam\\steamapps\\Scrap Mechanic\r\n[*]Overwrite all files\r\n[*]Enjoy!\r\n[/list]\r\n\r\ngod I hope this works in multiplayer lmfao",
+   "fileId" : 2686500371.0,
+   "localId" : "4b11d258-c80b-4053-9995-ef7633fe7af8",
+   "name" : "Sliding!",
+   "type" : "Blocks and Parts",
+   "version" : 0.0
+}

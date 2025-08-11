@@ -1,0 +1,7 @@
+{
+	"c804d559-a4ac-44e2-a703-4dd709c4db14":
+	{
+		"title": "Teleporter",
+		"description": "Teleports everything that enters a specific area around the part to a given position."
+	}
+}

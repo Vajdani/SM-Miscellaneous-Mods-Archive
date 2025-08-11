@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="ImageBox" skin="ImageBox" position_real="0.19375000000000001 0.88611111111111107 0.011458333333333333 0.092592592592592587" name="IndicatorPanel">
+        <Property key="ImageTexture" value="gui_inventory_background_page_indicator.png"/>
+        <Property key="Visible" value="true"/>
+        <Widget type="Button" skin="PageArrowUp" position_real="0.31818181818181818 0.080000000000000002 0.36363636363636365 0.080000000000000002" name="PrevHotbar"/>
+        <Widget type="Button" skin="PageArrowDown" position_real="0.31818181818181818 0.83999999999999997 0.36363636363636365 0.080000000000000002" name="NextHotbar"/>
+        <Widget type="Button" skin="PageIndicator" position_real="0.22727272727272727 0.29999999999999999 0.54545454545454541 0.12" name="Hotbar_1">
+            <Property key="StateSelected" value="true"/>
+        </Widget>
+        <Widget type="Button" skin="PageIndicator" position_real="0.22727272727272727 0.46000000000000002 0.54545454545454541 0.12" name="Hotbar_2"/>
+        <Widget type="Button" skin="PageIndicator" position_real="0.22727272727272727 0.62 0.54545454545454541 0.12" name="Hotbar_3"/>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

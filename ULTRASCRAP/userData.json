@@ -1,0 +1,36 @@
+{
+    "weapons": {
+        "revolver": {
+            "owned": true,
+            "alternate_owned": false,
+            "mods": {
+                "piercer": {
+                    "owned": true,
+                    "equipped": true,
+                    "alternate_active": false
+                },
+                "marksman": {
+                    "owned": true,
+                    "equipped": true,
+                    "alternate_active": false
+                }
+            }
+        },
+        "shotgun": {
+            "owned": true,
+            "alternate_owned": false,
+            "mods": {
+                "core": {
+                    "owned": true,
+                    "equipped": true,
+                    "alternate_active": false
+                },
+                "pump": {
+                    "owned": true,
+                    "equipped": true,
+                    "alternate_active": false
+                }
+            }
+        }
+    }
+}

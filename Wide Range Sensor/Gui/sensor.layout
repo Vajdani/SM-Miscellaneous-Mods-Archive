@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" name="ContentPanel" position_real="0.3385416666666667 0.23148148148148148 0.3541666666666667 0.5370370370370371">
+        <Property key="NeedKey" value="false"/>
+        <Property key="NeedMouse" value="true"/>
+        <Property key="InheritsAlpha" value="false"/>
+        <Property key="Visible" value="false"/>
+        <Widget type="Widget" skin="BackgroundSensorNoUpgrade" name="NoUpgradeBackground" position_real="0 -0.0017241379310344827 1 0.9827586206896551">
+            <Widget type="TextBox" skin="TextBox" position_real="0.7941176470588235 0.6929824561403509 0.14705882352941177 0.10526315789473684">
+                <Property key="Caption" value="Vision Angle"/>
+                <Property key="FontName" value="SM_TextLabel"/>
+                <Property key="TextAlign" value="Center"/>
+            </Widget>
+            <Widget type="Canvas" skin="LiftInput" position_real="0.7941176470588235 0.7894736842105263 0.14705882352941177 0.07017543859649122">
+                <Widget type="EditBox" skin="EditBoxEmpty" name="angleInput" position_real="0.05 0.125 0.9 0.75">
+                    <Property key="TextAlign" value="Center"/>
+                    <Property key="FontName" value="SM_TextLabel"/>
+                    <Property key="Caption" value="90"/>
+                </Widget>
+            </Widget>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="Name" position_real="0 0.07758620689655173 1 0.06896551724137931">
+            <Property key="Caption" value="#{CONTROLLER_SENSOR_TITLE}"/>
+            <Property key="FontName" value="SM_HeaderLarge_Wide"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="ImageBox" skin="ImageBox" name="Icon" position_real="0.4117647058823529 0.23275862068965517 0.17647058823529413 0.20689655172413793"/>
+        <Widget type="TextBox" skin="TextBox" name="SubTitle" position_real="0 0.16379310344827586 1 0.05172413793103448">
+            <Property key="TextAlign" value="Center"/>
+            <Property key="TextColour" value="1 0.803922 0.247059"/>
+            <Property key="FontName" value="SM_SubHeader"/>
+            <Property key="Caption" value="#{LEVEL} 12345"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.058823529411764705 0.4396551724137931 0.4411764705882353 0.10344827586206896">
+            <Property key="Caption" value="#{CONTROLLER_PISTON_RANGE}"/>
+            <Property key="TextAlign" value="Left VCenter"/>
+            <Property key="FontName" value="SM_TextLabel"/>
+        </Widget>
+        <Widget type="Widget" skin="PanelEmpty" name="RangeSlider" position_real="0.058823529411764705 0.5431034482758621 0.8823529411764706 0.13793103448275862"/>
+        <Widget type="TextBox" skin="TextBox" position_real="0.058823529411764705 0.6810344827586207 0.14705882352941177 0.10344827586206896">
+            <Property key="Caption" value="#{CONTROLLER_SENSOR_MODE}"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="FontName" value="SM_TextLabel"/>
+        </Widget>
+        <Widget type="Button" skin="SettingsButton" name="ModeToggle" position_real="0.058823529411764705 0.7689655172413793 0.14705882352941177 0.08620689655172414">
+            <Property key="Caption" value="#{CONTROLLER_SENSOR_MODE_SWITCH}"/>
+            <Property key="FontName" value="SM_ButtonSmall"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" position_real="0.22058823529411764 0.6810344827586207 0.14705882352941177 0.10344827586206896">
+            <Property key="Caption" value="#{CONTROLLER_SENSOR_SOUND}"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="FontName" value="SM_TextLabel"/>
+        </Widget>
+        <Widget type="Button" skin="SettingsButton" name="SoundToggle" position_real="0.22058823529411764 0.7672413793103449 0.14705882352941177 0.08620689655172414">
+            <Property key="Caption" value="#{ON}"/>
+            <Property key="FontName" value="SM_ButtonSmall"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="TextBox" skin="TextBox" name="ColorModeText" position_real="0.6323529411764706 0.6810344827586207 0.14705882352941177 0.10344827586206896">
+            <Property key="Caption" value="#{CONTROLLER_SENSOR_COLOR}"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="FontName" value="SM_TextLabel"/>
+        </Widget>
+        <Widget type="Button" skin="SettingsButton" name="ColorToggle" position_real="0.625 0.7672413793103449 0.08823529411764706 0.08620689655172414">
+            <Property key="Caption" value="#{ON}"/>
+            <Property key="FontName" value="SM_ButtonSmall"/>
+            <Property key="TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="Button" skin="GenderButton" name="ColorHolder" position_real="0.7205882352941176 0.7758620689655172 0.058823529411764705 0.06896551724137931">
+            <Widget type="ImageBox" skin="BeaconIconColor" name="ColorHolder_icon" position_real="0.125 0.125 0.75 0.75">
+                <Property key="NeedKey" value="false"/>
+                <Property key="NeedMouse" value="false"/>
+                <Property key="Colour" value="1 1 1"/>
+            </Widget>
+        </Widget>
+    </Widget>
+    <Widget type="Widget" skin="BackgroundSensorColorSelect" name="ColorSelectPanel" position_real="0.703125 0.23148148148148148 0.15625 0.5277777777777778">
+        <Property key="Visible" value="false"/>
+        <Widget type="TextBox" skin="TextBox" position_real="0 0.07192982456140351 1 0.0824561403508772">
+            <Property key="Caption" value="#{CONTROLLER_SENSOR_COLOR_PICKER_TITLE_1}\n#{CONTROLLER_SENSOR_COLOR_PICKER_TITLE_2}"/>
+            <Property key="TextAlign" value="Center"/>
+            <Property key="FontName" value="SM_SubHeader"/>
+            <Property key="TextColour" value="1 1 1"/>
+            <Property key="NeedMouse" value="false"/>
+        </Widget>
+        <Widget type="ItemBox" skin="InventoryItemBox2" name="ColorList" position_real="0.08 0.23508771929824562 0.84 0.7035087719298245">
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_1" position_real="0.01984126984126984 0.012468827930174564 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_1_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_2" position_real="0.21825396825396826 0.012468827930174564 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_2_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_3" position_real="0.4166666666666667 0.012468827930174564 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_3_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_4" position_real="0.6150793650793651 0.012468827930174564 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_4_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_5" position_real="0.8134920634920635 0.012468827930174564 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_5_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_6" position_real="0.01984126984126984 0.1371571072319202 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_6_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_7" position_real="0.21825396825396826 0.1371571072319202 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_7_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_8" position_real="0.4166666666666667 0.1371571072319202 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_8_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_9" position_real="0.6150793650793651 0.1371571072319202 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_9_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_10" position_real="0.8134920634920635 0.1371571072319202 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_10_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_11" position_real="0.01984126984126984 0.26184538653366585 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_11_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_12" position_real="0.21825396825396826 0.26184538653366585 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_12_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_13" position_real="0.4166666666666667 0.26184538653366585 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_13_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_14" position_real="0.6150793650793651 0.26184538653366585 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_14_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_15" position_real="0.8134920634920635 0.26184538653366585 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_15_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_16" position_real="0.01984126984126984 0.3865336658354115 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_16_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_17" position_real="0.21825396825396826 0.3865336658354115 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_17_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_18" position_real="0.4166666666666667 0.3865336658354115 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_18_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_19" position_real="0.6150793650793651 0.3865336658354115 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_19_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_20" position_real="0.8134920634920635 0.3865336658354115 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_20_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_21" position_real="0.01984126984126984 0.5112219451371571 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_21_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_22" position_real="0.21825396825396826 0.5112219451371571 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_22_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_23" position_real="0.4166666666666667 0.5112219451371571 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_23_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_24" position_real="0.6150793650793651 0.5112219451371571 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_24_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_25" position_real="0.8134920634920635 0.5112219451371571 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_25_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_26" position_real="0.01984126984126984 0.6359102244389028 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_26_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_27" position_real="0.21825396825396826 0.6359102244389028 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_27_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_28" position_real="0.4166666666666667 0.6359102244389028 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_28_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_29" position_real="0.6150793650793651 0.6359102244389028 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_29_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_30" position_real="0.8134920634920635 0.6359102244389028 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_30_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_31" position_real="0.01984126984126984 0.7605985037406484 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_31_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_32" position_real="0.21825396825396826 0.7605985037406484 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_32_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_33" position_real="0.4166666666666667 0.7605985037406484 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_33_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_34" position_real="0.6150793650793651 0.7605985037406484 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_34_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_35" position_real="0.8134920634920635 0.7605985037406484 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_35_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_36" position_real="0.01984126984126984 0.885286783042394 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_36_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_37" position_real="0.21825396825396826 0.885286783042394 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_37_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_38" position_real="0.4166666666666667 0.885286783042394 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_38_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_39" position_real="0.6150793650793651 0.885286783042394 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_39_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" name="ColorBtn_40" position_real="0.8134920634920635 0.885286783042394 0.15873015873015872 0.09975062344139651">
+                <Widget type="ImageBox" skin="BeaconIconColor" name="ColorBtn_40_icon" position_real="0.125 0.125 0.75 0.75">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                    <Property key="Colour" value="1 1 1"/>
+                </Widget>
+            </Widget>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

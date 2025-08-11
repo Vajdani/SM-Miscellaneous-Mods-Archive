@@ -1,0 +1,18 @@
+{
+   "assetListRenderable" : [
+      {
+         "col" : "$CONTENT_DATA/Terrain/Collision/env_racetrack_90degreesteep_col.obj",
+         "defaultColors" : {
+            "concrete" : "2e2e2e",
+            "racetrack" : "bc2020"
+         },
+         "name" : "env_racetrack_90_degree_steep",
+         "physics" : {
+            "mass" : 10000.0,
+            "material" : "Plastic"
+         },
+         "renderable" : "$CONTENT_DATA/Terrain/Renderables/example.rend",
+         "uuid" : "7b4e1d4d-926d-4b25-b414-77a553ba30e6"
+      }
+   ]
+}

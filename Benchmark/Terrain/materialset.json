@@ -1,0 +1,64 @@
+{
+	"groundMaterials": 
+	{
+		"width" : 1024,
+		"height" : 1024,
+		"textures":
+		[
+			{
+				"name": "Concrete", 
+				"diffuse": "$CONTENT_DATA/Terrain/transparent.tga",
+				"asgMap": "$CONTENT_DATA/Terrain/reflective.tga",
+				"normalMap": "$CONTENT_DATA/Terrain/default_nor.tga"
+			},
+			{
+				"name": "Sand",
+				"diffuse": "$GAME_DATA/Terrain/Textures/Ground/gnd_1_dif.tga",
+				"asgMap": "$GAME_DATA/Terrain/Textures/Ground/gnd_1_asg.tga",
+				"normalMap": "$GAME_DATA/Terrain/Textures/Ground/gnd_1_nor.tga"
+			},
+			{
+				"name": "Stone",
+				"diffuse": "$GAME_DATA/Terrain/Textures/Ground/gnd_2_dif.tga",
+				"asgMap": "$GAME_DATA/Terrain/Textures/Ground/gnd_2_asg.tga",
+				"normalMap": "$GAME_DATA/Terrain/Textures/Ground/gnd_2_nor.tga"
+			},
+			{
+				"name": "Dirt",
+				"diffuse": "$GAME_DATA/Terrain/Textures/Ground/gnd_3_dif.tga",
+				"asgMap": "$GAME_DATA/Terrain/Textures/Ground/gnd_3_asg.tga",
+				"normalMap": "$GAME_DATA/Terrain/Textures/Ground/gnd_3_nor.tga"
+			},
+			{
+				"name": "Weeds",
+				"diffuse": "$GAME_DATA/Terrain/Textures/Ground/gnd_4_dif.tga",
+				"asgMap": "$GAME_DATA/Terrain/Textures/Ground/gnd_4_asg.tga",
+				"normalMap": "$GAME_DATA/Terrain/Textures/Ground/gnd_4_nor.tga"
+			},
+			{
+				"name": "Rough Stone",
+				"diffuse": "$GAME_DATA/Terrain/Textures/Ground/gnd_5_dif.tga",
+				"asgMap": "$GAME_DATA/Terrain/Textures/Ground/gnd_5_asg.tga",
+				"normalMap": "$GAME_DATA/Terrain/Textures/Ground/gnd_5_nor.tga"
+			},
+			{
+				"name": "Hay",
+				"diffuse": "$GAME_DATA/Terrain/Textures/Ground/gnd_6_dif.tga",
+				"asgMap": "$GAME_DATA/Terrain/Textures/Ground/gnd_6_asg.tga",
+				"normalMap": "$GAME_DATA/Terrain/Textures/Ground/gnd_6_nor.tga"
+			},
+			{
+				"name": "Bright grass",
+				"diffuse": "$GAME_DATA/Terrain/Textures/Ground/gnd_7_dif.tga",
+				"asgMap": "$GAME_DATA/Terrain/Textures/Ground/gnd_7_asg.tga",
+				"normalMap": "$GAME_DATA/Terrain/Textures/Ground/gnd_7_nor.tga"
+			},
+			{
+				"name": "Grass",
+				"diffuse": "$GAME_DATA/Terrain/Textures/Ground/gnd_grass_dif.tga",
+				"asgMap": "$GAME_DATA/Terrain/Textures/Ground/gnd_grass_asg.tga",
+				"normalMap": "$GAME_DATA/Terrain/Textures/Ground/gnd_grass_nor.tga"
+			}
+		]		
+	}
+}

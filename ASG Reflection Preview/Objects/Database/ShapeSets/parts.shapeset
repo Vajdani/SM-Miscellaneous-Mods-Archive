@@ -1,0 +1,20 @@
+{
+   "partList" : [
+      {
+         "box" : {
+            "x" : 2,
+            "y" : 2,
+            "z" : 2
+         },
+         "name" : "asg_preview",
+         "physicsMaterial" : "Default",
+         "renderable" : "$CONTENT_DATA/Objects/Renderables/asg_preview.rend",
+         "rotationSet" : "Default",
+         "scripted" : {
+            "classname" : "ASGPreview",
+            "filename" : "$CONTENT_DATA/Scripts/ASGPreview.lua"
+         },
+         "uuid" : "a6039b54-a2d7-4504-846e-52bd715657ee"
+      }
+   ]
+}

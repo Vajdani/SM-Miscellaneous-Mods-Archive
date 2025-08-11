@@ -1,0 +1,54 @@
+{
+    "partList" : [
+        {
+            "box" : {
+                "x" : 1,
+                "y" : 1,
+                "z" : 1
+            },
+            "color" : "ffffff",
+            "flammable" : false,
+            "name" : "grenade",
+            "physicsMaterial" : "Metal",
+            "ratings" : {
+                "buoyancy" : 5,
+                "density" : 1,
+                "durability" : 10,
+                "friction" : 10
+            },
+            "renderable" : {
+                "lodList" : [
+                    {
+                        "mesh" : "$CONTENT_DATA/Objects/Mesh/sphere.fbx",
+                        "subMeshList" : [
+                            {
+                                "material" : "DifAsgNor",
+                                "textureList" : [
+                                    "$CONTENT_DATA/Objects/Textures/gray.png",
+                                    "$GAME_DATA/Textures/transparent.tga",
+                                    "$GAME_DATA/Textures/nonor_nor.tga"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "restrictions" : {
+                "destructable" : false,
+                "erasable" : false,
+                "liftable" : false,
+                "paintable" : false
+            },
+            "rotationSet" : "PropY",
+            "scripted" : {
+                "classname" : "Core",
+                "filename" : "$CONTENT_DATA/Scripts/interactables/Core.lua",
+                "data" : {}
+            },
+            "showInInventory" : false,
+            "sticky" : "-X+X-Y+Y-Z",
+            "uuid" : "77331e1a-0b07-427c-acdd-2d090db5c08d"
+        }
+    ]
+ }
+ 

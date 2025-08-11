@@ -1,0 +1,33 @@
+{
+    "partList": [
+        {
+            "uuid": "37525f80-f807-495d-a814-d87803a168b1",
+            "name": "obj_crayon_red",
+            "renderable": "$CONTENT_DATA/Objects/Renderables/crayon.rend",
+            "color": "ff0000",
+            "box": {
+                "x": 1,
+                "y": 2,
+                "z": 1
+            },
+            "rotationSet": "PropY",
+            "sticky": "-Z+Z-Y+Y",
+            "physicsMaterial": "Fruit",
+            "ratings": {
+                "density": 1,
+                "durability": 1,
+                "friction": 4,
+                "buoyancy": 4
+            },
+            "flammable": true,
+            "consumable": true,
+            "stackSize": 10,
+            "edible": {
+                "hpGain": 0,
+                "foodGain": 30,
+                "waterGain": 10
+            },
+            "autoTool": "90a1a680-061b-4a3c-9c70-78e293499a54"
+        }
+    ]
+}

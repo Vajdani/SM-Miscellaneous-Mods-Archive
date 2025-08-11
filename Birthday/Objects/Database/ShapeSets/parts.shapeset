@@ -1,0 +1,90 @@
+{
+   "partList" : [
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "color" : "ff0000",
+         "name" : "Farmbot cake",
+         "physicsMaterial" : "Fruit",
+         "renderable" : "$GAME_DATA/Objects/Renderable/decor/obj_decor_babyduck.rend",
+         "rotationSet" : "PropY",
+         "scripted" : {
+            "classname" : "Cake",
+            "filename" : "$CONTENT_DATA/Scripts/Cake.lua"
+         },
+         "sticky" : "-Y",
+         "uuid" : "d9556cc2-f4df-4e99-9921-ed43b6f3db30"
+      },
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 6
+         },
+         "previewRotation": [ 1, 0, 0, 0, 1, 0, 0, 0, 1 ],
+         "color" : "696969",
+         "name" : "Flag",
+         "physicsMaterial" : "Metal",
+         "renderable" : "$CONTENT_DATA/Objects/Renderables/flag.rend",
+         "rotationSet" : "PropZ",
+         "scripted" : {
+            "classname" : "Flag",
+            "filename" : "$CONTENT_DATA/Scripts/Flag.lua"
+         },
+         "sticky" : "-Z",
+         "uuid" : "72fb0d3e-e4d9-43d9-ab55-f923a1246a2c"
+      },
+      {
+         "hull" : {
+            "x" : 4,
+            "y" : 3,
+            "z" : 8,
+            "col": "$CONTENT_DATA/Objects/Mesh/Blahaj.obj"
+         },
+         "seat": {
+            "bones": [
+               {
+                  "name": "Hips",
+                  "offset": {
+                     "x": 0.0,
+                     "y": 1.2,
+                     "z": -0.5
+                  }
+               },
+               {
+                  "name": "LeftForeArm",
+                  "offset": {
+                     "x": 1.0,
+                     "y": 1.25,
+                     "z": 0.75
+                  },
+                  "freeRotation": true
+               },
+               {
+                  "name": "RightForeArm",
+                  "offset": {
+                     "x": -1.0,
+                     "y": 1.25,
+                     "z": 0.75
+                  },
+                  "freeRotation": true
+               }
+            ],
+            "ragdollFile": "$GAME_DATA/Character/seat_ragdoll.json",
+            "enterAudio": "Seat seated",
+            "exitAudio": "Seat unseated"
+         },
+         "color" : "000000",
+         "name" : "Blahaj",
+         "physicsMaterial" : "Fabric",
+         "renderable" : "$CONTENT_DATA/Objects/Renderables/Blahaj.rend",
+         "rotationSet" : "PropY",
+         "sticky" : "-Y",
+         "uuid" : "86b38e73-d97b-48e1-a39a-463be4f87032",
+			"autoTool": "5cc7fded-afa0-47f8-b76d-e394f03fa5e7"
+      }
+   ]
+}

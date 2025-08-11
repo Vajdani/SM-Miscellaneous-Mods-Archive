@@ -1,0 +1,43 @@
+{
+   "lodList": [
+      {
+         "animationList": [
+            {
+               "file": "$CONTENT_DATA/Objects/Mesh/flag.fbx",
+               "looping": true,
+               "name": "wave"
+            },
+            {
+               "file": "$CONTENT_DATA/Objects/Mesh/flag.fbx",
+               "looping": false,
+               "name": "deploy"
+            }
+         ],
+         "mesh": "$CONTENT_DATA/Objects/Mesh/flag.fbx",
+         "subMeshList": [
+            {
+               "material": "SkelAnimDif",
+               "textureList": [
+                  "$GAME_DATA/Textures/Default/default_dif.tga",
+                  "$GAME_DATA/Textures/Default/default_asg.tga",
+                  "$GAME_DATA/Textures/Default/default_nor.tga"
+               ]
+            },
+            {
+               "custom": {
+                  "uv0": {
+                     "u": 0.1250,
+                     "v": 0.50
+                  }
+               },
+               "material": "SkelUVAnimDifAsgNor",
+               "textureList": [
+                  "$CONTENT_DATA/Objects/Textures/flags.png",
+                  "$GAME_DATA/Textures/Default/default_asg.tga",
+                  "$GAME_DATA/Textures/Default/default_nor.tga"
+               ]
+            }
+         ]
+      }
+   ]
+}

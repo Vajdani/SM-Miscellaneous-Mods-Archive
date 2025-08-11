@@ -1,0 +1,19 @@
+{
+   "partList" : [
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "physicsMaterial" : "Default",
+         "renderable" : "$GAME_DATA/Objects/Renderable/Interactive/obj_interactive_sensor.rend",
+         "rotationSet" : "Default",
+         "scripted" : {
+            "classname" : "Ballsacker",
+            "filename" : "$CONTENT_DATA/Scripts/yeet.lua"
+         },
+         "uuid" : "1a7d7806-dd58-4be7-ada0-182dbce22303"
+      }
+   ]
+}

@@ -1,0 +1,34 @@
+{
+	"lodList": [
+		{
+			"mesh": "$CONTENT_8e52eacc-c155-4db3-935a-e7973197a019/Character/Outfit/DoomSlayer/fp_arms/outfit_doom_jacket_fp_arms.dae",
+			"includes": [
+				"POSITION",
+				"UV0",
+				"NORMAL",
+				"TANGENTS",
+				"BLEND_INDICES",
+				"BLEND_WEIGHTS"
+			],
+			"subMeshList": [
+				{
+					"material": "Dif",
+					"textureList": [
+						"$CONTENT_8e52eacc-c155-4db3-935a-e7973197a019/Character/Outfit/DoomSlayer/jacket/outfit_doom_jacket_dif.tga",
+						"",
+						""
+					]
+				},
+				{
+					"material": "Dif",
+					"textureList": [
+						"$CONTENT_8e52eacc-c155-4db3-935a-e7973197a019/Character/Outfit/DoomSlayer/jacket/outfit_doom_jacket_knife.png",
+						"",
+						""
+					]
+				}
+			],
+			"maxViewDistance": 1000.0
+		}
+	]
+}

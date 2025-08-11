@@ -1,0 +1,138 @@
+{
+   "toolList": [
+      {
+         "name": "Pistol",
+         "previewRenderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
+         "previewRotation": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            1,
+            0
+         ],
+         "script": {
+            "class": "Pistol",
+            "data": {},
+            "file": "$CONTENT_DATA/Scripts/Pistol.lua"
+         },
+         "uuid": "491f874e-b24d-49f4-8468-c3bcd9a1f208"
+      },
+      {
+         "name": "Sniper",
+         "uuid": "f9db01ab-5094-4d1d-b348-7dfca8a4d779",
+         "previewRenderable": "$CONTENT_DATA/Tools/Sniper/Renderables/sniper_preview.rend",
+         "previewRotation": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            1,
+            0
+         ],
+         "script": {
+            "file": "$CONTENT_DATA/Scripts/Sniper.lua",
+            "class": "Sniper",
+            "data": {}
+         }
+      },
+      {
+         "name": "Grenade1",
+         "uuid": "6832cee6-b438-4ca8-a308-fcd57cac641c",
+         "previewRenderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
+         "previewRotation": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            1,
+            0
+         ],
+         "script": {
+            "file": "$CONTENT_DATA/Scripts/Glowstick.lua",
+            "class": "Glowstick",
+            "data": {
+               "renderableIndex": 2,
+               "item": "20c3398b-7b00-4861-ac98-2a55495535b4"
+            }
+         },
+         "autoTool": true
+      },
+      {
+         "name": "Grenade2",
+         "uuid": "a9ba88ea-ccd7-48a7-8fa0-3d8076110335",
+         "previewRenderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
+         "previewRotation": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            1,
+            0
+         ],
+         "script": {
+            "file": "$CONTENT_DATA/Scripts/Glowstick.lua",
+            "class": "Glowstick",
+            "data": {
+               "renderableIndex": 3,
+               "item": "c0dcaf49-cc53-404f-931f-255e1fa8f6b5"
+            }
+         },
+         "autoTool": true
+      },
+      {
+         "name": "Grenade Launcher",
+         "uuid": "3a5c4f59-c713-4e13-9142-4b692934c2ca",
+         "previewRenderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
+         "previewRotation": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            1,
+            0
+         ],
+         "script": {
+            "file": "$CONTENT_DATA/Scripts/GrenadeLauncher.lua",
+            "class": "Launcher",
+            "data": {}
+         }
+      },
+      {
+         "name": "Haybot Fork",
+         "uuid": "9fdc9fde-0fae-48da-a196-904563dd6700",
+         "previewRenderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
+         "previewRotation": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            1,
+            0
+         ],
+         "script": {
+            "file": "$CONTENT_DATA/Scripts/HaybotFork.lua",
+            "class": "Fork",
+            "data": {}
+         }
+      }
+   ]
+}

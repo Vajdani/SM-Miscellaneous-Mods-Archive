@@ -1,0 +1,7 @@
+{
+   "particleSystemList" : [
+      "particles/garment_boxes/idle/p_garmentbox_idle_common.json",
+      "particles/garment_boxes/idle/p_garmentbox_idle_rare.json",
+      "particles/garment_boxes/idle/p_garmentbox_idle_epic.json"
+   ]
+}

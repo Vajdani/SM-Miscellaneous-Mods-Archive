@@ -1,0 +1,28 @@
+{
+   "partList" : [
+      {
+         "box" : {
+            "x" : 1,
+            "y" : 1,
+            "z" : 1
+         },
+         "name" : "obj_weddingring",
+         "physicsMaterial" : "Plastic",
+         "ratings" : {
+            "buoyancy" : 3,
+            "density" : 1,
+            "durability" : 2,
+            "friction" : 3
+         },
+         "renderable" : "$CONTENT_DATA/Objects/Renderables/obj_weddingring.rend",
+         "rotationSet" : "PropY",
+         "scripted" : {
+            "classname" : "WeddingRing",
+            "data" : {},
+            "filename" : "$CONTENT_DATA/Scripts/WeddingRing.lua"
+         },
+         "sticky" : "-Y",
+         "uuid" : "88efa010-f5a5-4803-a5c2-056212560533"
+      }
+   ]
+}

@@ -1,0 +1,7 @@
+{
+   "shapeSetList" : [
+		"$SURVIVAL_DATA/Objects/Database/ShapeSets/plantables.json",
+		"$SURVIVAL_DATA/Objects/Database/ShapeSets/consumable.json",
+      "$CONTENT_DATA/Objects/Database/ShapeSets/parts.shapeset"
+   ]
+}

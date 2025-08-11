@@ -1,0 +1,52 @@
+{
+   "partList" : [
+      {
+			"uuid": "36a7c585-cd08-4955-8340-3500ba5bfcf2",
+			"name": "installer",
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$GAME_DATA/Textures/transparent.tga",
+									"$GAME_DATA/Textures/transparent.tga",
+									"$GAME_DATA/Textures/nonor_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$CONTENT_d9e6682a-1885-44b2-9cda-11bf5fec9dac/Objects/Mesh/cube.fbx"
+					}
+				]
+			},
+			"color": "ffffff",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"scripted": {
+				"filename": "$MOD_DATA/Scripts/installer.lua",
+				"classname": "Installer"
+			},
+			"rotationSet": "PropY",
+			"sticky": "-X+X-Y+Y-Z+Z",
+			"physicsMaterial": "Metal",
+			"ratings": {
+				"density": 1,
+				"durability": 10,
+				"friction": 1,
+				"buoyancy": 1
+			},
+			"flammable": false,
+			"restrictions": {
+				"liftable": true,
+				"erasable": true,
+				"paintable": false,
+				"usable": true
+			},
+			"showInInventory": true
+		}
+   ]
+}

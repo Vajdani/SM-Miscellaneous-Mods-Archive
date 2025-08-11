@@ -1,0 +1,17 @@
+{
+   "lodList": [
+      {
+         "mesh": "$CONTENT_DATA/Objects/Mesh/Blahaj.obj",
+         "subMeshList": [
+            {
+               "material": "Dif",
+               "textureList": [
+                  "$CONTENT_DATA/Objects/Textures/Blahaj.png",
+                  "$GAME_DATA/Textures/Default/default_asg.tga",
+                  "$GAME_DATA/Textures/Default/default_nor.tga"
+               ]
+            }
+         ]
+      }
+   ]
+}

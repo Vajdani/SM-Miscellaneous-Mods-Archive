@@ -1,0 +1,44 @@
+{
+	"TapeBote - Ukraine":
+	{
+		"parameterList":
+		{
+			"tapebot_ff_intensity": 5
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/farmbot/farmbot_shoot",
+				"delay": 0
+			},
+			{
+				"type": "particle",
+				"name": "p_spudgun_fp_basic_muzzel",
+				"attached": false,
+				"delay": 0.05
+			}
+		]
+	},
+	"TapeBote - Ukrainian":
+	{
+		"parameterList":
+		{
+			"tapebot_ff_intensity": 5
+		},
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/char/npc/bots/enemies/farmbot/farmbot_shoot",
+				"delay": 0
+			},
+			{
+				"type": "particle",
+				"name": "p_spudgun_basic_muzzel",
+				"attached": false,
+				"delay": 0.05
+			}
+		]
+	}
+}

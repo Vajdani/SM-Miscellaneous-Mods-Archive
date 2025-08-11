@@ -1,0 +1,29 @@
+{
+	"lodList": [
+        {
+            "mesh": "$CONTENT_DATA/Terrain/Mesh/DropPodDoor.fbx",
+            "subMeshMap": {
+                "TrimSheet": {
+                    "material": "DifAsgNor",
+                    "textureList": [
+        				"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/spaceship/trimsheet_nor.tga"
+                    ]
+                },
+				"Glass": {
+                    "custom": {
+                        "color": "Glass"
+                    },
+                    "material": "Glass",
+                    "textureList": [
+                        "$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+                        "$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+                        "$GAME_DATA/Objects/Textures/Blocks/blk_glass_nor.tga"
+                    ]
+                }
+            }
+        }
+    ]
+}
+

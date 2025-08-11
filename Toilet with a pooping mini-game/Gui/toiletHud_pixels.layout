@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" position_real="0 0 1 1" name="BackPanel">
+        <Property key="NeedKey" value="false"/>
+        <Property key="NeedMouse" value="false"/>
+        <Widget type="Canvas" skin="BackgroundPopup" position="50 240 175 600">
+            <Widget type="Widget" skin="PanelEmpty" position="25 75 125 500" name="shitBar"/>
+            <Widget type="TextBox" skin="TextBox" position="25 20 125 45">
+                <Property key="Caption" value="shit"/>
+                <Property key="TextAlign" value="Center"/>
+            </Widget>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

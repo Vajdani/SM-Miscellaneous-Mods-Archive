@@ -1,0 +1,15 @@
+{
+    "toolList": [
+        {
+            "name": "WedgeDragger",
+			"uuid": "beee3e31-eb2f-452f-a6fe-bf3081db740a",
+			"previewRenderable": "$GAME_DATA/Character/Char_Tools/char_spudgun_preview.rend",
+			"previewRotation": [ 1, 0, 0, 0, 0, -1, 0, 1, 0 ],
+			"script": {
+                "file": "$CONTENT_DATA/Scripts/WedgeDragger.lua",
+                "class": "WedgeDragger",
+                "data": {}
+            }
+		}
+    ]
+}

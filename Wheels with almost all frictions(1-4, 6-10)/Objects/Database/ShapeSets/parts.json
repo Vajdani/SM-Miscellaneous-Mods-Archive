@@ -1,0 +1,710 @@
+{
+   "partList" : 
+   [
+		//big wheels
+		{
+			"uuid": "f90a6fa2-1a46-4e95-914d-cf0e8cc9730a",
+			"name": "obj_vehicle_bigwheel1",
+			"legacyId": 301,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/Big_Wheel/obj_vehicle_BigWheel1_dif.png",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_bigwheel_asg.tga",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_bigwheel_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/vehicle/obj_vehicle_bigwheel.fbx"
+					}
+				]
+			},
+			"color": "df7f01",
+			"cylinder": {
+				"diameter": 5,
+				"depth": 2,
+				"margin": 0.5,
+				"axis": "Z"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z+Z",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 4,
+				"durability": 5,
+				"friction": 1,
+				"buoyancy": 6
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "53dc78ff-cd65-4fc7-8da9-f48a53026619",
+			"name": "obj_vehicle_bigwheel2",
+			"legacyId": 301,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/Big_Wheel/obj_vehicle_BigWheel2_dif.png",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_bigwheel_asg.tga",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_bigwheel_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/vehicle/obj_vehicle_bigwheel.fbx"
+					}
+				]
+			},
+			"color": "df7f01",
+			"cylinder": {
+				"diameter": 5,
+				"depth": 2,
+				"margin": 0.5,
+				"axis": "Z"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z+Z",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 4,
+				"durability": 5,
+				"friction": 2,
+				"buoyancy": 6
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "a7d7ae6e-2ee2-45ae-af84-1570c0d668e1",
+			"name": "obj_vehicle_bigwheel3",
+			"legacyId": 301,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/Big_Wheel/obj_vehicle_BigWheel3_dif.png",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_bigwheel_asg.tga",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_bigwheel_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/vehicle/obj_vehicle_bigwheel.fbx"
+					}
+				]
+			},
+			"color": "df7f01",
+			"cylinder": {
+				"diameter": 5,
+				"depth": 2,
+				"margin": 0.5,
+				"axis": "Z"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z+Z",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 4,
+				"durability": 5,
+				"friction": 3,
+				"buoyancy": 6
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "1391b4b4-ac47-4a5a-a017-6e9b6c82aa28",
+			"name": "obj_vehicle_bigwheel4",
+			"legacyId": 301,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/Big_Wheel/obj_vehicle_BigWheel4_dif.png",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_bigwheel_asg.tga",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_bigwheel_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/vehicle/obj_vehicle_bigwheel.fbx"
+					}
+				]
+			},
+			"color": "df7f01",
+			"cylinder": {
+				"diameter": 5,
+				"depth": 2,
+				"margin": 0.5,
+				"axis": "Z"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z+Z",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 4,
+				"durability": 5,
+				"friction": 4,
+				"buoyancy": 6
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "314ee16a-5d6a-47ea-ad35-c25075775825",
+			"name": "obj_vehicle_bigwheel6",
+			"legacyId": 301,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/Big_Wheel/obj_vehicle_BigWheel6_dif.png",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_bigwheel_asg.tga",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_bigwheel_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/vehicle/obj_vehicle_bigwheel.fbx"
+					}
+				]
+			},
+			"color": "df7f01",
+			"cylinder": {
+				"diameter": 5,
+				"depth": 2,
+				"margin": 0.5,
+				"axis": "Z"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z+Z",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 4,
+				"durability": 5,
+				"friction": 6,
+				"buoyancy": 6
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "e22503e2-3d8b-42ef-9f56-446a080e8d50",
+			"name": "obj_vehicle_bigwheel7",
+			"legacyId": 301,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/Big_Wheel/obj_vehicle_BigWheel7_dif.png",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_bigwheel_asg.tga",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_bigwheel_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/vehicle/obj_vehicle_bigwheel.fbx"
+					}
+				]
+			},
+			"color": "df7f01",
+			"cylinder": {
+				"diameter": 5,
+				"depth": 2,
+				"margin": 0.5,
+				"axis": "Z"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z+Z",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 4,
+				"durability": 5,
+				"friction": 7,
+				"buoyancy": 6
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "35227579-9109-4dcb-8f24-8072743b0f84",
+			"name": "obj_vehicle_bigwheel8",
+			"legacyId": 301,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/Big_Wheel/obj_vehicle_BigWheel8_dif.png",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_bigwheel_asg.tga",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_bigwheel_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/vehicle/obj_vehicle_bigwheel.fbx"
+					}
+				]
+			},
+			"color": "df7f01",
+			"cylinder": {
+				"diameter": 5,
+				"depth": 2,
+				"margin": 0.5,
+				"axis": "Z"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z+Z",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 4,
+				"durability": 5,
+				"friction": 8,
+				"buoyancy": 6
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "9b04ff7b-8ee5-4234-a0e5-0d1959cd53c7",
+			"name": "obj_vehicle_bigwheel9",
+			"legacyId": 301,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/Big_Wheel/obj_vehicle_BigWheel9_dif.png",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_bigwheel_asg.tga",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_bigwheel_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/vehicle/obj_vehicle_bigwheel.fbx"
+					}
+				]
+			},
+			"color": "df7f01",
+			"cylinder": {
+				"diameter": 5,
+				"depth": 2,
+				"margin": 0.5,
+				"axis": "Z"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z+Z",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 4,
+				"durability": 5,
+				"friction": 9,
+				"buoyancy": 6
+			},
+			"flammable": false
+		},
+		{
+			"uuid": "afca97a3-35bb-4ce6-b4d6-480566e6d12b",
+			"name": "obj_vehicle_bigwheel10",
+			"legacyId": 301,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/Big_Wheel/obj_vehicle_BigWheel10_dif.png",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_bigwheel_asg.tga",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_bigwheel_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/vehicle/obj_vehicle_bigwheel.fbx"
+					}
+				]
+			},
+			"color": "df7f01",
+			"cylinder": {
+				"diameter": 5,
+				"depth": 2,
+				"margin": 0.5,
+				"axis": "Z"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z+Z",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 4,
+				"durability": 5,
+				"friction": 10,
+				"buoyancy": 6
+			},
+			"flammable": false
+		},
+		
+		//small wheels
+		{
+			"uuid": "2a1cc5c9-b6ca-4d0b-b1aa-f6a9b3060248",
+			"name": "obj_vehicle_smallwheel1",
+			"legacyId": 300,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/Small_Wheel/obj_vehicle_SmallWheel1_dif.png",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_smallwheel_asg.tga",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_smallwheel_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/vehicle/obj_vehicle_smallwheel.fbx"
+					}
+				]
+			},
+			"color": "df7f01",
+			"cylinder": {
+				"diameter": 3,
+				"depth": 1,
+				"margin": 0.5,
+				"axis": "Z"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z+Z",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 7,
+				"durability": 5,
+				"friction": 1,
+				"buoyancy": 6
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "f382f8fb-be01-4f7c-85c9-77a326b7c800",
+			"name": "obj_vehicle_smallwheel2",
+			"legacyId": 300,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/Small_Wheel/obj_vehicle_SmallWheel2_dif.png",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_smallwheel_asg.tga",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_smallwheel_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/vehicle/obj_vehicle_smallwheel.fbx"
+					}
+				]
+			},
+			"color": "df7f01",
+			"cylinder": {
+				"diameter": 3,
+				"depth": 1,
+				"margin": 0.5,
+				"axis": "Z"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z+Z",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 7,
+				"durability": 5,
+				"friction": 2,
+				"buoyancy": 6
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "cc3b724e-8745-4287-8491-f295e28b2385",
+			"name": "obj_vehicle_smallwheel3",
+			"legacyId": 300,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/Small_Wheel/obj_vehicle_SmallWheel3_dif.png",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_smallwheel_asg.tga",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_smallwheel_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/vehicle/obj_vehicle_smallwheel.fbx"
+					}
+				]
+			},
+			"color": "df7f01",
+			"cylinder": {
+				"diameter": 3,
+				"depth": 1,
+				"margin": 0.5,
+				"axis": "Z"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z+Z",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 7,
+				"durability": 5,
+				"friction": 3,
+				"buoyancy": 6
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "f7dcc88a-98cc-4b4b-8380-91a63fa9c53d",
+			"name": "obj_vehicle_smallwheel4",
+			"legacyId": 300,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/Small_Wheel/obj_vehicle_SmallWheel4_dif.png",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_smallwheel_asg.tga",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_smallwheel_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/vehicle/obj_vehicle_smallwheel.fbx"
+					}
+				]
+			},
+			"color": "df7f01",
+			"cylinder": {
+				"diameter": 3,
+				"depth": 1,
+				"margin": 0.5,
+				"axis": "Z"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z+Z",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 7,
+				"durability": 5,
+				"friction": 4,
+				"buoyancy": 6
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "120856a4-aa97-414d-bb9e-e59c5b689c2d",
+			"name": "obj_vehicle_smallwheel6",
+			"legacyId": 300,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/Small_Wheel/obj_vehicle_SmallWheel6_dif.png",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_smallwheel_asg.tga",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_smallwheel_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/vehicle/obj_vehicle_smallwheel.fbx"
+					}
+				]
+			},
+			"color": "df7f01",
+			"cylinder": {
+				"diameter": 3,
+				"depth": 1,
+				"margin": 0.5,
+				"axis": "Z"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z+Z",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 7,
+				"durability": 5,
+				"friction": 6,
+				"buoyancy": 6
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "70d28cb8-8a0c-473a-a99f-37ffbc5a90f7",
+			"name": "obj_vehicle_smallwheel7",
+			"legacyId": 300,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/Small_Wheel/obj_vehicle_SmallWheel7_dif.png",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_smallwheel_asg.tga",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_smallwheel_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/vehicle/obj_vehicle_smallwheel.fbx"
+					}
+				]
+			},
+			"color": "df7f01",
+			"cylinder": {
+				"diameter": 3,
+				"depth": 1,
+				"margin": 0.5,
+				"axis": "Z"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z+Z",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 7,
+				"durability": 5,
+				"friction": 7,
+				"buoyancy": 6
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "082b7345-e943-4bc7-9a86-333ad4ff9025",
+			"name": "obj_vehicle_smallwheel8",
+			"legacyId": 300,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/Small_Wheel/obj_vehicle_SmallWheel8_dif.png",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_smallwheel_asg.tga",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_smallwheel_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/vehicle/obj_vehicle_smallwheel.fbx"
+					}
+				]
+			},
+			"color": "df7f01",
+			"cylinder": {
+				"diameter": 3,
+				"depth": 1,
+				"margin": 0.5,
+				"axis": "Z"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z+Z",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 7,
+				"durability": 5,
+				"friction": 8,
+				"buoyancy": 6
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "deeba919-1a51-4bed-b3ac-a97f8726d11b",
+			"name": "obj_vehicle_smallwheel9",
+			"legacyId": 300,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/Small_Wheel/obj_vehicle_SmallWheel9_dif.png",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_smallwheel_asg.tga",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_smallwheel_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/vehicle/obj_vehicle_smallwheel.fbx"
+					}
+				]
+			},
+			"color": "df7f01",
+			"cylinder": {
+				"diameter": 3,
+				"depth": 1,
+				"margin": 0.5,
+				"axis": "Z"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z+Z",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 7,
+				"durability": 5,
+				"friction": 9,
+				"buoyancy": 6
+			},
+			"flammable": true
+		},
+		{
+			"uuid": "1ac044a3-b115-4f1d-b54b-955817823883",
+			"name": "obj_vehicle_smallwheel10",
+			"legacyId": 300,
+			"renderable": {
+				"lodList": [
+					{
+						"subMeshList": [
+							{
+								"textureList": [
+									"$MOD_DATA/Objects/Textures/Small_Wheel/obj_vehicle_SmallWheel10_dif.png",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_smallwheel_asg.tga",
+									"$GAME_DATA/Objects/Textures/vehicle/obj_vehicle_smallwheel_nor.tga"
+								],
+								"material": "DifAsgNor"
+							}
+						],
+						"mesh": "$GAME_DATA/Objects/Mesh/vehicle/obj_vehicle_smallwheel.fbx"
+					}
+				]
+			},
+			"color": "df7f01",
+			"cylinder": {
+				"diameter": 3,
+				"depth": 1,
+				"margin": 0.5,
+				"axis": "Z"
+			},
+			"rotationSet": "PropZ",
+			"sticky": "-Z+Z",
+			"physicsMaterial": "Plastic",
+			"ratings": {
+				"density": 7,
+				"durability": 5,
+				"friction": 10,
+				"buoyancy": 6
+			},
+			"flammable": true
+		}
+   ]
+}

@@ -1,0 +1,62 @@
+{
+	"characters": [
+		{
+			"uuid": "e60594b7-97c2-41e3-aa2d-805b6a223de2",
+			"renderables":
+			[
+				"$GAME_DATA/Character/Char_Male/Animations/char_male_tp.rend",
+				"$GAME_DATA/Character/Char_Male/Animations/char_male_tp_swim.rend",
+				"$SURVIVAL_DATA/Character/Char_Male/Head/Male/char_male_head01/char_male_head01.rend"
+			],
+			"ragdoll": "$SURVIVAL_DATA/Character/Char_Male/char_male_ragdoll.json",
+			"tumble":
+			{
+				"col": "$SURVIVAL_DATA/Character/Char_Male/char_male_col.obj",
+				"offset": [0.0, 0.0, 0.683]
+			},
+			"hit":
+			{
+				"stand":
+				{
+					"col": "$SURVIVAL_DATA/Character/Char_Male/char_male_hit_stand_col.obj",
+					"offset": [0.0, 0.0, 0.7]
+				},
+				"crouch":
+				{
+					"col": "$SURVIVAL_DATA/Character/Char_Male/char_male_hit_crouch_col.obj",
+					"offset": [0.0, 0.0, 0.4]
+				}
+			},
+			"character": 
+			{
+				"scriptPath": "$CONTENT_DATA/Scripts/Player.lua",
+				"scriptClass": "Hero_char",
+				"data": {}
+			},
+            "unit": 
+			{
+				"scriptPath": "$CONTENT_DATA/Scripts/Player.lua",
+				"scriptClass": "Hero_unit",
+				"data": {}
+			},
+			"movement":
+			{
+				"moveSpeed": 1.4575,
+				"slowDownSpeed": 2.5,
+				"crouchSpeed": 3.0,
+				"sprintSpeed": 4.0,
+				"jumpImpulse": 7.0,
+				"headingRotationSpeed": 3.1415,
+				"facingRotationSpeed": 3.1415,
+				"canSwim": true
+			},
+			"capsule":
+			{
+				"radius": 0.3,
+				"height": 1.4,
+				"crouchHeight": 0.8
+			},
+			"mass": 120.0
+		}
+	]
+}

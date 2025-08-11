@@ -1,0 +1,28 @@
+{
+	"partList": [
+		{
+			"uuid": "9f0f56e8-2c31-4d83-996c-d00a9b296c3f",
+			"name": "obj_interactive_logicgate",
+			"renderable": "$CONTENT_DATA/Objects/obj_interactive_logicgate.rend",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"rotationSet": "PropYZ",
+			"physicsMaterial": "Mechanical"
+		}
+	],
+    "blockList": [
+        {
+			"uuid": "a6c6ce30-dd47-4587-b475-085d55c6a3b4",
+			"name": "blk_concrete1",
+			"dif": "$GAME_DATA/Textures/Default/default_dif.tga",
+			"asg": "$GAME_DATA/Textures/Default/default_asg.tga",
+			"nor": "$GAME_DATA/Textures/Default/default_nor.tga",
+			"tiling": 8,
+			"color": "8d8f89",
+			"physicsMaterial": "Rock"
+		}
+    ]
+}

@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" position="0 0 1650 375" name="BackPanel">
+        <Widget type="Widget" skin="BackgroundPopup" position="5 5 530 285" name="panel_colour">
+            <Widget type="TextBox" skin="GenderButton" position="15 15 150 50">
+                <Property key="Caption" value="Brush Colour"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="FontName" value="SM_Header"/>
+                <Property key="TextColour" value="1 1 1"/>
+            </Widget>
+            <Widget type="ItemBox" skin="InventoryItemBox2" position="15 65 500 205" name="ColorGrid">
+                <Property key="NeedKey" value="false"/>
+                <Property key="NeedDragDrop" value="false"/>
+                <Widget type="Button" skin="GenderButton" position="5 5 40 40" name="ColorBtn_1">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_1_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="55 5 40 40" name="ColorBtn_2">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_2_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="105 5 40 40" name="ColorBtn_3">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_3_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="155 5 40 40" name="ColorBtn_4">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_4_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="205 5 40 40" name="ColorBtn_5">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_5_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="255 5 40 40" name="ColorBtn_6">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_6_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="305 5 40 40" name="ColorBtn_7">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_7_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="355 5 40 40" name="ColorBtn_8">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_8_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="405 5 40 40" name="ColorBtn_9">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_9_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="455 5 40 40" name="ColorBtn_10">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_10_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="5 55 40 40" name="ColorBtn_11">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_11_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="55 55 40 40" name="ColorBtn_12">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_12_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="105 55 40 40" name="ColorBtn_13">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_13_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="155 55 40 40" name="ColorBtn_14">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_14_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="205 55 40 40" name="ColorBtn_15">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_15_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="255 55 40 40" name="ColorBtn_16">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_16_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="305 55 40 40" name="ColorBtn_17">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_17_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="355 55 40 40" name="ColorBtn_18">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_18_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="405 55 40 40" name="ColorBtn_19">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_19_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="455 55 40 40" name="ColorBtn_20">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_20_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="5 105 40 40" name="ColorBtn_21">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_21_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="55 105 40 40" name="ColorBtn_22">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_22_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="105 105 40 40" name="ColorBtn_23">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_23_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="155 105 40 40" name="ColorBtn_24">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_24_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="205 105 40 40" name="ColorBtn_25">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_25_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="255 105 40 40" name="ColorBtn_26">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_26_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="305 105 40 40" name="ColorBtn_27">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_27_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="355 105 40 40" name="ColorBtn_28">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_28_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="405 105 40 40" name="ColorBtn_29">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_29_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="455 105 40 40" name="ColorBtn_30">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_30_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="5 155 40 40" name="ColorBtn_31">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_31_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="55 155 40 40" name="ColorBtn_32">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_32_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="105 155 40 40" name="ColorBtn_33">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_33_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="155 155 40 40" name="ColorBtn_34">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_34_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="205 155 40 40" name="ColorBtn_35">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_35_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="255 155 40 40" name="ColorBtn_36">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_36_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="305 155 40 40" name="ColorBtn_37">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_37_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="355 155 40 40" name="ColorBtn_38">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_38_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="405 155 40 40" name="ColorBtn_39">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_39_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+                <Widget type="Button" skin="GenderButton" position="455 155 40 40" name="ColorBtn_40">
+                    <Widget type="ImageBox" skin="BeaconIconColor" position="5 5 30 30" name="ColorBtn_40_icon">
+                        <Property key="NeedKey" value="false"/>
+                        <Property key="NeedMouse" value="false"/>
+                        <Property key="Colour" value="1 1 1"/>
+                    </Widget>
+                </Widget>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="BackgroundPopup" position="550 5 525 340" name="panel_size">
+            <Widget type="TextBox" skin="GenderButton" position="15 15 150 50">
+                <Property key="Caption" value="Brush Size"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="FontName" value="SM_Header"/>
+                <Property key="TextColour" value="1 1 1"/>
+            </Widget>
+            <Widget type="TextBox" skin="GenderButton" position="15 65 75 75" name="textbox_sizeX">
+                <Property key="FontName" value="SM_Header"/>
+                <Property key="Caption" value="X"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="TextColour" value="1 1 1"/>
+                <Property key="FontHeight" value="18"/>
+            </Widget>
+            <Widget type="Canvas" skin="Canvas" position="90 65 425 75" name="slider_sizeX"/>
+            <Widget type="TextBox" skin="GenderButton" position="15 140 75 75" name="textbox_sizeY">
+                <Property key="Caption" value="Y"/>
+                <Property key="FontName" value="SM_Header"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="TextColour" value="1 1 1"/>
+                <Property key="FontHeight" value="18"/>
+            </Widget>
+            <Widget type="Canvas" skin="Canvas" position="90 140 425 75" name="slider_sizeY"/>
+            <Widget type="TextBox" skin="GenderButton" position="15 225 150 50">
+                <Property key="FontName" value="SM_Header"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="Caption" value="Brush Shape"/>
+                <Property key="TextColour" value="1 1 1"/>
+            </Widget>
+            <Widget type="Canvas" skin="Canvas" position="15 275 500 50" name="dropdown_shape"/>
+        </Widget>
+        <Widget type="Widget" skin="BackgroundPopup" position="1090 5 530 155" name="panel_rotation">
+            <Widget type="TextBox" skin="GenderButton" position="15 15 250 50" name="textbox_rotation">
+                <Property key="FontName" value="SM_Header"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="Caption" value="Shape Rotation"/>
+                <Property key="TextColour" value="1 1 1"/>
+            </Widget>
+            <Widget type="Canvas" skin="Canvas" position="15 65 500 75" name="slider_rotation"/>
+        </Widget>
+        <Widget type="Widget" skin="BackgroundPopup" position="1090 175 170 170" name="panel_preview">
+            <Widget type="Canvas" skin="Canvas" position="15 15 140 140" name="brushPreview"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

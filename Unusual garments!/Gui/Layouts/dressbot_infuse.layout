@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="Widget" skin="PanelEmpty" position="154 134 1591 704">
+        <Widget type="Widget" skin="BackgroundDressbot" position="25 25 515 655">
+            <Widget type="TextBox" skin="TextBox" position="10 0 495 50" name="infuse_title">
+                <Property key="Caption" value="INFUSE HOLOGRAM MODULES"/>
+                <Property key="FontName" value="SM_HeaderLarge_Narrow"/>
+                <Property key="TextAlign" value="Center"/>
+            </Widget>
+            <Widget type="Widget" skin="PanelEmpty" position="110 75 290 280" name="infuse_process"/>
+            <Widget type="TextBox" skin="TextBox" position="200 355 110 20" name="infuse_time">
+                <Property key="Caption" value="09:11"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="FontName" value="SM_ButtonSmall"/>
+            </Widget>
+            <Widget type="Widget" skin="GenderButton" position="185 375 140 30">
+                <Widget type="ImageBox" skin="ImageBox" position="5 5 40 20">
+                    <Property key="ImageTexture" value="gui_icon_refill_battery.png"/>
+                </Widget>
+                <Widget type="TextBox" skin="TextBox" position="50 5 80 20" name="infuse_resource">
+                    <Property key="TextAlign" value="Center"/>
+                    <Property key="Caption" value="4/20"/>
+                    <Property key="FontName" value="SM_Button"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="DressbotArrowRight" position="465 530 50 55" name="infuse_button_garmentboxes_right"/>
+            <Widget type="Button" skin="DressbotArrowLeft" position="0 530 50 55" name="infuse_button_garmentboxes_left"/>
+            <Widget type="Button" skin="GenderButton" position="340 485 110 140" name="infuse_garmentboxes_button_3">
+                <Widget type="Widget" skin="PanelEmpty" position="10 10 90 120" name="infuse_garmentboxes_widget_3">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" position="200 485 110 140" name="infuse_garmentboxes_button_2">
+                <Widget type="Widget" skin="PanelEmpty" position="10 10 90 120" name="infuse_garmentboxes_widget_2">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="GenderButton" position="60 485 110 140" name="infuse_garmentboxes_button_1">
+                <Widget type="Widget" skin="PanelEmpty" position="10 10 90 120" name="infuse_garmentboxes_widget_1">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="Button" skin="StyledButtonDressbotMake" position="180 405 150 65" name="infuse_button_craft">
+                <Widget type="TextBox" skin="TextBox" position="20 15 110 35" name="infuse_button_text">
+                    <Property key="Caption" value="INFUSE"/>
+                    <Property key="TextAlign" value="Center"/>
+                    <Property key="FontName" value="SM_Button"/>
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position="200 630 105 25" name="infuse_garmentboxes_pagecount">
+                <Property key="Caption" value="69/8008"/>
+                <Property key="FontName" value="SM_Button"/>
+                <Property key="TextAlign" value="Center"/>
+            </Widget>
+        </Widget>
+        <Widget type="Widget" skin="BackgroundEngineNoUpgrade" position="564 24 981 654">
+            <Widget type="TextBox" skin="TextBox" position="15 0 950 125" name="selector_title">
+                <Property key="Caption" value="CHOOSE YOUR UNUSUALS!"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="FontName" value="SM_HeaderLarge_Medium"/>
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" position="485 145 5 500">
+                <Property key="ImageTexture" value="gui_controller_row_divider.png"/>
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" position="490 355 470 5">
+                <Property key="ImageTexture" value="gui_controller_row_divider.png"/>
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" position="15 355 470 5">
+                <Property key="ImageTexture" value="gui_controller_row_divider.png"/>
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" position="515 165 435 165">
+                <Property key="ImageTexture" value="LogbookGridBG@1080.png"/>
+                <Widget type="Widget" skin="PanelEmpty" position="15 15 405 135" name="selector_weapon_preview">
+                    <Property key="NeedKey" value="false"/>
+                    <Property key="NeedMouse" value="false"/>
+                </Widget>
+            </Widget>
+            <Widget type="ImageBox" skin="ImageBox" position="30 165 425 165">
+                <Property key="ImageTexture" value="LogbookGridBG@1080.png"/>
+                <Widget type="Widget" skin="PanelEmpty" position="10 15 400 135" name="selector_hat_preview"/>
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position="515 110 440 25" name="selector_weapon_title">
+                <Property key="Caption" value="WEAPON UNUSUAL"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="FontName" value="SM_Button"/>
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position="515 135 440 25" name="selector_weapon_preview_text">
+                <Property key="Caption" value="PREVIEW:"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="FontName" value="SM_ButtonSmallBold"/>
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position="30 110 425 25" name="selector_hat_title">
+                <Property key="Caption" value="HAT UNUSUAL"/>
+                <Property key="TextAlign" value="Center"/>
+                <Property key="FontName" value="SM_Button"/>
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position="30 135 425 25" name="selector_preview_hat_text">
+                <Property key="Caption" value="PREVIEW:"/>
+                <Property key="FontName" value="SM_ButtonSmallBold"/>
+                <Property key="TextAlign" value="Center"/>
+            </Widget>
+            <Widget type="Widget" skin="PanelEmpty" position="515 380 435 40" name="selector_weapon_dropdown"/>
+            <Widget type="Widget" skin="PanelEmpty" position="25 380 430 40" name="selector_hat_dropdown"/>
+        </Widget>
+    </Widget>
+    <CodeGeneratorSettings/>
+</MyGUI>

@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2022-11-27T18:45:21Z</created>
+    <keywords></keywords>
+    <modified>2022-11-27T18:45:21Z</modified>
+    <revision></revision>
+    <subject></subject>
+    <title></title>
+    <unit meter="0.010000" name="centimeter"></unit>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_geometries>
+    <geometry id="char_connecttool_geo-lib" name="char_connecttool_geoMesh">
+      <mesh>
+        <source id="char_connecttool_geo-POSITION">
+          <float_array id="char_connecttool_geo-POSITION-array" count="48">
+-0.149977 0.451250 1.212109
+-0.149977 0.638750 1.212109
+-0.149977 0.451250 -0.136624
+-0.149977 0.638750 -0.136624
+0.149977 0.451250 1.212109
+-0.025000 0.528213 0.489286
+0.149977 0.638750 1.212109
+0.149977 0.451250 -0.136624
+-0.025000 0.528213 0.239286
+0.149977 0.638750 -0.136624
+-0.149977 0.638750 0.239286
+-0.149977 0.638750 0.489286
+-0.149977 0.528213 0.489286
+-0.149977 0.528213 0.239286
+-0.025000 0.638750 0.239286
+-0.025000 0.638750 0.489286
+</float_array>
+          <technique_common>
+            <accessor source="#char_connecttool_geo-POSITION-array" count="16" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="char_connecttool_geo-Normal0">
+          <float_array id="char_connecttool_geo-Normal0-array" count="252">
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+-1.000000 -0.000000 0.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+0.000000 -0.000000 -1.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+-0.000000 1.000000 -0.000000
+-0.000000 1.000000 -0.000000
+-0.000000 1.000000 -0.000000
+-0.000000 1.000000 -0.000000
+-0.000000 1.000000 -0.000000
+-0.000000 1.000000 -0.000000
+-0.000000 1.000000 -0.000000
+-0.000000 1.000000 -0.000000
+-0.000000 1.000000 -0.000000
+-0.000000 1.000000 -0.000000
+-0.000000 1.000000 -0.000000
+-0.000000 1.000000 -0.000000
+-0.000000 1.000000 -0.000000
+-0.000000 1.000000 -0.000000
+-0.000000 1.000000 -0.000000
+-0.000000 1.000000 -0.000000
+-0.000000 1.000000 -0.000000
+-0.000000 1.000000 -0.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#char_connecttool_geo-Normal0-array" count="84" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="char_connecttool_geo-UV0">
+          <float_array id="char_connecttool_geo-UV0-array" count="60">
+0.485537 0.750000
+0.375000 0.500000
+0.375000 0.250000
+0.250023 0.500000
+0.485537 0.874977
+0.875000 0.500000
+0.875000 0.616018
+0.375000 0.375023
+0.375000 0.750000
+0.625000 0.500000
+0.770836 0.616018
+0.625000 0.750000
+0.375000 0.500000
+0.625000 0.250000
+0.477617 0.180322
+0.125000 0.500000
+0.875000 0.569678
+0.875000 0.750000
+0.375000 0.750000
+0.485537 0.500000
+0.770837 0.569678
+0.485537 0.375023
+0.625000 0.133982
+0.375000 0.000000
+0.125000 0.750000
+0.625000 0.000000
+0.477617 0.133982
+0.375000 0.874977
+0.250023 0.750000
+0.625000 0.180322
+</float_array>
+          <technique_common>
+            <accessor source="#char_connecttool_geo-UV0-array" count="30" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="char_connecttool_geo-VERTEX">
+          <input semantic="POSITION" source="#char_connecttool_geo-POSITION" />
+        </vertices>
+        <triangles count="28">
+          <input semantic="VERTEX" offset="0" source="#char_connecttool_geo-VERTEX" />
+          <input semantic="NORMAL" offset="1" source="#char_connecttool_geo-Normal0" />
+          <input semantic="TEXCOORD" offset="2" set="0" source="#char_connecttool_geo-UV0" />
+          <p> 1 0 25 12 1 26 0 2 23 12 3 26 2 4 2 0 5 23 13 6 14 10 7 29 3 8 13 12 9 26 1 10 25 11 11 22 3 12 13 2 13 2 13 14 14 2 15 2 12 16 26 13 17 14 7 18 12 2 19 2 9 20 9 2 21 2 3 22 13 9 23 9 4 24 18 9 25 9 6 26 11 9 27 9 4 28 18 7 29 12 6 30 11 1 31 17 4 32 18 1 33 17 0 34 24 4 35 18 0 36 24 2 37 15 4 38 18 4 39 18 2 40 15 7 41 12 1 42 17 15 43 10 11 44 6 14 45 20 3 46 5 10 47 16 3 48 5 14 49 20 9 50 9 15 51 10 1 52 17 6 53 11 9 54 9 15 55 10 6 56 11 15 57 10 9 58 9 14 59 20 10 60 21 13 61 7 14 62 19 14 63 19 13 64 7 8 65 1 15 66 0 8 67 1 5 68 8 8 69 1 15 70 0 14 71 19 12 72 27 11 73 4 5 74 8 5 75 8 11 76 4 15 77 0 5 78 8 8 79 1 12 80 28 12 81 28 8 82 1 13 83 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="char_connecttool_geoController">
+      <skin source="#char_connecttool_geo-lib">
+        <bind_shape_matrix>1.000000 -0.000000 0.000000 0.000000 0.000000 1.000000 -0.000000 0.000000 0.000000 0.000000 1.000000 -0.000000 0.000000 0.000000 0.000000 1.000000
+</bind_shape_matrix>
+        <source id="char_connecttool_geoController-Joints">
+          <Name_array id="char_connecttool_geoController-Joints-array" count="5">
+ jnt_right_weapon root_connectortool jnt_slide jnt_connectortool pipe</Name_array>
+          <technique_common>
+            <accessor source="#char_connecttool_geoController-Joints-array" count="5">
+              <param type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="char_connecttool_geoController-Matrices">
+          <float_array id="char_connecttool_geoController-Matrices-array" count="80">
+
+1.000000 0.000000 0.000000 -0.000000 -0.000000 1.000000 0.000000 -0.000000 0.000000 -0.000000 1.000000 -0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 -0.000000 -0.000000 1.000000 0.000000 -0.000000 0.000000 -0.000000 1.000000 -0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 -0.000000 -0.000000 0.020351 0.999793 -0.228161 0.000000 -0.999793 0.020351 0.541323 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 -0.000000 -0.000000 1.000000 0.000000 -0.439388 0.000000 -0.000000 1.000000 -0.253546 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 -0.000000 -0.000000 1.000000 0.000000 -0.831696 0.000000 -0.000000 1.000000 -1.385385 0.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#char_connecttool_geoController-Matrices-array" count="5" stride="16">
+              <param type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="char_connecttool_geoController-Weights">
+          <float_array id="char_connecttool_geoController-Weights-array" count="17">
+
+1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000
+1.000000</float_array>
+          <technique_common>
+            <accessor source="#char_connecttool_geoController-Weights-array" count="17">
+              <param type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#char_connecttool_geoController-Joints" />
+          <input semantic="INV_BIND_MATRIX" source="#char_connecttool_geoController-Matrices" />
+        </joints>
+        <vertex_weights count="16">
+          <input semantic="JOINT" offset="0" source="#char_connecttool_geoController-Joints" />
+          <input semantic="WEIGHT" offset="1" source="#char_connecttool_geoController-Weights" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</vcount>
+          <v>2 1 2 2 2 3 2 4 2 5 2 6 2 7 2 8 2 9 2 10 2 11 2 12 2 13 2 14 2 15 2 16</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_animations>
+    <animation id="Armature-anim" name="Armature">
+      <animation>
+        <source id="Armature-Matrix-animation-input">
+          <float_array id="Armature-Matrix-animation-input-array" count="2">
+
+0.000000 0.033333</float_array>
+          <technique_common>
+            <accessor source="#Armature-Matrix-animation-input-array" count="2">
+              <param name="TIME" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature-Matrix-animation-output-transform">
+          <float_array id="Armature-Matrix-animation-output-transform-array" count="32">
+
+1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 -0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 -0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#Armature-Matrix-animation-output-transform-array" count="2" stride="16">
+              <param type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature-Interpolations">
+          <Name_array id="Armature-Interpolations-array" count="2">
+ LINEAR LINEAR</Name_array>
+          <technique_common>
+            <accessor source="#Armature-Interpolations-array" count="2">
+              <param type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="Armature-Matrix-animation-transform">
+          <input semantic="INPUT" source="#Armature-Matrix-animation-input" />
+          <input semantic="OUTPUT" source="#Armature-Matrix-animation-output-transform" />
+          <input semantic="INTERPOLATION" source="#Armature-Interpolations" />
+        </sampler>
+        <channel source="#Armature-Matrix-animation-transform" target="Armature/matrix" />
+      </animation>
+    </animation>
+    <animation id="jnt_right_weapon-anim" name="jnt_right_weapon">
+      <animation>
+        <source id="jnt_right_weapon-Matrix-animation-input">
+          <float_array id="jnt_right_weapon-Matrix-animation-input-array" count="2">
+
+0.000000 0.033333</float_array>
+          <technique_common>
+            <accessor source="#jnt_right_weapon-Matrix-animation-input-array" count="2">
+              <param name="TIME" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="jnt_right_weapon-Matrix-animation-output-transform">
+          <float_array id="jnt_right_weapon-Matrix-animation-output-transform-array" count="32">
+
+1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 -0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 -0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#jnt_right_weapon-Matrix-animation-output-transform-array" count="2" stride="16">
+              <param type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="jnt_right_weapon-Interpolations">
+          <Name_array id="jnt_right_weapon-Interpolations-array" count="2">
+ LINEAR LINEAR</Name_array>
+          <technique_common>
+            <accessor source="#jnt_right_weapon-Interpolations-array" count="2">
+              <param type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="jnt_right_weapon-Matrix-animation-transform">
+          <input semantic="INPUT" source="#jnt_right_weapon-Matrix-animation-input" />
+          <input semantic="OUTPUT" source="#jnt_right_weapon-Matrix-animation-output-transform" />
+          <input semantic="INTERPOLATION" source="#jnt_right_weapon-Interpolations" />
+        </sampler>
+        <channel source="#jnt_right_weapon-Matrix-animation-transform" target="jnt_right_weapon/matrix" />
+      </animation>
+    </animation>
+    <animation id="root_connectortool-anim" name="root_connectortool">
+      <animation>
+        <source id="root_connectortool-Matrix-animation-input">
+          <float_array id="root_connectortool-Matrix-animation-input-array" count="2">
+
+0.000000 0.033333</float_array>
+          <technique_common>
+            <accessor source="#root_connectortool-Matrix-animation-input-array" count="2">
+              <param name="TIME" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="root_connectortool-Matrix-animation-output-transform">
+          <float_array id="root_connectortool-Matrix-animation-output-transform-array" count="32">
+
+1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#root_connectortool-Matrix-animation-output-transform-array" count="2" stride="16">
+              <param type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="root_connectortool-Interpolations">
+          <Name_array id="root_connectortool-Interpolations-array" count="2">
+ LINEAR LINEAR</Name_array>
+          <technique_common>
+            <accessor source="#root_connectortool-Interpolations-array" count="2">
+              <param type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="root_connectortool-Matrix-animation-transform">
+          <input semantic="INPUT" source="#root_connectortool-Matrix-animation-input" />
+          <input semantic="OUTPUT" source="#root_connectortool-Matrix-animation-output-transform" />
+          <input semantic="INTERPOLATION" source="#root_connectortool-Interpolations" />
+        </sampler>
+        <channel source="#root_connectortool-Matrix-animation-transform" target="root_connectortool/matrix" />
+      </animation>
+    </animation>
+    <animation id="jnt_slide-anim" name="jnt_slide">
+      <animation>
+        <source id="jnt_slide-Matrix-animation-input">
+          <float_array id="jnt_slide-Matrix-animation-input-array" count="2">
+
+0.000000 0.033333</float_array>
+          <technique_common>
+            <accessor source="#jnt_slide-Matrix-animation-input-array" count="2">
+              <param name="TIME" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="jnt_slide-Matrix-animation-output-transform">
+          <float_array id="jnt_slide-Matrix-animation-output-transform-array" count="32">
+
+1.000000 -0.000000 0.000000 0.000000 0.000000 0.020351 -0.999793 0.545854 0.000000 0.999793 0.020351 0.217098 0.000000 0.000000 0.000000 1.000000
+1.000000 -0.000000 0.000000 0.000000 0.000000 0.020351 -0.999793 0.545854 0.000000 0.999793 0.020351 0.217098 0.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#jnt_slide-Matrix-animation-output-transform-array" count="2" stride="16">
+              <param type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="jnt_slide-Interpolations">
+          <Name_array id="jnt_slide-Interpolations-array" count="2">
+ LINEAR LINEAR</Name_array>
+          <technique_common>
+            <accessor source="#jnt_slide-Interpolations-array" count="2">
+              <param type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="jnt_slide-Matrix-animation-transform">
+          <input semantic="INPUT" source="#jnt_slide-Matrix-animation-input" />
+          <input semantic="OUTPUT" source="#jnt_slide-Matrix-animation-output-transform" />
+          <input semantic="INTERPOLATION" source="#jnt_slide-Interpolations" />
+        </sampler>
+        <channel source="#jnt_slide-Matrix-animation-transform" target="jnt_slide/matrix" />
+      </animation>
+    </animation>
+    <animation id="jnt_connectortool-anim" name="jnt_connectortool">
+      <animation>
+        <source id="jnt_connectortool-Matrix-animation-input">
+          <float_array id="jnt_connectortool-Matrix-animation-input-array" count="2">
+
+0.000000 0.033333</float_array>
+          <technique_common>
+            <accessor source="#jnt_connectortool-Matrix-animation-input-array" count="2">
+              <param name="TIME" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="jnt_connectortool-Matrix-animation-output-transform">
+          <float_array id="jnt_connectortool-Matrix-animation-output-transform-array" count="32">
+
+1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.439388 0.000000 0.000000 1.000000 0.253546 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.439388 0.000000 0.000000 1.000000 0.253546 0.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#jnt_connectortool-Matrix-animation-output-transform-array" count="2" stride="16">
+              <param type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="jnt_connectortool-Interpolations">
+          <Name_array id="jnt_connectortool-Interpolations-array" count="2">
+ LINEAR LINEAR</Name_array>
+          <technique_common>
+            <accessor source="#jnt_connectortool-Interpolations-array" count="2">
+              <param type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="jnt_connectortool-Matrix-animation-transform">
+          <input semantic="INPUT" source="#jnt_connectortool-Matrix-animation-input" />
+          <input semantic="OUTPUT" source="#jnt_connectortool-Matrix-animation-output-transform" />
+          <input semantic="INTERPOLATION" source="#jnt_connectortool-Interpolations" />
+        </sampler>
+        <channel source="#jnt_connectortool-Matrix-animation-transform" target="jnt_connectortool/matrix" />
+      </animation>
+    </animation>
+    <animation id="pipe-anim" name="pipe">
+      <animation>
+        <source id="pipe-Matrix-animation-input">
+          <float_array id="pipe-Matrix-animation-input-array" count="2">
+
+0.000000 0.033333</float_array>
+          <technique_common>
+            <accessor source="#pipe-Matrix-animation-input-array" count="2">
+              <param name="TIME" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pipe-Matrix-animation-output-transform">
+          <float_array id="pipe-Matrix-animation-output-transform-array" count="32">
+
+1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 -0.000000 0.392307 0.000000 0.000000 1.000000 1.131839 0.000000 0.000000 0.000000 1.000000
+1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 -0.000000 0.392307 0.000000 0.000000 1.000000 1.131839 0.000000 0.000000 0.000000 1.000000</float_array>
+          <technique_common>
+            <accessor source="#pipe-Matrix-animation-output-transform-array" count="2" stride="16">
+              <param type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pipe-Interpolations">
+          <Name_array id="pipe-Interpolations-array" count="2">
+ LINEAR LINEAR</Name_array>
+          <technique_common>
+            <accessor source="#pipe-Interpolations-array" count="2">
+              <param type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="pipe-Matrix-animation-transform">
+          <input semantic="INPUT" source="#pipe-Matrix-animation-input" />
+          <input semantic="OUTPUT" source="#pipe-Matrix-animation-output-transform" />
+          <input semantic="INTERPOLATION" source="#pipe-Interpolations" />
+        </sampler>
+        <channel source="#pipe-Matrix-animation-transform" target="pipe/matrix" />
+      </animation>
+    </animation>
+  </library_animations>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node name="jnt_right_weapon" id="jnt_right_weapon" sid="jnt_right_weapon" type="JOINT">
+        <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 -0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+        <node name="root_connectortool" id="root_connectortool" sid="root_connectortool" type="JOINT">
+          <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 -0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix>
+          <extra>
+            <technique profile="FCOLLADA">
+              <visibility>1.000000</visibility>
+            </technique>
+          </extra>
+          <node name="jnt_slide" id="jnt_slide" sid="jnt_slide" type="JOINT">
+            <matrix sid="matrix">1.000000 -0.000000 0.000000 0.000000 0.000000 0.020351 -0.999793 0.545854 0.000000 0.999793 0.020351 0.217098 0.000000 0.000000 0.000000 1.000000</matrix>
+            <extra>
+              <technique profile="FCOLLADA">
+                <visibility>1.000000</visibility>
+              </technique>
+            </extra>
+          </node>
+          <node name="jnt_connectortool" id="jnt_connectortool" sid="jnt_connectortool" type="JOINT">
+            <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.439388 0.000000 0.000000 1.000000 0.253546 0.000000 0.000000 0.000000 1.000000</matrix>
+            <extra>
+              <technique profile="FCOLLADA">
+                <visibility>1.000000</visibility>
+              </technique>
+            </extra>
+            <node name="pipe" id="pipe" sid="pipe" type="JOINT">
+              <matrix sid="matrix">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 -0.000000 0.392307 0.000000 0.000000 1.000000 1.131839 0.000000 0.000000 0.000000 1.000000</matrix>
+              <extra>
+                <technique profile="FCOLLADA">
+                  <visibility>1.000000</visibility>
+                </technique>
+              </extra>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node name="char_connecttool_geo" id="char_connecttool_geo" sid="char_connecttool_geo">
+        <instance_controller url="#char_connecttool_geoController" />
+        <extra>
+          <technique profile="FCOLLADA">
+            <visibility>1.000000</visibility>
+          </technique>
+        </extra>
+      </node>
+      <extra>
+        <technique profile="MAX3D">
+          <frame_rate>0.000000</frame_rate>
+        </technique>
+        <technique profile="FCOLLADA">
+          <start_time>0.000000</start_time>
+          <end_time>1.000000</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"></instance_visual_scene>
+  </scene>
+</COLLADA>
