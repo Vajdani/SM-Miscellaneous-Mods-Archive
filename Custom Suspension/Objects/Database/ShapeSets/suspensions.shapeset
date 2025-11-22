@@ -1,0 +1,97 @@
+{
+    "partList": [
+        {
+            "uuid": "64900993-568c-416a-b73a-318fcc874f53",
+            "name": "jnt_custom_suspension_1",
+            "renderable": "$CONTENT_DATA/Objects/Renderable/jnt_custom_suspension_1.rend",
+            "previewRotation": [
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1
+            ],
+            "color": "df7f01",
+            "box": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "piston": {
+                "length": 3,
+                "defaultRange": 3,
+                "speedLevels": [
+                    {
+                        "speed": 2.0
+                    },
+                    {
+                        "speed": 4.0
+                    },
+                    {
+                        "speed": 6.0
+                    },
+                    {
+                        "speed": 8.0
+                    },
+                    {
+                        "speed": 10.0
+                    },
+                    {
+                        "speed": 12.0
+                    },
+                    {
+                        "speed": 14.0
+                    },
+                    {
+                        "speed": 16.0
+                    },
+                    {
+                        "speed": 18.0
+                    },
+                    {
+                        "speed": 20.0
+                    }
+                ],
+                "defaultSpeedLevel": 2,
+                "force": 100000.0,
+                "effect": "Piston - Default"
+            },
+            "rotationSet": "PropZ",
+            "sticky": "-Z",
+            "physicsMaterial": "Mechanical",
+            "ratings": {},
+            "qualityLevel": 2,
+            "stackSize": 10
+        },
+        {
+			"uuid": "69d6264b-d24f-4bc3-a486-5369a98c9b21",
+			"name": "obj_suspension_controller",
+			"renderable": "$GAME_DATA/Objects/Renderable/Interactive/obj_interactive_logicgate.rend",
+			"color": "df7f01",
+			"box": {
+				"x": 1,
+				"y": 1,
+				"z": 1
+			},
+			"rotationSet": "PropYZ",
+			"physicsMaterial": "Mechanical",
+			"ratings": {
+				"density": 2,
+				"durability": 3,
+				"friction": 5,
+				"buoyancy": 2
+			},
+            "scripted": {
+				"filename": "$CONTENT_DATA/Scripts/SuspensionController.lua",
+				"classname": "SuspensionController",
+                "data": {}
+			},
+			"flammable": false,
+			"stackSize": 10
+		}
+    ]
+}
