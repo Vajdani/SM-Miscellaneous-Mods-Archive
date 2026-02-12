@@ -1,0 +1,16 @@
+{
+	"nodeList": [
+		{
+			"billboardColor" : [ 1.0, 0.8, 0.75, 1.0 ],
+			"color" : [ 1.0, 0.8, 0.75, 0.6 ],
+			"name" : "Orbital Cannon Spawner",
+			// "params" : [
+			// 	{
+			// 		"name" : "momentum",
+			// 		"type" : "float"
+			// 	}
+			// ],
+			"tags" : [ "CANNON" ]
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+   "lodList" : [
+      {
+         "mesh" : "$CONTENT_DATA/Kinematics/kin_orbitalcannon_base.fbx",
+         "subMeshList" : [
+            {
+               "custom" : {
+                  "textureTiling" : [ 10.0, 10.0, 10.0, 10.0 ]
+               },
+               "material" : "DifAsgNorTiling",
+               "textureList" : [
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_galvanizedmetal_dif.tga",
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_galvanizedmetal_asg.tga",
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_galvanizedmetal_nor.tga"
+               ]
+            }
+         ]
+      }
+   ]
+}

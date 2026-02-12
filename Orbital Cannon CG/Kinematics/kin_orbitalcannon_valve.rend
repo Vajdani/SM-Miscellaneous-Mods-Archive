@@ -1,0 +1,17 @@
+{
+   "lodList" : [
+      {
+         "mesh" : "$CONTENT_DATA/Kinematics/kin_orbitalcannon_valve.fbx",
+         "subMeshList" : [
+            {
+               "material" : "DifAsgNor",
+               "textureList" : [
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_galvanizedmetal_dif.tga",
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_galvanizedmetal_asg.tga",
+                  "$GAME_DATA/Textures/Tiled/Metal/t_tiled_galvanizedmetal_nor.tga"
+               ]
+            }
+         ]
+      }
+   ]
+}

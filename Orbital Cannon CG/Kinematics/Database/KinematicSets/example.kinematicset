@@ -1,0 +1,137 @@
+{
+	"kinematicList": [
+		{
+			"col": "$CONTENT_DATA/Kinematics/kin_orbitalcannon_base_col.obj",
+			"mass": 10000.0,
+			"material": "Metal",
+			"name": "kin_orbitalcannon_base",
+			"renderable": "$CONTENT_DATA/Kinematics/kin_orbitalcannon_base.rend",
+			"script": {
+				"class": "Empty",
+				"data": {},
+				"file": "$CONTENT_DATA/Scripts/Empty.lua"
+			},
+			"uuid": "fdb8b767-3d07-4b18-82ea-e98c3e6977b3"
+		},
+		{
+			"col": "$CONTENT_DATA/Kinematics/kin_orbitalcannon_rotate_col.obj",
+			"mass": 10000.0,
+			"material": "Metal",
+			"name": "kin_orbitalcannon_rotate",
+			"renderable": "$CONTENT_DATA/Kinematics/kin_orbitalcannon_rotate.rend",
+			"script": {
+				"class": "OrbitalCannonRotate",
+				"data": {},
+				"file": "$CONTENT_DATA/Scripts/OrbitalCannon.lua"
+			},
+			"uuid": "a90acbd3-717f-47d1-81c2-9e497bd65c37"
+		},
+		{
+			"col": "$CONTENT_DATA/Kinematics/kin_orbitalcannon_gun_col.obj",
+			"mass": 10000.0,
+			"material": "Metal",
+			"name": "kin_orbitalcannon_gun",
+			"renderable": "$CONTENT_DATA/Kinematics/kin_orbitalcannon_gun.rend",
+			"script": {
+				"class": "OrbitalCannonGun",
+				"data": {},
+				"file": "$CONTENT_DATA/Scripts/OrbitalCannon.lua"
+			},
+			"uuid": "aa5116e8-527d-4f77-8413-26efd9c97fd8"
+		},
+		{
+			"col_box": {
+				"x": 2,
+				"y": 4,
+				"z": 2
+			},
+			"mass": 10000.0,
+			"material": "Metal",
+			"name": "kin_orbitalcannon_valve",
+			"renderable": "$CONTENT_DATA/Kinematics/kin_orbitalcannon_valve.rend",
+			"script": {
+				"class": "OrbitalCannonValve",
+				"data": {},
+				"file": "$CONTENT_DATA/Scripts/OrbitalCannon.lua",
+				"seat": {
+					"bones": [
+						// {
+						// 	"name": "Hips",
+						// 	"offset": {
+						// 		"x": 0.0,
+						// 		"y": -0.1,
+						// 		"z": -0.3
+						// 	}
+						// },
+						// {
+						// 	"name": "LeftForeArm",
+						// 	"offset": {
+						// 		"x": 1.2,
+						// 		"y": 1.1,
+						// 		"z": 1.5
+						// 	},
+						// 	"freeRotation": true
+						// },
+						// {
+						// 	"name": "RightForeArm",
+						// 	"offset": {
+						// 		"x": -1.2,
+						// 		"y": 1.1,
+						// 		"z": 1.5
+						// 	},
+						// 	"freeRotation": true
+						// }
+						{
+							"name": "Hips",
+							"offset": {
+								"x": 0.0,
+								"y": -0.1,
+								"z": -2.05
+							}
+						},
+						{
+							"name": "LeftForeArm",
+							"offset": {
+								"x": 1.2,
+								"y": 1.1,
+								"z": -0.25
+							},
+							"freeRotation": true
+						},
+						{
+							"name": "RightForeArm",
+							"offset": {
+								"x": -1.2,
+								"y": 1.1,
+								"z": -0.25
+							},
+							"freeRotation": true
+						}
+					],
+					// "ragdollFile": "$GAME_DATA/Character/bikeseat_ragdoll.json",
+					"ragdollFile": "$CONTENT_DATA/Kinematics/valve_ragdoll.json",
+					"enterAudio": "Seat seated",
+					"exitAudio": "Seat unseated"
+				}
+			},
+			"uuid": "04a7cd56-0a44-4fee-bf9e-998a045da1f8"
+		},
+		{
+			"col_box": {
+				"x": 2,
+				"y": 4,
+				"z": 2
+			},
+			"mass": 10000.0,
+			"material": "Metal",
+			"name": "kin_orbitalcannon_button",
+			"renderable": "$CONTENT_DATA/Kinematics/kin_orbitalcannon_valve.rend",
+			"script": {
+				"class": "OrbitalCannonButton",
+				"data": {},
+				"file": "$CONTENT_DATA/Scripts/OrbitalCannon.lua"
+			},
+			"uuid": "26fc7e9b-e266-48a6-a897-5830fb2e0fc4"
+		}
+	]
+}

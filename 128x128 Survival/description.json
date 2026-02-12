@@ -1,0 +1,10 @@
+{
+   "allow_add_mods" : true,
+   "custom_icons" : false,
+   "description" : "Vanilla Survival but the world is 128x128 cells.",
+   "fileId" : 3637616593,
+   "localId" : "f3821c95-fa49-4dae-bae7-2351aa2b4972",
+   "name" : "128x128 Survival",
+   "type" : "Custom Game",
+   "version" : 0
+}
