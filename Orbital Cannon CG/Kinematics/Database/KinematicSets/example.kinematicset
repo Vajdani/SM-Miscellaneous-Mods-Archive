@@ -20,7 +20,7 @@
 			"name": "kin_orbitalcannon_rotate",
 			"renderable": "$CONTENT_DATA/Kinematics/kin_orbitalcannon_rotate.rend",
 			"script": {
-				"class": "OrbitalCannonRotate",
+				"class": "OrbitalCannonMain",
 				"data": {},
 				"file": "$CONTENT_DATA/Scripts/OrbitalCannon.lua"
 			},

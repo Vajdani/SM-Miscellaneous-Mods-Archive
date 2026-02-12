@@ -3,6 +3,8 @@ local vec3         = sm.vec3.new
 local vec3_up      = vec3(0,0,1)
 local vec3_forward = vec3(0,1,0)
 local vec3_right   = vec3(1,0,0)
+local Deg180       = math.pi
+local Deg90        = math.pi/2
 local gunOrigin    = vec3(0, 16.5, 4) * 0.25
 local yawSpeed     = 0.1
 local pitchSpeed   = 0.05
@@ -13,7 +15,8 @@ local function BoolToNum(bool)
 end
 
 
----@class OrbitalCannonRotate : HarvestableClass
+
+---@class OrbitalCannonMain : HarvestableClass
 ---@field sv_base Harvestable
 ---@field sv_gun Harvestable
 ---@field sv_valve_yaw Harvestable
@@ -24,20 +27,55 @@ end
 ---@field cl_valve_yaw Harvestable
 ---@field cl_valve_pitch Harvestable
 ---@field cl_button Harvestable
-OrbitalCannonRotate = class()
+OrbitalCannonMain = class()
 
-function OrbitalCannonRotate:server_onCreate()
+g_cannonCount = g_cannonCount or 0
+
+function OrbitalCannonMain:server_onCreate()
     self.sv_base        = self.params.base
     self.sv_gun         = self.params.gun
     self.sv_valve_yaw   = self.params.valve_yaw
     self.sv_valve_pitch = self.params.valve_pitch
     self.sv_button      = self.params.button
 
+    self.sv_yaw = 0
+    self.sv_interp_yaw = 0
+
+    self.sv_pitch = 0
+    self.sv_interp_pitch = 0
+
+    g_cannonCount = g_cannonCount + 1
+    self.idx = g_cannonCount
+
     self.network:setClientData(self.params, 1)
 end
 
+function OrbitalCannonMain:server_onDestroy()
+    g_cannonCount = g_cannonCount - 1
+end
 
-function OrbitalCannonRotate:client_onCreate()
+function OrbitalCannonMain:server_onFixedUpdate(dt)
+    local yawInput = self.sv_valve_yaw.publicData.outputs
+    self.sv_yaw = self.sv_yaw + (BoolToNum(yawInput[1]) - BoolToNum(yawInput[2])) * dt * yawSpeed
+
+    local pitchInput = self.sv_valve_pitch.publicData.outputs
+    self.sv_pitch = sm.util.clamp(self.sv_pitch + (BoolToNum(pitchInput[1]) - BoolToNum(pitchInput[2])) * dt * pitchSpeed, -0.125, 0.75)
+
+    self.sv_interp_yaw = sm.util.lerp(self.sv_interp_yaw, self.sv_yaw, dt * 10)
+    self.sv_interp_pitch = sm.util.lerp(self.sv_interp_pitch, self.sv_pitch, dt * 10)
+
+    if (sm.game.getServerTick() + self.idx)%40 == 0 then
+        self.network:setClientData({
+            yaw = self.sv_yaw,
+            interp_yaw = self.sv_interp_yaw,
+            pitch = self.sv_pitch,
+            interp_pitch = self.sv_interp_pitch
+        }, 2)
+    end
+end
+
+
+function OrbitalCannonMain:client_onCreate()
     self.cl_base = nil
 
     self.cl_yaw = 0
@@ -47,40 +85,49 @@ function OrbitalCannonRotate:client_onCreate()
     self.cl_interp_pitch = 0
 end
 
-function OrbitalCannonRotate:client_onClientDataUpdate(data, channel)
+function OrbitalCannonMain:client_onClientDataUpdate(data, channel)
     if channel == 1 then
         self.cl_base        = data.base
         self.cl_gun         = data.gun
         self.cl_valve_yaw   = data.valve_yaw
         self.cl_valve_pitch = data.valve_pitch
         self.cl_button      = data.button
+    else --if channel == 2 then
+        self.cl_yaw          = data.yaw
+        self.cl_interp_yaw   = data.interp_yaw
+        self.cl_pitch        = data.pitch
+        self.cl_interp_pitch = data.interp_pitch
+
+        self:ApplyRotation()
     end
 end
 
-function OrbitalCannonRotate:client_onFixedUpdate(dt)
+function OrbitalCannonMain:client_onFixedUpdate(dt)
     local yawInput = self.cl_valve_yaw.clientPublicData.outputs
-    -- self.cl_yaw = 0
     self.cl_yaw = self.cl_yaw + (BoolToNum(yawInput[1]) - BoolToNum(yawInput[2])) * dt * yawSpeed
 
     local pitchInput = self.cl_valve_pitch.clientPublicData.outputs
-    -- self.cl_pitch = 0
     self.cl_pitch = sm.util.clamp(self.cl_pitch + (BoolToNum(pitchInput[1]) - BoolToNum(pitchInput[2])) * dt * pitchSpeed, -0.125, 0.75)
 end
 
-function OrbitalCannonRotate:client_onUpdate(dt)
+function OrbitalCannonMain:client_onUpdate(dt)
     self.cl_interp_yaw = sm.util.lerp(self.cl_interp_yaw, self.cl_yaw, dt * 10)
     self.cl_interp_pitch = sm.util.lerp(self.cl_interp_pitch, self.cl_pitch, dt * 10)
 
+    self:ApplyRotation()
+end
+
+
+function OrbitalCannonMain:ApplyRotation()
     local rotation = self.cl_base.worldRotation * angleAxis(self.cl_interp_yaw, vec3_forward)
     local basePos = self.cl_base.worldPosition
     self.harvestable:setPosition(basePos)
     self.harvestable:setRotation(rotation)
 
     self.cl_gun:setPosition(basePos + rotation * gunOrigin)
-    self.cl_gun:setRotation(rotation * angleAxis(self.cl_interp_pitch * math.pi / 2, vec3_right))
+    self.cl_gun:setRotation(rotation * angleAxis(self.cl_interp_pitch * Deg90, vec3_right))
 
-
-    local valveRotation = rotation * angleAxis(-math.pi/2, vec3_forward)
+    local valveRotation = rotation * angleAxis(-Deg90, vec3_forward)
     self.cl_valve_yaw:setPosition(basePos + rotation * (vec3_right * 2.5 + vec3_forward * 2 + vec3_up * 1))
     self.cl_valve_yaw:setRotation(valveRotation)
 
@@ -88,7 +135,7 @@ function OrbitalCannonRotate:client_onUpdate(dt)
     self.cl_valve_pitch:setRotation(valveRotation)
 
     self.cl_button:setPosition(basePos + rotation * (vec3_right * 3 + vec3_forward * 2 - vec3_up))
-    self.cl_button:setRotation(rotation * angleAxis(math.pi, vec3_forward))
+    self.cl_button:setRotation(rotation * angleAxis(Deg180, vec3_forward))
 end
 
 
@@ -185,6 +232,7 @@ function OrbitalCannonValve:cl_updateInputs(inputs)
     self.cl_actions = inputs
     self.harvestable.clientPublicData.outputs = inputs
 end
+
 
 
 ---@class OrbitalCannonButton : HarvestableClass

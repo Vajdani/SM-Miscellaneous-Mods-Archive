@@ -467,29 +467,29 @@ function Overworld:sv_spawnCannons(cannons)
 	sm.log.error("cannons found! yay")
 
 	local cannon_base	= sm.uuid.new("fdb8b767-3d07-4b18-82ea-e98c3e6977b3")
-	local cannon_rotate = sm.uuid.new("a90acbd3-717f-47d1-81c2-9e497bd65c37")
+	local cannon_main	= sm.uuid.new("a90acbd3-717f-47d1-81c2-9e497bd65c37")
 	local cannon_gun	= sm.uuid.new("aa5116e8-527d-4f77-8413-26efd9c97fd8")
 	local cannon_valve  = sm.uuid.new("04a7cd56-0a44-4fee-bf9e-998a045da1f8")
 	local cannon_button = sm.uuid.new("26fc7e9b-e266-48a6-a897-5830fb2e0fc4")
 	for k, v in pairs(cannons) do
-		local rotate	  = sm.harvestable.createHarvestable(cannon_rotate, v.position, v.rotation)
+		local main		  = sm.harvestable.createHarvestable(cannon_main,	v.position, v.rotation)
 		local gun		  = sm.harvestable.createHarvestable(cannon_gun,    v.position, v.rotation)
 		local valve_yaw	  = sm.harvestable.createHarvestable(cannon_valve,  v.position, v.rotation)
 		local valve_pitch = sm.harvestable.createHarvestable(cannon_valve,  v.position, v.rotation)
 		local button	  = sm.harvestable.createHarvestable(cannon_button, v.position, v.rotation)
 
-		rotate:setParams({
-			base		= sm.harvestable.createHarvestable(cannon_base,   v.position, v.rotation),
+		main:setParams({
+			base		= sm.harvestable.createHarvestable(cannon_base, v.position, v.rotation),
 			gun 		= gun,
 			valve_yaw 	= valve_yaw,
 			valve_pitch = valve_pitch,
 			button 		= button,
 		})
 
-		valve_yaw:setParams({ parent = rotate })
-		valve_pitch:setParams({ parent = rotate })
+		valve_yaw:setParams({ parent = main })
+		valve_pitch:setParams({ parent = main })
 		button:setParams({
-			parent = rotate,
+			parent = main,
 			gun    = gun
 		})
 	end
@@ -622,7 +622,7 @@ function Overworld.sv_ambush( self, params )
 						spawnAttempts = spawnAttempts + 1
 						local distanceFromCenter = math.random( minDistance, maxDistance )
 						local spawnDirection = sm.vec3.new( 0, 1, 0 )
-						spawnDirection = spawnDirection:rotateZ( math.rad( math.random( 359 ) ) )
+						spawnDirection = spawnDirection:mainZ( math.rad( math.random( 359 ) ) )
 						local spawnPosition = playerPosition + spawnDirection * distanceFromCenter
 
 						local success, result = sm.physics.raycast( spawnPosition + sm.vec3.new( 0, 0, 128 ), spawnPosition + sm.vec3.new( 0, 0, -128 ), nil , -1 )
@@ -663,7 +663,7 @@ function Overworld.sv_e_spawnRaiders( self, params )
 			spawnAttempts = spawnAttempts + 1
 			local distanceFromCenter = math.random( minDistance, maxDistance )
 			local spawnDirection = sm.vec3.new( 0, 1, 0 )
-			spawnDirection = spawnDirection:rotateZ( math.rad( math.random( 359 ) ) )
+			spawnDirection = spawnDirection:mainZ( math.rad( math.random( 359 ) ) )
 			local unitPos = attackPos + spawnDirection * distanceFromCenter
 
 			local success, result = sm.physics.raycast( unitPos + sm.vec3.new( 0, 0, 128 ), unitPos + sm.vec3.new( 0, 0, -128 ), nil, -1 )
